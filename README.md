@@ -7,10 +7,10 @@ Prototype URL: [https://parentportal.tabordasolutions.net](https://parentportal.
 
 Our team utilized an “*outside-in*” product development approach to create our MS CWS prototype. “*Outside-in*” focuses on the end user’s needs and experience to drive features, along with supporting application program interfaces (API). Focusing on the end user means that their needs are implemented pervasively throughout the application. This practice promotes user satisfaction and adoption through continuous interaction/feedback.  Our team utilized the following approach for this prototype:
 
-* Conducted user research to understand needs and trends within related industry. Our User Researcher conducted user interviews with a current Case Worker, along with staff members acting as the identified personas (parent/guardian) to create the initial application concept (2c).
-* Created initial UI documented as wireframes (Balsamiq) which were presented to staff members representing the personas associated with the system. Feedback was incorporated into an updated UI design (InVision) (2g).
+* Conducted user research to understand needs and trends within related industry. Our User Researcher conducted user interviews with a current Case Worker, along with staff members acting as the identified personas (parent/guardian) to create the initial application concept.
+* Created initial UI documented as wireframes (Balsamiq) which were presented to staff members representing the personas associated with the system. Feedback was incorporated into an updated UI design (InVision).
 * Identified user stories to form initial product backlog. 
-* Developed fully interactive prototype web/mobile application. The initial prototype was presented to the representative user base from the user research phase. The findings from users interacting with the application, such as usability improvements, were incorporated into the final design (2g).
+* Developed fully interactive prototype web/mobile application. The initial prototype was presented to the representative user base from the user research phase. The findings from users interacting with the application, such as usability improvements, were incorporated into the final design.
 * Developed fully functioning prototype including back end API for data persistence as a series of “*vertical slices*” allowing testing throughout the effort.
 
 The “*outside-in*” product development approach [incorporates the application development aspects of the U.S. Digital Services Playbook ](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Adherence-to-U.S.-Digital-Services-Playbook). 
@@ -22,7 +22,7 @@ Our architecture is based on HtML5, JavaScript (Angular.js) with a Java API (Dro
 
 [Application Architecture](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Application-Architecture)
 
-# Adherence to U.S. Digital Services Playbook *(2)*
+# Adherence to U.S. Digital Services Playbook
 
 We followed all of the applicable Playbook plays. [Details here](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Adherence-to-U.S.-Digital-Services-Playbook).
 
@@ -46,7 +46,7 @@ Multi-disciplinary and collaborative team includes eight (8) labor categories:
 # Understanding of User Needs
 We employed Human-Centered Design (HCD) to elicit user requirements to form the Product Backlog. The section below summarizes our HCD process for the prototype. [Details here](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Human-Centered-Design-Process)
 
-## Human-Centered Design *(2d)*
+## Human-Centered Design
 
 [Our HCD process](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Human-Centered-Design-Process) leveraged the following techniques:
 
@@ -74,19 +74,18 @@ We employed Human-Centered Design (HCD) to elicit user requirements to form the 
 	* [Understanding Quality Star Ratings](https://github.com/mscws/cws-caseworker-parent-portal/wiki/User-Story:-Understanding-Quality-Star-Ratings)
 	* [Filtering and Sorting Search Results](https://github.com/mscws/cws-caseworker-parent-portal/wiki/User-Story:-Filtering-and-Sorting-Search-Results)
 	* [Provider Details Page](https://github.com/mscws/cws-caseworker-parent-portal/wiki/User-Story:-Provider-Details-Page)
-* Brainstormed designs during internal & user [whiteboard sessions](https://github.com/mscws/cws-caseworker-parent-portal-documentation/tree/master/whiteboard) *(2c)*
-* Updated user stories elaborations, including acceptance criteria *(2g)*
+* Updated user stories elaborations, including acceptance criteria
 
 ### Implementation
-* Developed [Balsamiq low-fi wireframes](https://github.com/mscws/cws-caseworker-parent-portal-documentation/tree/master/wireframes) - using whiteboard designs & feedback from internal / user testing *(2g)*
-* Conducted user tests and gathered feedback *(2f)*
-* Developed [PhotoShop/InVision high-fi web mockup prototype](https://github.com/mscws/cws-caseworker-parent-portal-documentation/tree/master/hi-fi-mockups) - using wireframes / user testing feedback *(2g)*
-* Conducted mockup prototype user tests; gathered feedback *(2f)*
-* Developed live [Design Style Guide (DSG)](https://parentportal.tabordasolutions.net/guidelines.html) using bootstrap/SASS/CSS/HTML. DSG elements leveraged HTML mockup / user testing feedback. *(2g)*
-* Conducted responsive design testing on desktop (Mac, PC) and mobile devices (iOS, Android) *(2h)*
-* Updated DSG Design elements as prototype was elaborated – keeping DSG and prototype pages consistent and synchronized *(2e)*
+* Developed [Balsamiq low-fi wireframes](https://github.com/mscws/cws-caseworker-parent-portal-documentation/tree/master/wireframes) - using whiteboard designs & feedback from internal / user testing
+* Conducted user tests and gathered feedback
+* Developed [PhotoShop/InVision high-fi web mockup prototype](https://github.com/mscws/cws-caseworker-parent-portal-documentation/tree/master/hi-fi-mockups) - using wireframes / user testing feedback
+* Conducted mockup prototype user tests; gathered feedback
+* Developed live [Design Style Guide (DSG)](https://parentportal.tabordasolutions.net/guidelines.html) using bootstrap/SASS/CSS/HTML. DSG elements leveraged HTML mockup / user testing feedback.
+* Conducted responsive design testing on desktop (Mac, PC) and mobile devices (iOS, Android)
+* Updated DSG Design elements as prototype was elaborated – keeping DSG and prototype pages consistent and synchronized
 * Developed prototype HTML using HTML mockup, user testing feedback, and DSG
-* Iterated on pages, incorporating user testing feedback between iterations, finally reaching minimal viable product (MVP) *(2g)*
+* Iterated on pages, incorporating user testing feedback between iterations, finally reaching minimal viable product (MVP) 
 
 ## Prototype Development
 ### Modern Open Source Technologies
