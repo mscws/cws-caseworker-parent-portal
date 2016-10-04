@@ -13,6 +13,8 @@ public class ScriptInitiatorTest {
 			driver = CommonClass.launchApplication(driver);
 			driver = CommonClass.NavigateToBasicSearch(driver);
 			driver = CommonClass.SearchWithProviderName(driver,"Ahead of the Crowd Academy");
+			Thread.sleep(3000);
+			driver.quit();
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

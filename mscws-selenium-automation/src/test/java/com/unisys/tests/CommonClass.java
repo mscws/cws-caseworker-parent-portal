@@ -3,6 +3,8 @@ package com.unisys.tests;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxProfile;
+import org.openqa.selenium.firefox.internal.ProfilesIni;
 import org.testng.Assert;
 
 import com.unisys.objectrepository.BasicSearchPage;
@@ -11,7 +13,12 @@ import com.unisys.objectrepository.HomePage;
 public class CommonClass {
  
   public static WebDriver launchApplication(WebDriver driver) throws InterruptedException{
-		driver = new FirefoxDriver();
+	   
+		ProfilesIni profile = new ProfilesIni();
+		FirefoxProfile Uleafprofile = profile.getProfile("Selenium_User");					
+		driver = new FirefoxDriver(Uleafprofile);
+
+		//driver = new FirefoxDriver();
 		//driver.get("http://ustr-erl-5411.na.uis.unisys.com:8080/mscws-portal/resources/app/index.html");
 		driver.get("http://192.62.156.35:8080/mscws-portal/resources/index.html#/");
 		System.out.println(driver.getTitle());
