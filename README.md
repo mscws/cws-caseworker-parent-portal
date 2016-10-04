@@ -79,7 +79,7 @@ We employed Human-Centered Design (HCD) to elicit user requirements to form the 
 ### Implementation
 * Developed [Balsamiq low-fi wireframes](https://github.com/mscws/cws-caseworker-parent-portal/tree/master/Low%20FIdelity%20mockups) - feedback from internal / user testing
 * Conducted user tests and gathered feedback
-* Developed [PhotoShop/InVision high-fi web mockup prototype](https://github.com/mscws/cws-caseworker-parent-portal-documentation/tree/master/hi-fi-mockups) - using wireframes / user testing feedback
+* Developed [PhotoShop/InVision high-fi web mockup prototype](https://github.com/mscws/cws-caseworker-parent-portal/tree/master/hi-fi%20mockups) - using wireframes / user testing feedback
 * Conducted mockup prototype user tests; gathered feedback
 * Developed live [Design Style Guide (DSG)](https://parentportal.tabordasolutions.net/guidelines.html) using bootstrap/CSS/HTML5. DSG elements leveraged HTML mockup / user testing feedback.
 * Conducted responsive design testing on desktop (Mac, PC) and mobile devices (iOS, Android)
