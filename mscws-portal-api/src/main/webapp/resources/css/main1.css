@@ -33,7 +33,9 @@ body {
 .borderRadius20{
 	border-radius: 20px;
 }
-
+.marginT10{
+	margin-top:10px;
+}
 .marginB10{
 	margin-bottom:10px
 }
@@ -289,6 +291,7 @@ body {
     width:100%;
     border:1px solid #305891;
     margin:5px; 
+	white-space: inherit;
     border-radius: 17px;
     color: #305891;
 }
@@ -315,6 +318,19 @@ body {
 	bottom:0;
 	padding:6px
 }
+#mdhslogoimgId{
+	max-height:50px; 
+}
+.angular-input-stars > li {
+    color: #FDE35E;
+	text-shadow: black 0 0 1px, 0 0 1px;
+}
+.fa-star-o:before {
+	content: "\f005";
+}
+.maxWidth125{
+	max-width: 127px;
+}
 		
 /* Responsive Styles */
 @media (min-width: 994px ) {
@@ -334,19 +350,38 @@ body {
 	}
 	.modal-dialog{
 		width:100%;
+		margin: 0;
+		
 	}
 	.modal{
-		top: 0
+		top: 0;
 	}
+	
 	#filterTypeId, #moreDetailsNameId{
 		display: block;
 	}
 	.headerFontSize{
-		font-size: 17px;
+		font-size: 18px;
+	}
+	#mdhslogoimgId{
+		max-height:30px; 
+	}
+}
+@media (min-width: 767px) {
+	#headerTxtId2{
+		display: none;
 	}
 }
 @media (max-width: 767px) {
-
+	.slider.slider-horizontal {
+		width: 160px;
+	}
+	#headerTxtId{
+		display: none;
+	}
+	#headerTxtId2{
+		display: block;
+	}
     .carousel {
         height: 70%;
         /* increases the carousel height so it looks good on phones */
