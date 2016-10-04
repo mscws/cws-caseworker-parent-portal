@@ -3,7 +3,7 @@ Prototype URL: [https://parentportal.tabordasolutions.net](https://parentportal.
 [User Guide](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Caseworker-Parent-Portal-Prototype-User-Guide)
 
 ## Unisys - MS CWS Prototype
-# Technical Approach *(2)*
+# Technical Approach 
 
 Our team utilized an “*outside-in*” product development approach to create our MS CWS prototype. “*Outside-in*” focuses on the end user’s needs and experience to drive features, along with supporting application program interfaces (API). Focusing on the end user means that their needs are implemented pervasively throughout the application. This practice promotes user satisfaction and adoption through continuous interaction/feedback.  Our team utilized the following approach for this prototype:
 
@@ -18,7 +18,7 @@ The “*outside-in*” product development approach [incorporates the applicatio
 
 ## Architecture
 
-Our architecture is based on JavaScript (Angular.js) with a Java API (Dropwizard) and PostgreSQL database.
+Our architecture is based on HtML5, JavaScript (Angular.js) with a Java API (Dropwizard), Apache Tomcat 8.0 and mySQL database.
 
 [Application Architecture](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Application-Architecture)
 
@@ -27,11 +27,11 @@ Our architecture is based on JavaScript (Angular.js) with a Java API (Dropwizard
 We followed all of the applicable Playbook plays. [Details here](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Adherence-to-U.S.-Digital-Services-Playbook).
 
 # Unisys Prototype Team
-## Team Leader *(2a)*
+## Team Leader 
 Unisys assigned Christopher Cox as the one leader with authority, responsibility, and accountability for prototype quality.
 
 
-## Product Development Team *(2b)*
+## Product Development Team 
 Multi-disciplinary and collaborative team includes eight (8) labor categories:
 
 1. Product Owner – Christopher Cox
@@ -43,7 +43,7 @@ Multi-disciplinary and collaborative team includes eight (8) labor categories:
 7. Visual Designer - Arun Purohit
 8. Agile Coach / Scrum Master – Altony Rice
 
-# Understanding of User Needs*(2c)*
+# Understanding of User Needs
 We employed Human-Centered Design (HCD) to elicit user requirements to form the Product Backlog. The section below summarizes our HCD process for the prototype. [Details here](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Human-Centered-Design-Process)
 
 ## Human-Centered Design *(2d)*
@@ -89,54 +89,54 @@ We employed Human-Centered Design (HCD) to elicit user requirements to form the 
 * Iterated on pages, incorporating user testing feedback between iterations, finally reaching minimal viable product (MVP) *(2g)*
 
 ## Prototype Development
-### Modern Open Source Technologies *(2i)*
+### Modern Open Source Technologies
 #### All Open Source Solution Components with Build Dates
 * Front end
 	* Bootstrap (5/2016)
 	* Javascript
 	* Angular.js (5/2016)
 	* jQuery (5/2016)
-	* SASS (5/2016)
-	* Font-Awesome (5/2016)
-	* JSON Web Token (5/2015)
-	* WAVE (3/2016)
-	* Web Server – NGINX
+	* JSON (5/2015)
+* Middleware
+	* Web Server – Tomcat 8.0
 * Back end
-	* Java (6/2016)
-	* Dropwizard (5/2016)
-	* Jetty – Web Server (6/2016)
-	* Jersey – RESTful web services (6/2016)
-	* Jackson – JSON Processor (5/2016)
+	* Java 8.0 (6/2016)
+	* Spring – RESTful web services (6/2016)
 	* Hibernate ORM (4/2016)
-* Database – PostgreSQL
+* Database – mySQL
 	
-#### Automated Unit Testing *(2k)*
+#### Automated Unit Testing
 * Front end
-	* Protractor (6/2016)
-	* Jasmine (3/2016)
+	* Junit 4 (6/2016)
 * Back end
 	* Junit 4 (6/2016)
 	* Mockito (6/2016)
 
-#### Continuous Integration *(2i, 2l, 2m)*
-Implemented Jenkins inside Docker container on AWS for automated testing as code is checked in to GitHub.
+### Automated Functional Testing
+* Front end 
+	* Selenium
+* Back end
+	* Selenium
+
+#### Continuous Integration
+Implemented Jenkins inside VMWare for automated build, unit testing, code quality check, functional testing and deployment as code is checked in to GitHub.
 
 * Configuration Management - GitHub
 * Continuous Integration Automation - Jenkins [CI Screenshots] (https://github.com/mscws/cws-caseworker-parent-portal/wiki/Continuous-Integration) (6/2016)
 * Build
-	* Front end – Gulp (6/2016)
-	* Back end – Gradle (6/2016)
+	* Front end – Maven (6/2016)
+	* Back end – Maven (6/2016)
 - Deploy
-  - Server – Docker (5/2016)
-  - Developer – Docker Composer (5/2016)
+  - Server – AWS EC2 (5/2016)
+  - Developer – VMWare (5/2016)
 
-#### Prototype Deployment Environment *(2j)*
+#### Prototype Deployment Environment
 The prototype deployed to AWS (FedRAMP-certified IaaS). 
 
 [Infrastructure Architecture](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Infrastructure-Architecture)
 
 
-#### Configuration Management *(2n)*
+#### Configuration Management 
 The GitHub Repository is organized as:
 
 * [Unisys CWS Prototype](https://github.com/mscws/cws-caseworker-parent-portal)
@@ -145,20 +145,19 @@ Additional repositories were utilized to support CI pipelines and are available 
 
 [GitHub Repositories](https://github.com/mscws/cws-caseworker-parent-portal/wiki/GitHub-Repositories)
 
-### Continuous Monitoring *(2o)*
+### Continuous Monitoring 
 Implemented the following monitoring:
 
-* NodePing validates availability every 3 minutes and alerts the Taborda operations team of service availability disruption.
-* Datadog continuously monitors system resources and alerts the Taborda operations team of potential issues.
-* PagerDuty delivers alerts to the Taborda operations team according to a 24x7 duty schedule.
+* Nagios
+* Vanda Appliance
 
-### Containerization *(2p)*
+### Containerization 
 The prototype wasn't deployed in a container (such as Docker) due to the limited amount of time to complete the vendor challenge.
 
-### Deployment Documentation *(2q)*
+### Deployment Documentation 
 [Deployment Docs](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Deployment-Documentation)
 
-### Prototype / Underlying Platform Licensing *(2r)*
+### Prototype / Underlying Platform Licensing 
 The prototype and underlying platforms are open licensed and free of charge.
 
 ### [Notes and Assumptions](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Notes-and-Assumptions) 
