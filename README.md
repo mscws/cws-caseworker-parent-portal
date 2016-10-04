@@ -77,7 +77,7 @@ We employed Human-Centered Design (HCD) to elicit user requirements to form the 
 * Updated user stories elaborations, including acceptance criteria
 
 ### Implementation
-* Developed [Balsamiq low-fi wireframes](https://github.com/mscws/cws-caseworker-parent-portal-documentation/tree/master/wireframes) - using whiteboard designs & feedback from internal / user testing
+* Developed [Balsamiq low-fi wireframes](https://github.com/mscws/cws-caseworker-parent-portal/tree/master/Low%20FIdelity%20mockups) - feedback from internal / user testing
 * Conducted user tests and gathered feedback
 * Developed [PhotoShop/InVision high-fi web mockup prototype](https://github.com/mscws/cws-caseworker-parent-portal-documentation/tree/master/hi-fi-mockups) - using wireframes / user testing feedback
 * Conducted mockup prototype user tests; gathered feedback
