@@ -70,6 +70,30 @@
 			<version>3.1.0</version>
 			<scope>compile</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>jcl-over-slf4j</artifactId>
+			<version>1.7.0</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.7.0</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>1.7.0</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.14</version>
+			<scope>runtime</scope>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
@@ -132,10 +156,10 @@
 
 	<distributionManagement>
 		<snapshotRepository>
-        <id>mscws-portal</id>
-        <name>Internal Snapshots</name>
-        <url>http://ustr-erl-7965:8081/nexus/content/repositories/snapshots/</url>
-    </snapshotRepository>
+			<id>mscws-portal</id>
+			<name>Internal Snapshots</name>
+			<url>http://ustr-erl-7965:8081/nexus/content/repositories/snapshots/</url>
+		</snapshotRepository>
 		<repository>
 			<id>mscws-portal</id>
 			<url>http://ustr-erl-7965:8081/nexus/content/repositories/mscws-portal</url>
