@@ -161,3 +161,9 @@ The prototype wasn't deployed in a container (such as Docker) due to the limited
 The prototype and underlying platforms are open licensed and free of charge.
 
 ### [Notes and Assumptions](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Notes-and-Assumptions) 
+
+### Report Bugs & Issues
+If you found a bug and/or issue with the prototype or the documentation, please email or contact the following person via mobile:
+Miques (Mike) Stubbs
+(614) 596-7140
+miquel.stubbs@unisys.com
