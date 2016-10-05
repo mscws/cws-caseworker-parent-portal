@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.firefox.internal.ProfilesIni;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
 import com.unisys.objectrepository.BasicSearchPage;
@@ -40,15 +41,63 @@ public class CommonClass {
 		Thread.sleep(3000);
 		//html/body/div[2]/div[1]/div/div[3]/div[2]/div[2]/div[1]/div[1]/h4/b
 		//String DisplayedName = driver.findElement(By.xpath("html/body/div[2]/div/div/div/div[2]/div[2]/div[2]/div[1]/div[1]/h4/b")).getText();
-		String DisplayedName = driver.findElement(By.xpath("html/body/div[2]/div[1]/div/div[3]/div[2]/div[2]/div[1]/div[1]/h4/b")).getText();
+		//String DisplayedName = driver.findElement(By.xpath("html/body/div[2]/div[1]/div/div[3]/div[2]/div[2]/div[1]/div[1]/h4/b")).getText();
+		
+		String DisplayedName = driver.findElement(By.xpath("//div[3]/div[1]/div[1]/h4/b")).getText();
 		Assert.assertEquals(DisplayedName, "Ahead of the Crowd Academy");		
-		if (DisplayedName.contains("Ahead of the Crowd Academy"))
+		if (DisplayedName.contains("Ahead of the Crowd Academy")){
 			System.out.println("Provider Name displayed correctly: Displayed Name "+ DisplayedName);
+		
+		}				
 		else
 			System.out.println("Incorrect Provider Name displayed. Expected provider Name:  Ahead of the Crowd Academy. Actual Provider Name displayed : "+DisplayedName);
 					
 		System.out.println(driver.getTitle());
 		return driver;
 	} 
+	
+	public static WebDriver SearchWithProviderDetails(WebDriver driver) throws InterruptedException{
+		/*BasicSearchPage.ProviderName(driver).sendKeys(providerName);
+		Thread.sleep(2000);*/
+		
+		Select Option1 = new Select(BasicSearchPage.City(driver)); 
+		Option1.selectByIndex(1);		
+		BasicSearchPage.SearchBtn(driver).click();	
+		Thread.sleep(3000);		
+		String DisplayedName = driver.findElement(By.xpath("//div[3]/div[1]/div[1]/h4/b")).getText();
+		Assert.assertEquals(DisplayedName, "Elva Castillo");		
+		if (DisplayedName.contains("Elva Castillo")){
+			System.out.println("Provider Name displayed correctly: Displayed Name "+ DisplayedName);
+		}				
+		else
+		{
+			System.out.println("Incorrect Provider Name displayed. Expected provider Name:  Ahead of the Crowd Academy. Actual Provider Name displayed : "+DisplayedName);
+		}
+		System.out.println(driver.getTitle());
+		return driver;
+	} 
+	
+	public static WebDriver ValidateMailfunctionality(WebDriver driver) throws InterruptedException{
+		return driver;
+	}
+	
+	public static WebDriver ValidateBookAppointment(WebDriver driver) throws InterruptedException{
+		return driver;
+	}
+	public static WebDriver ValidateQualityRatings(WebDriver driver) throws InterruptedException{
+		return driver;
+	}
+	public static WebDriver ValidateAdvanceSearch(WebDriver driver) throws InterruptedException{
+		return driver;
+	}
+	public static WebDriver ValidateMapView(WebDriver driver) throws InterruptedException{
+		return driver;
+	}
+	public static WebDriver ValidateFilterandSort(WebDriver driver) throws InterruptedException{
+		return driver;
+	}
+	public static WebDriver ValidateMultiLanguage(WebDriver driver) throws InterruptedException{
+		return driver;
+	}
 	
 }

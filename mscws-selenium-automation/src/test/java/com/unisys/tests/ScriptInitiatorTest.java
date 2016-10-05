@@ -11,8 +11,9 @@ public class ScriptInitiatorTest {
 	  WebDriver driver = null;
 		try {
 			driver = CommonClass.launchApplication(driver);
-			driver = CommonClass.NavigateToBasicSearch(driver);
-			driver = CommonClass.SearchWithProviderName(driver,"Ahead of the Crowd Academy");
+			//driver = CommonClass.NavigateToBasicSearch(driver);
+			//driver = CommonClass.SearchWithProviderName(driver,"Ahead of the Crowd Academy");
+			driver = CommonClass.SearchWithProviderDetails(driver);
 			Thread.sleep(3000);
 			driver.quit();
 		} catch (InterruptedException e) {

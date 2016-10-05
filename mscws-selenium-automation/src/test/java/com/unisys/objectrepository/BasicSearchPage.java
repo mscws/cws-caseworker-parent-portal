@@ -30,17 +30,17 @@ public class BasicSearchPage {
 	
 	public static WebElement ProviderName(WebDriver driver){
 		 WebElement element = null;
-		 element = driver.findElement(By.id("providerNameId"));
+		 element = driver.findElement(By.id("search"));
 		 return element;
 	}
 	public static WebElement ResetBtn(WebDriver driver){
 		 WebElement element = null;
-		 element = driver.findElement(By.xpath("//div[2]/button"));
+		 element = driver.findElement(By.xpath("//*[@id='resetBtn']"));
 		 return element;
 	}
 	public static WebElement SearchBtn(WebDriver driver){
 		 WebElement element = null;
-		 element = driver.findElement(By.xpath("//div[3]/button"));
+		 element = driver.findElement(By.id("searchBtn"));
 		 return element;
 	
 	
