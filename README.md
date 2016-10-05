@@ -89,45 +89,44 @@ We employed Human-Centered Design (HCD) to elicit user requirements to form the 
 
 ## Prototype Development
 ### Modern Open Source Technologies
-#### All Open Source Solution Components with Build Dates
+#### All Open Source Solution Components with Version #
 * Front end
-	* Bootstrap (5/2016)
+	* Bootstrap 
 	* Javascript
-	* Angular.js (5/2016)
-	* jQuery (5/2016)
-	* JSON (5/2015)
+	* Angular.js 
+	* jQuery 
+	* JSON 
 * Middleware
 	* Web Server – Tomcat 8.0
 * Back end
-	* Java 8.0 (6/2016)
-	* Spring – RESTful web services (6/2016)
-	* Hibernate ORM (4/2016)
+	* Java 8.0 
+	* Spring – RESTful web services 
+	* Hibernate ORM 
 * Database – mySQL
 	
 #### Automated Unit Testing
 * Front end
-	* Junit 4 (6/2016)
+	* Junit 4 
 * Back end
-	* Junit 4 (6/2016)
-	* Mockito (6/2016)
+	* Junit 4 
 
 ### Automated Functional Testing
 * Front end 
 	* Selenium
 * Back end
-	* Selenium
+	* JUnit 4
 
 #### Continuous Integration
 Implemented Jenkins inside VMWare for automated build, unit testing, code quality check, functional testing and deployment as code is checked in to GitHub.
 
 * Configuration Management - GitHub
-* Continuous Integration Automation - Jenkins [CI Screenshots] (https://github.com/mscws/cws-caseworker-parent-portal/wiki/Continuous-Integration) (6/2016)
+* Continuous Integration Automation - Jenkins [CI Screenshots] (https://github.com/mscws/cws-caseworker-parent-portal/wiki/Continuous-Integration) 
 * Build
-	* Front end – Maven (6/2016)
-	* Back end – Maven (6/2016)
-- Deploy
-  - Server – AWS EC2 (5/2016)
-  - Developer – VMWare (5/2016)
+	* Front end – Maven 
+	* Back end – Maven 
+* Deploy
+  - Server – AWS EC2 
+  - Developer/QA – VMWare 
 
 #### Prototype Deployment Environment
 The prototype deployed to AWS (FedRAMP-certified IaaS). 
