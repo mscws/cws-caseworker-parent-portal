@@ -1,4 +1,4 @@
-# Add TO view the protoypes do the following steps 
+# To view the protoypes do the following steps 
 
 1. Copy the entire folder in your local drive
 2. Click on the index.html 
