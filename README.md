@@ -139,9 +139,10 @@ The GitHub Repository is organized as:
 
 * [Unisys CWS Prototype](https://github.com/mscws/cws-caseworker-parent-portal)
 
-Additional repositories were utilized to support CI pipelines and are available below:
+The following repository was utilized to support CI pipelines and are available below:
 
-[GitHub Repositories](https://github.com/mscws/cws-caseworker-parent-portal/wiki/GitHub-Repositories)
+Source Code repository: [GitHub Repositories](https://github.com/mscws/cws-caseworker-parent-portal/wiki/GitHub-Repositories)
+Binary repository: Nexus
 
 ### Continuous Monitoring 
 Implemented the following monitoring:
