@@ -1,4 +1,4 @@
-Prototype URL: [https://parentportal.tabordasolutions.net](https://parentportal.tabordasolutions.net)
+Prototype URL: [http://52.24.122.11:8080/mscws-portal-api/resources/index.html#/](http://52.24.122.11:8080/mscws-portal-api/resources/index.html#/)
 
 [User Guide](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Caseworker-Parent-Portal-Prototype-User-Guide)
 
@@ -91,18 +91,21 @@ We employed Human-Centered Design (HCD) to elicit user requirements to form the 
 ### Modern Open Source Technologies
 #### All Open Source Solution Components with Version #
 * Front end
-	* Bootstrap 
+	* Bootstrap v3.3.7
 	* Javascript
-	* Angular.js 
-	* jQuery 
-	* JSON 
+	* Angular.js v1.5.8
+	* jQuery v3.1.1
+	* NgMap v1.17.3
+	* angular-input-stars-directive v1.5.5
+	* eonasdan-bootstrap-datetimepicker v4.17.42
 * Middleware
-	* Web Server – Tomcat 8.0
+	* Web Server – Tomcat 8.5.5
 * Back end
 	* Java 8.0 
-	* Spring – RESTful web services 
-	* Hibernate ORM 
+	* spring-data-rest-webmvc v2.5.2
+	* Hibernate ORM v4.2.4.FINAL
 * Database – mySQL
+	* Version 5.5.52 
 	
 #### Automated Unit Testing
 * Front end
@@ -112,7 +115,7 @@ We employed Human-Centered Design (HCD) to elicit user requirements to form the 
 
 ### Automated Functional Testing
 * Front end 
-	* Selenium
+	* Selenium v2.53
 * Back end
 	* JUnit 4
 
@@ -122,8 +125,8 @@ Implemented Jenkins inside VMWare for automated build, unit testing, code qualit
 * Configuration Management - GitHub
 * Continuous Integration Automation - Jenkins [CI Screenshots] (https://github.com/mscws/cws-caseworker-parent-portal/wiki/Continuous-Integration) 
 * Build
-	* Front end – Maven 
-	* Back end – Maven 
+	* Front end – Maven 3.1.1
+	* Back end – Maven 3.1.1
 * Deploy
   - Server – AWS EC2 
   - Developer/QA – VMWare 
