@@ -10,7 +10,7 @@ app.config(['$routeProvider', function ($routeProvider) {
   $routeProvider
     // Home
     .when("/", {templateUrl: "partials/search.html", controller: "SearchController"})
-    .when("/search", {templateUrl: "partials/search.html", controller: "PageCtrl"})
+    .when("/search", {templateUrl: "partials/search.html", controller: "SearchController"})
 	//Provider Search
 	.when("/providerSearch", {templateUrl: "partials/providerSearch.html", controller: "ResultsController"})
 	//Star Rating
