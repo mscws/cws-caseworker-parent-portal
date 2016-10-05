@@ -118,7 +118,7 @@
 				<div class="col-xs-12 marginB10 whiteBackground" ng-repeat="provider in filteredProviders 
 				    | licenseFilter:license | ptFilter : providerType | ratingFilter : rating">
 					
-					<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
 						<div class="text-center">
 							<h4 > <b>{{provider.providerName}}</b> </h4>
 						</div>
@@ -134,7 +134,7 @@
 						</div>
 					    
 					</div>
-					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 marginB10 paddingT10 filteredDataCssCls">
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 marginB10 paddingT10 filteredDataCssCls">
 						<div><strong> Provider Type : </strong><span> {{provider.providerType.providerTypeDescription}}</span></div>
 						<div><strong> Phone Number : </strong><span> {{provider.phoneNumber}}</span></div>			
 						<div><strong> City : </strong><span> {{provider.physicalCity.name}} </span></div>
@@ -175,7 +175,13 @@
 					<button class="btn  pull-right fontSize18" style="background: transparent;" ng-click="listViewFunc();" ng-show="listToggle"><i class="fa fa-list" aria-hidden="true"></i> List View</button>
 				</div>
 			 
-				<ng-map center="[40.74, -74.18]" style="height: 440px;"></ng-map>  
+			  <div>
+				 
+				<ng-map center="[32.3547, -89.3985]" style="height: 600px;" zoom="7">
+				   <marker ng-repeat="p in providers" animation="Animation.BOUNCE" position="{{p.physicalCity.name}} , {{p.county.countyName}} , {{p.physicalZipCode}}"
+				   title="{{p.providerName}}"></marker>
+				</ng-map>  
+				</div>
 			</div>
 			
 			<div id="helpDivId" class="col-lg-2 col-md-3 col-sm-3 col-xs-3">
@@ -188,8 +194,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-12 marginB10 marginT30 ">
-				<a type="button" href="#/search" class="col-md-2 col-sm-4 col-xs-6 btn blueColorBtnCls padding4-25 btnMaxWidth160 marginT30 pull-right">Back</a>
+			<div class="col-xs-12 marginB10 marginT20 ">
+				<a type="button" href="#/search" class="col-md-2 col-sm-4 col-xs-6 btn blueColorBtnCls padding4-25 btnMaxWidth160 pull-right">Back</a>
 			</div>
 		</div>
 	</div>
@@ -271,7 +277,7 @@
 								<img src="img/person_blank.png" class="imgLogoMaxWd">
 							</div>
 							<div class="text-center">
-								<input-stars max="{{(provider.qualityRating.qualityRating)-1}}" on-star-click="runMyFunction()" ng-model="YourCtrl.property"></input-stars>
+								<input-stars max="{{(provider.qualityRating.qualityRating)-1}}"></input-stars>
 							</div>
 							<div class="text-center">
 								<strong> {{provider.licenseType}} </strong>

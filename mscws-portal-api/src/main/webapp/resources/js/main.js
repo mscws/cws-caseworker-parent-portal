@@ -69,7 +69,15 @@ app.controller('starRatingCtrl', function ($scope) {
 			$(this).collapse('hide');
 		});
     }
-	
+	angular.module('ngMap').run(
+									function($rootScope) {
+										$rootScope.$on('mapInitialized',
+												function(evt, map) {
+													$rootScope.mymap = map;
+													$rootScope.$apply();
+												});
+
+									});
 			
 
 });

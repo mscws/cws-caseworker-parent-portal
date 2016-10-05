@@ -2,7 +2,7 @@
 	<div class="row whiteBackground fontSize16 text-center" ng-controller="SearchController">
 	<h3 class="col-xs-12"> <b> Search For Childcare Providers </b> </h3>
 	<h4 class="col-xs-12"> <i> (Select the parameters from dropdown and hit search) </i> </h4>
-	<h4 class="col-xs-12" ng-show="error"> <p style="color:red;"> Atlease one criteria needs to be selected to perform search</p>	 </h4></i> </h4>
+	<h4 class="col-xs-12" ng-show="error"> <p style="color:red;"> Atleast one criteria needs to be selected to perform search</p>	 </h4></i> </h4>
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 			<form class="form-horizontal">
 				<div class="form-group marginB20 marginT30">
@@ -34,7 +34,7 @@
 				</div>
 				<div class="form-group marginT30">
 					<div class="col-md-offset-2 col-md-8 marginB20">
-						<input type="search" id="search" value="" class="form-control input-lg customSearchCls" placeholder="Search By Provider Name" ng-model="criteria.providerName">
+						<input type="search" id="search" value="" class="form-control customSearchCls" placeholder="Search By Provider Name" ng-model="criteria.providerName">
 					</div>
 				</div>
 				  <div class="col-xs-12">
@@ -197,8 +197,8 @@
 				  
 				<div class="col-xs-12 form-group marginT20">
 					<label class="col-md-offset-3 col-md-2 col-xs-12">Show results in</label>
-					<div class="col-md-4 col-xs-12 marginB20">
-						<label class="col-md-5 radio-inline" style="padding-top:0;"><input type="radio" name="optShowResult" ng-model="criteria.viewMode" value="List">List View</label>
+					<div class="col-md-4 col-xs-12 marginB20" ng-init="criteria.viewMode='List'" >
+						<label class="col-md-5 radio-inline" style="padding-top:0;"><input type="radio" name="optShowResult" ng-model="criteria.viewMode" value="List" >List View</label>
 						<label class="col-md-5 radio-inline" style="padding-top:0;"><input type="radio" name="optShowResult" ng-model="criteria.viewMode" value="Map">Map View</label>
 					</div>
 				</div>
