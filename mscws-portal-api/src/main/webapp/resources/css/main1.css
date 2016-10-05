@@ -137,7 +137,6 @@ body {
     box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
 }
 .customSearchCls{
-	padding: 22px;
     background: #f1f0f5;
     border-radius: 20px;
 }
@@ -331,7 +330,13 @@ body {
 .maxWidth125{
 	max-width: 127px;
 }
-		
+.glyphicon-envelope {
+    color: #ffe867;
+}	
+
+.modal{
+	top: 0;
+}	
 /* Responsive Styles */
 @media (min-width: 994px ) {
 	.btnMaxWidth160{
@@ -352,9 +357,6 @@ body {
 		width:100%;
 		margin: 0;
 		
-	}
-	.modal{
-		top: 0;
 	}
 	
 	#filterTypeId, #moreDetailsNameId{
@@ -387,4 +389,5 @@ body {
         /* increases the carousel height so it looks good on phones */
     }
 }
+
 

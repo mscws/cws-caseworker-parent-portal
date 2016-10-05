@@ -118,7 +118,7 @@
 				<div class="col-xs-12 marginB10 whiteBackground" ng-repeat="provider in filteredProviders 
 				    | licenseFilter:license | ptFilter : providerType | ratingFilter : rating">
 					
-					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+					<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
 						<div class="text-center">
 							<h4 > <b>{{provider.providerName}}</b> </h4>
 						</div>
@@ -134,7 +134,7 @@
 						</div>
 					    
 					</div>
-					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 marginB10 paddingT10 filteredDataCssCls">
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 marginB10 paddingT10 filteredDataCssCls">
 						<div><strong> Provider Type : </strong><span> {{provider.providerType.providerTypeDescription}}</span></div>
 						<div><strong> Phone Number : </strong><span> {{provider.phoneNumber}}</span></div>			
 						<div><strong> City : </strong><span> {{provider.physicalCity.name}} </span></div>
@@ -188,8 +188,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-12 marginB10 marginT20 ">
-				<a type="button" href="#/search" class="col-md-2 col-sm-4 col-xs-6 btn blueColorBtnCls padding4-25 btnMaxWidth160 pull-right">Back</a>
+			<div class="col-xs-12 marginB10 marginT30 ">
+				<a type="button" href="#/search" class="col-md-2 col-sm-4 col-xs-6 btn blueColorBtnCls padding4-25 btnMaxWidth160 marginT30 pull-right">Back</a>
 			</div>
 		</div>
 	</div>
