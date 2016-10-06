@@ -9,8 +9,8 @@ The purpose of the Mississippi Department of Human Services (MDHS) Child Care Pr
 The Interface design framework utilizes a 10-step process, outlined in more detail in the Human-Centered Design section, which promotes user satisfaction and adoption through continuous interaction/feedback. In addition to the information gathered from our participation in the Case Worker Web Conference, our team utilized the following approach for this prototype:
 
 
-* Conducted qualative research via focus groups, individual interviews and participation/observations to understand needs and trends within related industry. In an effort to gather a wide-ranging span of ideas, our User Researcher conducted interviews with Mississippi residents representing various socio-economic groups with varying child need concerns. 
-* Conducted quantative research using Survey Monkey to quantify attitudes, opinions, behaviors, and other defined variables in effort to formulate features and uncover patterns to be considered in the design of the search page.
+* Conducted qualitative research via focus groups, individual interviews and participation/observations to understand needs and trends within related industry. In an effort to gather a wide-ranging span of ideas, our User Researcher conducted interviews with Mississippi residents representing various socio-economic groups with varying child need concerns. 
+* Conducted quantitative research using Survey Monkey to quantify attitudes, opinions, behaviors, and other defined variables in effort to formulate features and uncover patterns to be considered in the design of the search page.
 * Created initial user interface (UI) documented as wireframes (Balsamiq) which were presented to the research participants. Feedback was incorporated into an updated UI design.
 * Identified user stories to form initial product backlog. 
 * Developed fully interactive prototype web/mobile application. The initial prototype was presented to the research participants. The findings from the research participants interacting with the application, such as usability improvements, were incorporated into the final design.
