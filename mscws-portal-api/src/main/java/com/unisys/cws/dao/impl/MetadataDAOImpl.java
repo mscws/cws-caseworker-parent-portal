@@ -29,7 +29,7 @@ public class MetadataDAOImpl implements IMetadataDAO{
 	}
 	
 	public List<QualityRating> getAllRatings(){
-		return sessionFactory.getCurrentSession().createQuery("from QualityRating p").list();
+		return sessionFactory.getCurrentSession().createQuery("from QualityRating p where p.qualityCode >0").list();
 	}
 	 
 	@Override

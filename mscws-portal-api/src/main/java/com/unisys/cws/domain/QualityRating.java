@@ -15,6 +15,8 @@ public class QualityRating {
 	Long qualityRating; 
 	
 	String qualityRatingDescription;
+	
+	Integer qualityCode;
 
 	public Long getQualityRating() {
 		return qualityRating;
@@ -30,6 +32,14 @@ public class QualityRating {
 
 	public void setQualityRatingDescription(String qualityRatingDescription) {
 		this.qualityRatingDescription = qualityRatingDescription;
+	}
+
+	public Integer getQualityCode() {
+		return qualityCode;
+	}
+
+	public void setQualityCode(Integer qualityCode) {
+		this.qualityCode = qualityCode;
 	}
 	
 	

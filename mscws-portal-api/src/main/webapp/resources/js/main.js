@@ -15,7 +15,7 @@ app.config(['$routeProvider', function ($routeProvider) {
 	.when("/providerSearch", {templateUrl: "partials/providerSearch.html", controller: "ResultsController"})
 	//Star Rating
 	.when("/starRating", {templateUrl: "partials/starRating.html", controller: "PageCtrl"})
-	.when("/bookAppointment", {templateUrl: "partials/bookAppointment.html", controller: "PageCtrl"})
+	.when("/bookAppointment", {templateUrl: "partials/bookAppointment.html", controller: "AppointmentController"})
 	.when("/moreDetails", {templateUrl: "partials/moreDetails.html", controller: "PageCtrl"})
     // else 404
 	 .otherwise("/404", {templateUrl: "partials/404.html", controller: "PageCtrl"});

@@ -30,10 +30,22 @@ app
 						'$scope',
 						'$http',
 						'$location',
+						'$filter',
 						'DataService',
-						function($scope, $http, $location, DataService) {
+						function($scope, $http, $location, $filter, DataService) {
 							$scope.criteria = DataService.getCriteria();
 							$scope.providers = DataService.getProviders();
+							$scope.specialNeedsList = [
+									'Emotionally Disturbed',
+									'Emotionally Impaired', 'Hearing Impaired',
+									'Mentally Impaired',
+									'Intellectual Disability', 'None',
+									'Not Yet Determined',
+									'Other Medically Diagnosed Condition',
+									'Physically Disabled',
+									'Specific Learning Disability',
+									'Speech and Language', 'Visually Impaired' ];
+
 							if ($location.path() == "/"
 									|| $location.path() == "/providerSearch"
 									|| $location.path() == "/search") {
@@ -49,6 +61,7 @@ app
 								$http.get(baseUrl + 'cities').success(
 										function(data) {
 											$scope.cities = data;
+											$scope.tempCities = $scope.cities;
 										});
 
 								$http
@@ -60,8 +73,25 @@ app
 							}
 
 							$scope.reset = function() {
-								$scope.criteria = {};
+								$scope.criteria = {
+										 viewMode : 'List'
+								};
 								$scope.error = false;
+								$scope.tempCities = $scope.cities;
+							}
+
+							$scope.filterCitiesForCounty = function() {
+								console.log($scope.criteria);
+								$scope.tempCities = $scope.cities;
+								if (!angular
+										.isUndefined($scope.criteria.countyId)) {
+									$scope.tempCities = ($filter('filter')
+											(
+													$scope.cities,
+													{
+														county : $scope.criteria.countyId
+													}));
+								}
 							}
 
 							$scope.search1 = function(searchCriteria) {
@@ -80,6 +110,18 @@ app
 											: "",
 									'countyId' : !angular
 											.isUndefined(searchCriteria.countyId) ? searchCriteria.countyId.countyNumber
+											: "",
+									'servicePreferred' : !angular
+											.isUndefined(searchCriteria.servicePreferred) ? searchCriteria.servicePreferred
+											: "",
+									'agePreff' : !angular
+											.isUndefined(searchCriteria.agePreff) ? searchCriteria.agePreff
+											: "",
+									'specialNeeds' : !angular
+											.isUndefined(searchCriteria.selectedSpecialNeeds) ? searchCriteria.selectedSpecialNeeds
+											: "",
+									'HandAccess' : !angular
+											.isUndefined(searchCriteria.isHandicapped) ? searchCriteria.isHandicapped
 											: ""
 								};
 								var url = "../api/rest/providers/search";
@@ -193,6 +235,7 @@ app
 								$http.get(baseUrl + 'cities').success(
 										function(data) {
 											$scope.cities = data;
+											$scope.tempCities = data;
 										});
 
 								$http
@@ -323,6 +366,14 @@ app
 								$scope.providerType = "";
 								$scope.rating = "";
 							}
+							
+							$scope.filterCitiesForCounty = function(){
+								$scope.tempCities = $scope.cities;
+								if(!angular.isUndefined($scope.searchCriteria.countyId)) {
+							 $scope.tempCities = ($filter('filter')($scope.cities, {county: $scope.searchCriteria.countyId}));
+								}
+							}
+							
 							$scope.showTable = function() {
 								return tableVisible;
 							}
@@ -338,7 +389,7 @@ app
 							$scope.clearFilters = function() {
 								$scope.license = "";
 								$scope.providerType = "";
-								$scope.rating = "";						
+								$scope.rating = "";
 							}
 							angular.module('ngMap').run(
 									function($rootScope) {
@@ -391,7 +442,7 @@ app.filter('licenseFilter', [ function() {
 app.filter('ptFilter', [ function() {
 	return function(data, providerType, status) {
 		var output = []; // store result in this
-			if (!angular.isUndefined(providerType) && providerType != "") {
+		if (!angular.isUndefined(providerType) && providerType != "") {
 			for (var i = 0; i < data.length; i++) {
 				if (angular.equals(data[i].providerType, providerType)) {
 					output.push(data[i]);
@@ -419,3 +470,44 @@ app.filter('ratingFilter', [ function() {
 		return output; // finally return the result
 	}
 } ]);
+
+app
+.controller(
+		'AppointmentController',
+		[
+				'$scope',
+				'$http',
+				'$location',
+				'$filter',
+				 
+				function($scope, $http, $location, $filter) {
+					$scope.appointment = {};
+					if ( $location.path() == "/bookAppointment") {
+					var baseUrl = '../api/rest/metadata/';
+					$http.get(baseUrl + 'county').success(
+							function(data) {
+								$scope.countys = data;
+							});					 
+					$http.get(baseUrl + 'cities').success(
+							function(data) {
+								$scope.cities = data;
+								$scope.tempCities = $scope.cities;
+							});
+
+				 
+				} // end of if
+					
+					$scope.filterCitiesForCounty = function() {
+						$scope.tempCities = $scope.cities;
+						if (!angular
+								.isUndefined($scope.appointment.countyId)) {
+							$scope.tempCities = ($filter('filter')
+									(
+											$scope.cities,
+											{
+												county : $scope.appointment.countyId
+											}));
+						}
+					}
+					
+				}]);

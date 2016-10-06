@@ -10,13 +10,13 @@
 							<div class="col-sm-6 col-xs-12 marginB10">
 								<strong class="col-sm-6 col-xs-12 pull-left"> County:</strong>
 								<select class="col-sm-5 col-xs-12 selectpicker customDropDownCls" id="County1"
-								ng-model="searchCriteria.countyId" ng-options="c as c.countyName for c in countys track by c.countyNumber" >
+								ng-model="searchCriteria.countyId" ng-options="c as c.countyName for c in countys track by c.countyNumber" ng-change="filterCitiesForCounty()">
 								 </select>
 							</div>
 							<div class="col-sm-6  col-xs-12 marginB10">
 								<strong class="col-sm-6 col-xs-12 pull-left"> City:</strong>
 								<select class="col-sm-5 col-xs-12 selectpicker customDropDownCls" id="city1"
-								ng-model="searchCriteria.cityId" ng-options="c as c.name for c in cities track by c.id">
+								ng-model="searchCriteria.cityId" ng-options="c as c.name for c in tempCities | orderBy:'name'  track by c.id ">
 								</select>
 							</div>
 							<div class="col-sm-6 col-xs-12 marginB10">
@@ -28,7 +28,7 @@
 							<div class="col-sm-6 col-xs-12 marginB10">
 								<strong class="col-sm-6 col-xs-12 pull-left"> Provider Type:</strong>
 								<select class="col-sm-5 col-xs-12 selectpicker customDropDownCls" id="providerType1"
-								ng-model="searchCriteria.providerTypeId" ng-options="c as c.providerTypeDescription for c in providerTypes track by c.providerType">  
+								ng-model="searchCriteria.providerTypeId" ng-options="c as c.providerTypeDescription for c in providerTypes | orderBy:'providerTypeDescription' track by c.providerType ">  
 								</select>
 							</div>
 							<div class="col-md-6 col-xs-12 marginB10">
@@ -78,8 +78,8 @@
 							 
 							<select class="selectpicker marginL15 selectpicker customDropDownCls maxWidth125" id="ratingFlr"
 									ng-model="rating"
-									ng-options="c as c.qualityRatingDescription for c in qualityRatings track by c.qualityRating"> 
-										<option value="" selected disabled>Quality Rating</option>							
+									ng-options="c as c.qualityRating for c in qualityRatings track by c.qualityRating"> 
+										<option value="" selected disabled>Quality Star Rating</option>							
 									</select>
 						</li>
 						<li>
@@ -127,7 +127,6 @@
 						</div>
 						<div class="text-center">
 							<input-stars max="{{(provider.qualityRating.qualityRating)-1}}" on-star-click="runMyFunction()" ng-model="YourCtrl.property"></input-stars>
-							<strong> ({{provider.qualityRating.qualityRatingDescription}})</strong>
 						</div>
 						<div class="text-center">
 							<strong> {{provider.licenseType}} </strong>
@@ -222,7 +221,7 @@
 			  <div class="form-group">
 				<label class="col-md-offset-1 col-md-2 col-xs-12">To:</label>
 				<div class="col-md-6 col-xs-11">
-					<input type="text" class="form-control">
+					<input type="text" class="form-control" value="provider@provider.com">
 				</div>
 			  </div>
 			  <div class="form-group">
@@ -237,7 +236,6 @@
 					<textarea rows="3" class="form-control"></textarea>
 				</div>
 			  </div>
-			  <button onclick="funcCancel()" type="button" class="col-sm-offset-1 col-sm-3 col-xs-offset-2 col-xs-8 marginB10 btn blueColorBtnCls">Save as Draft</button>
 			  <button onclick="funcCancel()" type="button" class="col-sm-offset-1 col-sm-3 col-xs-offset-2 col-xs-8 marginB10 btn blueColorBtnCls">Cancel</button>
 			  <button data-toggle="modal" data-target="#modal-transparent2" onclick="funcSave()" type="button" class="col-sm-offset-1 col-sm-3 col-xs-offset-2 col-xs-8 marginB10 btn blueColorBtnCls">Send</button>
 			</form>
@@ -277,7 +275,7 @@
 								<img src="img/person_blank.png" class="imgLogoMaxWd">
 							</div>
 							<div class="text-center">
-								<input-stars max="{{(provider.qualityRating.qualityRating)-1}}"></input-stars>
+								<input-stars max="{{(provider.qualityRating.qualityRating)-1}}" on-star-click="runMyFunction()" ng-model="YourCtrl.property"></input-stars>
 							</div>
 							<div class="text-center">
 								<strong> {{provider.licenseType}} </strong>

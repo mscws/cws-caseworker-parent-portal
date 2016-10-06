@@ -1,5 +1,5 @@
 <div class="container-fluid">
-	<div class="row whiteBackground fontSize16">
+	<div class="row whiteBackground fontSize16" ng-controller="AppointmentController">
 	<h3 class="col-xs-12"> <b> Book an Appointment </b> </h3>
 	<h4 class="col-xs-12"> <i> Please fill in the details below (All fields are Mandatory) </i> </h4>
 	
@@ -21,26 +21,17 @@
 					<input type="text" class="form-control">
 				</div>
 				<div class="col-md-offset-3 col-md-3 col-xs-11 marginB20">
-					<select class="col-xs-12 selectpicker customDropDownCls" title="City">
-						  <option>option1</option>
-						  <option>option2</option>
-						  <option>option3</option>
+					<select class="col-xs-12 selectpicker customDropDownCls" title="County"
+					ng-model="appointment.countyId" ng-options="c as c.countyName for c in countys track by c.countyNumber" ng-change="filterCitiesForCounty()" >
+							<option value="" selected disabled>County</option>						 
 					</select>
 				</div>
 				<div class="col-md-offset-3 col-md-3 col-xs-11 marginB20">
-					<select class="col-xs-12 selectpicker customDropDownCls" title="County">
-						  <option>option1</option>
-						  <option>option2</option>
-						  <option>option3</option>
+					<select class="col-xs-12 selectpicker customDropDownCls" title="City"
+					ng-model="appointment.cityId" ng-options="c as c.name for c in tempCities | orderBy:'name'  ">
+						  <option value="" selected disabled>City</option>
 					</select>
-				</div>
-				<div class="col-md-offset-3 col-md-3 col-xs-11 marginB20">
-					<select class="col-xs-12 selectpicker customDropDownCls" title="State">
-						  <option>option1</option>
-						  <option>option2</option>
-						  <option>option3</option>
-					</select>
-				</div>
+				</div>				 
 				<div class="col-md-offset-3 col-md-3 col-xs-11 marginB20">
 					<input type="text" class="form-control" placeholder="Zip Code">
 				</div>
@@ -69,9 +60,9 @@
 				<label class="col-md-offset-1 col-md-2 col-xs-12">Number of Children :</label>
 				<div class=" col-md-3 col-xs-11 marginB20">
 					<select class="col-xs-12 selectpicker customDropDownCls">
-						  <option>option1</option>
-						  <option>option2</option>
-						  <option>option3</option>
+						  <option>1</option>
+						  <option>2</option>
+						  <option>3</option>
 					</select>
 				</div>
 			  </div>

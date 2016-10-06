@@ -10,10 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import com.unisys.cws.dao.ISearchDAO;
-import com.unisys.cws.domain.County;
-import com.unisys.cws.domain.ProviderType;
 import com.unisys.cws.domain.Providers;
-import com.unisys.cws.domain.QualityRating;
 import com.unisys.cws.util.SearchCriteria;
 
 @Repository
@@ -25,7 +22,7 @@ public class SearchDAOImpl implements ISearchDAO {
 	private SessionFactory sessionFactory;
 
 	public List<Providers> findProvidersByCriteria(SearchCriteria searchCriteria) {
-		StringBuffer querySQL = new StringBuffer();
+		StringBuilder querySQL = new StringBuilder();
 		querySQL.append("from Providers p");
 		String str = "";
 		if (null != searchCriteria) {
