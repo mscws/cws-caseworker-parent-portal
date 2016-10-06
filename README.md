@@ -5,15 +5,17 @@ Prototype URL: [http://52.24.122.11:8080/mscws-portal-api/resources/index.html#/
 ## Unisys - MS CWS Prototype
 # Project Overview
 
-Our team utilized an “*outside-in*” product development approach to create our MS CWS prototype. “*Outside-in*” focuses on the end user’s needs and experience to drive features, along with supporting application program interfaces (API). Focusing on the end user means that their needs are implemented pervasively throughout the application. This practice promotes user satisfaction and adoption through continuous interaction/feedback.  Our team utilized the following approach for this prototype:
+The purpose of the Mississippi Department of Human Services (MDHS) Child Care Provider Search project is to provide an information technology (IT) solution to support case workers and parents needs to easily locate child care providers in their vicinity and throughout the state.  The project team  utilized our 'Interfaces' design framework to create our child care provider search prototype. 
+The Interface design framework utilizes a 10-step process, outlined in more detail in the Human-Centered Design section, which promotes user satisfaction and adoption through continuous interaction/feedback. In addition to the information gathered from our participation in the Case Worker Web Conference, our team utilized the following approach for this prototype:
 
-* Conducted user research to understand needs and trends within related industry. Our User Researcher conducted user interviews with a current Case Worker, along with staff members acting as the identified personas (parent/guardian) to create the initial application concept.
-* Created initial UI documented as wireframes (Balsamiq) which were presented to staff members representing the personas associated with the system. Feedback was incorporated into an updated UI design (InVision).
+
+* Conducted qualative research via focus groups, individual interviews and participation/observations to understand needs and trends within related industry. In an effort to gather a wide-ranging span of ideas, our User Researcher conducted interviews with Mississippi residents representing various socio-economic groups with varying child need concerns. 
+* Conducted quantative research using Survey Monkey to quantify attitudes, opinions, behaviors, and other defined variables in effort to formulate features and uncover patterns to be considered in the design of the search page.
+* Created initial user interface (UI) documented as wireframes (Balsamiq) which were presented to the research participants. Feedback was incorporated into an updated UI design.
 * Identified user stories to form initial product backlog. 
-* Developed fully interactive prototype web/mobile application. The initial prototype was presented to the representative user base from the user research phase. The findings from users interacting with the application, such as usability improvements, were incorporated into the final design.
-* Developed fully functioning prototype including back end API for data persistence as a series of “*vertical slices*” allowing testing throughout the effort.
+* Developed fully interactive prototype web/mobile application. The initial prototype was presented to the research participants. The findings from the research participants interacting with the application, such as usability improvements, were incorporated into the final design.
 
-The “*outside-in*” product development approach [incorporates the application development aspects of the U.S. Digital Services Playbook ](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Adherence-to-U.S.-Digital-Services-Playbook). 
+The  product development approach [incorporates the application development aspects of the U.S. Digital Services Playbook ](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Adherence-to-U.S.-Digital-Services-Playbook). 
 
 
 ## Architecture
@@ -37,7 +39,7 @@ Multi-disciplinary and collaborative team includes nine (9) labor categories:
 1. Product Owner – Christopher Cox
 2. Technical Architect / Back End Web Developer – Kirtish Kulkarni
 3. Front End Web Developer – Ankit Kumar
-4. Interaction Designer/User Researcher/Usability Tester – Miquel Stubbs
+4. Interaction Designer/User Researcher/Usability Tester – Mike Stubbs
 5. DevOps Team - Gopal Krishna Dash, Kangkan Goswami
 6. Tech Writer – Martha Koffman
 7. Lawyer – TBD
@@ -54,7 +56,7 @@ We employed Human-Centered Design (HCD) to elicit user requirements to form the 
 ### Inspiration
 
 * Developed **Design Challenge**: "*As a caseworker or parent, I would like to search for child care providers in my vicinity so that I can choose the best provider for a child*"
-* Conducted 1:1 and Group Interviews with real case worker and several non-participating staff
+* Conducted 1:1 and Group Interviews with real case workers (Case Worker Web Conference) and several Mississippi residents.
 * Conducted user research to identify target audiences
 * Developed personas
 * Brainstormed, starting with "_Diverge_" step to get all ideas (no concern for viability/feasibility), then "_Converged_" to reduce ideas list to only viable/feasible.
