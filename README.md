@@ -166,5 +166,5 @@ The prototype and underlying platforms are open licensed and free of charge.
 ### [Notes and Assumptions](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Notes-and-Assumptions) 
 
 ### Report Bugs & Issues
-If you find a bug and/or issue with the prototype or the documentation, please contact "Miquel (Mike) Stubbs" via email (miquel.stubbs@unisys.com) or mobile at (614) 596-7140.
+If you find a bug or issue with the prototype or the documentation, please contact "Miquel (Mike) Stubbs" via email (miquel.stubbs@unisys.com) or mobile at (614) 596-7140.
 
