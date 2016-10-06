@@ -7,7 +7,7 @@
 			<form class="form-horizontal">
 				<div class="form-group marginB20 marginT30">
 					<div class="col-md-offset-2 col-md-2 col-xs-6 marginB20">
-						 <select class="col-xs-12 selectpicker customDropDownCls" id="County"
+						<select class="col-xs-12 selectpicker customDropDownCls" id="County"
 							ng-model="criteria.countyId" ng-options="c as c.countyName for c in countys track by c.countyNumber" ng-change="filterCitiesForCounty()" >
 							<option value="" selected disabled>County</option>
                              </select>
@@ -21,7 +21,7 @@
 					</div>
 					<div class="col-md-2 col-xs-6 marginB20">
 						<select class="col-xs-12 selectpicker customDropDownCls" id="providerType"
-							ng-model="criteria.providerTypeId" 	ng-model="criteria.providerTypeId" ng-options="c as c.providerTypeDescription for c in providerTypes  
+							ng-model="criteria.providerTypeId" ng-options="c as c.providerTypeDescription for c in providerTypes  
 							  | orderBy:'providerTypeDescription'"> 
 								<option value="" selected disabled>Provider Type</option>							
 							</select>
@@ -64,7 +64,9 @@
 							<div class="col-sm-12">
 								<label class="marginT30 marginL0"><b>Age Group</b></label>
 								<div class="marginT10">
-									<b class="marginR15">0</b><input id="ex2" type="text" class="span2 " value="" data-slider-min="0" data-slider-max="18" data-slider-step="1" data-slider-value="[0,18]"/> <b class="marginL15">18</b> <span class=""><i>(Age in years)</i></span> </br>
+									<b class="marginR15">0</b><input id="ex2" type="text" class="span2 " ng-model="criteria.agePreff" 
+									data-slider-min="0" data-slider-max="18" data-slider-step="1" data-slider-value="[0,18]"/> <b class="marginL15">18</b> 
+									<span class=""><i>(Age in years)</i></span> </br>
 								</div>
 								<label class="marginT10">Age range: </label>  <span id="ageyearId" class="marginT15"></span></br>
 							</div>	
@@ -73,23 +75,21 @@
 						<div class="col-xs-12 text-left">
 							<div class="col-xs-12 AdvSchSpcNeedsInfo">
 								<label class="marginT10"><b>Special Needs </b></label><span>(Click to highlight the selections)</span>
-								<div class="col-xs-12">
-									
+								<div class="form-horizontal col-xs-12">
 									<div class="form-group">
 										<div class="items-collection">
-                                          <div class="items col-xs-12 col-sm-6 col-md-4 col-lg-3" ng-repeat="needs in specialNeedsList">
+										<div class="items col-xs-12 col-sm-6 col-md-4 col-lg-3" ng-repeat="needs in specialNeedsList">
 												<div class="info-block block-info clearfix">
-													<div data-toggle="buttons" class="btn-group itemcontent">
-														<label class="btn btn-default">
+													<div  class="btn-group bizmoduleselect">
+														<label data-toggle="buttons" class="btn btn-default">
 															<div class="itemcontent">
-																<input type="checkbox" name="var_id[]"  ng-model="criteria.IntellectualDisability"
-           ng-true-value="'Yes'" ng-false-value="'No'"/>
-																<h5>{{needs}}</h5>
+																<h5 class="col-xs-12"><span class="marginL15">{{needs}}</span>
+																<input style="visibility: collapse;" type="checkbox"  checklist-model="criteria.selectedSpecialNeeds" checklist-value="needs"/></h5>
 															</div>
 														</label>
 													</div>
 												</div>
-											</div>  
+											</div>
 										</div>
 									</div>
 								
@@ -144,13 +144,13 @@
 					console.log(value);
 					var initialVal = value[0]/12;
 					var finalVal = value[1]/12;
-					$('#ageyearId').text(Math.floor(value[0]) + " year's " + " - " + Math.floor(value[1]) + " years");
+					$('#ageyearId').text(Math.floor(value[0]) + " year's " + " - " + Math.floor(value[1]) + " year's");
 					}
 					return 'Current value: ' + value;
 			}
 		});
 		
+		
 	});
-	
 	
 </script>

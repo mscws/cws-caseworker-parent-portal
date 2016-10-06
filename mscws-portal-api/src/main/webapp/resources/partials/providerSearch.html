@@ -39,8 +39,7 @@
 							</div>
 						</div>
 						<div class="form-group">
-							<a class="col-md-offset-4 col-md-3 col-sm-6 col-xs-12 text-center marginB10" id="advSearch1">Advanced Search</a>
-							<div class="col-md-1 col-sm-6 col-xs-12 text-center marginB10">
+							<div class="col-md-offset-5 col-md-1 col-sm-3 col-xs-12 text-center marginB10">
 								<i id="filterTypeId" class="col-xs-6 fa fa-filter fontSize25 marginB10" aria-hidden="true"></i>
 								<i class="col-xs-6 fa fa-sort-alpha-asc fontSize25" aria-hidden="true"></i>
 							</div>
@@ -49,6 +48,9 @@
 							</div>
 							<div class="col-md-2 col-sm-3 col-xs-12 marginB10">
 								<button type="submit" class="col-xs-12 btn greenColorBtnCls padding4-25 btnMaxWidth160" ng-click="search()"  id="searchBtn1">Search</button>
+							</div>
+							<div class="col-md-2 col-sm-3 col-xs-12 marginB10">
+								<a type="button" href="#/search" class="col-xs-12 btn blueColorBtnCls padding4-25 btnMaxWidth160">Back</a>
 							</div>
 						</div>
 						
@@ -78,7 +80,7 @@
 							 
 							<select class="selectpicker marginL15 selectpicker customDropDownCls maxWidth125" id="ratingFlr"
 									ng-model="rating"
-									ng-options="c as c.qualityCode for c in qualityRatings track by c.qualityRating"> 
+									ng-options="c as c.qualityRating for c in qualityRatings track by c.qualityRating"> 
 										<option value="" selected disabled>Quality Star Rating</option>							
 									</select>
 						</li>
@@ -91,11 +93,15 @@
 										<option value="UNLICENSED">UNLICENSED</option>
 									</select>
 						</li>
-					</ul>
-					<div class="text-center">
-							<strong> Filters Applied : <label> {{ license }} {{ providerType.providerTypeDescription}} {{ rating.qualityRatingDescription }} <label></strong>
-							 <a ng-click="clearFilters()">clear all</a>
+						
+						<div class="col-xs-12 marginT20">
+							<div class="text-center">
+								<div class="col-xs-12"> <b>Filters Applied : </b></div><div class="col-xs-12 padding00"> <p>{{ license }} {{ providerType.providerTypeDescription}} {{ rating.qualityRatingDescription }} </p></div>
+								 <div class="col-xs-12 text-center"><a class="btn blueColorBtnCls" ng-click="clearFilters()" >clear all</a></div>
+							</div>
 						</div>
+					</ul>
+					
 
 				</div>
 							</div>
@@ -333,7 +339,7 @@
 					</div>
 					  <div class="modal-footer">
 						<button type="button"  ng-click="cancel()" class="col-md-2 col-sm-4 col-xs-6 btn blueColorBtnCls padding4-25 btnMaxWidth160 pull-right">Back</button>
-             </div>
+					</div>
 					 
 				</div>  
 				   </div>
