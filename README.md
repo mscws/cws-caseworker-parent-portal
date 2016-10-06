@@ -54,7 +54,7 @@ We employed Human-Centered Design (HCD) to elicit user requirements to form the 
 ### Inspiration
 
 * Developed **Design Challenge**: "*As a caseworker or parent, I would like to search for child care providers in my vicinity so that I can choose the best provider for a child*"
-* Conducted 1:1 and Group Interviews with real case worker and several non-participating staff
+* Conducted 1:1 and Group Interviews with real case worker and several State of Mississippi parents
 * Conducted user research to identify target audiences
 * Developed personas
 * Brainstormed, starting with "_Diverge_" step to get all ideas (no concern for viability/feasibility), then "_Converged_" to reduce ideas list to only viable/feasible.
@@ -63,8 +63,7 @@ We employed Human-Centered Design (HCD) to elicit user requirements to form the 
 * Synthesized insights from users (wants):
 	* Simple / Intuitive
 	* Trustworthy
-	* Case worker / children photos
-	* Print time-stamped case worker conversations  
+	* Photos for provider  
 * Created [user stories](https://github.com/mscws/cws-caseworker-parent-portal/tree/master/stories)
 	* [Child Care Provider Basic Search](https://github.com/mscws/cws-caseworker-parent-portal/wiki/User-Story:-Child-Care-Provider-Basic-Search)
 	* [Child Care Provider Advanced Search](https://github.com/mscws/cws-caseworker-parent-portal/wiki/User-Story:-Child-Care-Provider-Advanced-Search)
