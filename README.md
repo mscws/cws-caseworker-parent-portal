@@ -54,7 +54,7 @@ We employed Human-Centered Design (HCD) to elicit user requirements to form the 
 ### Inspiration
 
 * Developed **Design Challenge**: "*As a caseworker or parent, I would like to search for child care providers in my vicinity so that I can choose the best provider for a child*"
-* Conducted 1:1 and Group Interviews with real case worker and several State of Mississippi parents
+* Conducted 1:1 and Group Interviews with real case worker and several non-participating staff
 * Conducted user research to identify target audiences
 * Developed personas
 * Brainstormed, starting with "_Diverge_" step to get all ideas (no concern for viability/feasibility), then "_Converged_" to reduce ideas list to only viable/feasible.
@@ -63,7 +63,8 @@ We employed Human-Centered Design (HCD) to elicit user requirements to form the 
 * Synthesized insights from users (wants):
 	* Simple / Intuitive
 	* Trustworthy
-	* Photos for provider  
+	* Case worker / children photos
+	* Print time-stamped case worker conversations  
 * Created [user stories](https://github.com/mscws/cws-caseworker-parent-portal/tree/master/stories)
 	* [Child Care Provider Basic Search](https://github.com/mscws/cws-caseworker-parent-portal/wiki/User-Story:-Child-Care-Provider-Basic-Search)
 	* [Child Care Provider Advanced Search](https://github.com/mscws/cws-caseworker-parent-portal/wiki/User-Story:-Child-Care-Provider-Advanced-Search)
@@ -77,9 +78,9 @@ We employed Human-Centered Design (HCD) to elicit user requirements to form the 
 * Updated user stories elaborations, including acceptance criteria
 
 ### Implementation
-* Developed [Balsamiq low-fi wireframes](https://github.com/mscws/cws-caseworker-parent-portal/tree/master/Low%20Fidelity%20mockups) - feedback from internal / user testing
+* Developed [Balsamiq low-fi interactive prototypes](https://github.com/mscws/cws-caseworker-parent-portal/tree/master/Low%20FIdelity%20mockups) - feedback from internal / user testing
 * Conducted user tests and gathered feedback
-* Developed [PhotoShop/InVision high-fi web mockup prototype](https://github.com/mscws/cws-caseworker-parent-portal/tree/master/hi-fi%20mockups) - using wireframes / user testing feedback
+* Developed [JustInMind high-fi interactive and responsive web mockup prototype](https://github.com/mscws/cws-caseworker-parent-portal/tree/master/hi-fi%20mockups) - To get early feedback on styling, placement of interaction elements and readability. 
 * Conducted mockup prototype user tests; gathered feedback
 * Developed live [Design Style Guide (DSG)](https://parentportal.tabordasolutions.net/guidelines.html) using bootstrap/CSS/HTML5. DSG elements leveraged HTML mockup / user testing feedback.
 * Conducted responsive design testing on desktop (Mac, PC) and mobile devices (iOS, Android)
