@@ -4,6 +4,7 @@ DROP TABLE IF EXISTS `quality_rating`;
 CREATE TABLE `quality_rating` (
   `qualityRating` bigint(20) NOT NULL AUTO_INCREMENT,
   `qualityRatingDescription` varchar(255) DEFAULT NULL,
+  `qualityCode` int(11) DEFAULT NULL,
   PRIMARY KEY (`qualityRating`)
 ) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;

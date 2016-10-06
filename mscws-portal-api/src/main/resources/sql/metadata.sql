@@ -8,12 +8,12 @@ insert into provider_type values (7 ,'Non-Relative Out-of-Home');
 insert into provider_type values (8 ,'Relative Out-of-Home');
 
 
-insert into quality_rating values (1, 'Not Rated');
-insert into quality_rating values (2, 'Low');
-insert into quality_rating values (3, 'Average');
-insert into quality_rating values (4, 'Good');
-insert into quality_rating values (5, 'Very Good');
-insert into quality_rating values (6, 'Excellent');
+insert into quality_rating values (1, 'Not Rated' ,0);
+insert into quality_rating values (2, 'Low', 1);
+insert into quality_rating values (3, 'Average' ,2);
+insert into quality_rating values (4, 'Good',3 );
+insert into quality_rating values (5, 'Very Good',4 );
+insert into quality_rating values (6, 'Excellent',5);
 
 insert into  special_needs values (1, 'Emotionally Disturbed');
 insert into  special_needs values (2, 'Emotionally Impaired');
