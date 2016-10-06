@@ -26,6 +26,6 @@ public class MetadataDaoTestCase {
 	
 	@Test
 	public void testGetAllRatings(){
-		Assert.assertEquals(6,(metadataDao.getAllRatings()).size());
+		Assert.assertEquals(5,(metadataDao.getAllRatings()).size());
 	}
 }
