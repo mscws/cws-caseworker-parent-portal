@@ -1,4 +1,4 @@
-Prototype URL: [http://unisys/mscws/prototype](http://52.24.122.11:8080/mscws-portal-api/resources/index.html#/)
+Prototype URL: [http://52.24.122.11:8080/mscws-portal-api/resources/index.html#/](http://52.24.122.11:8080/mscws-portal-api/resources/index.html#/)
 
 [User Guide](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Caseworker-Parent-Portal-Prototype-User-Guide)
 
