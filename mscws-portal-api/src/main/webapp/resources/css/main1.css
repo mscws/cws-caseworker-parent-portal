@@ -334,9 +334,7 @@ body {
     color: #ffe867;
 }	
 
-.modal{
-	top: 0;
-}	
+	
 /* Responsive Styles */
 @media (min-width: 994px ) {
 	.btnMaxWidth160{
@@ -358,7 +356,9 @@ body {
 		margin: 0;
 		
 	}
-	
+	.modal{
+		top: 0;
+	}
 	#filterTypeId, #moreDetailsNameId{
 		display: block;
 	}
