@@ -276,7 +276,10 @@
  		 	<div class="container-fluid" ng-controller="ResultsController">
 			 <div class="model-body">
 				<div class="row whiteBackground fontSize16">
-					<div class="col-md-4 col-xs-12 marginB10"> 
+					<div class="col-lg-4 col-xs-12 marginB10"> 
+							<div class="col-xs-12 text-center" id="moreDetailsNameId">
+								<h2><b>{{provider.providerName}} </b> </h2>
+							</div>
 							<div class="text-center col-xs-12">
 								<img src="img/person_blank.png" class="imgLogoMaxWd">
 							</div>
@@ -287,10 +290,10 @@
 								<strong> {{provider.licenseType}} </strong>
 							</div>
 							<div class="col-xs-12 marginB10">
-								<button type="button" onclick="bookAppointmentFun()" class="col-lg-offset-2 col-lg-8  col-md-12 col-xs-12 blueColorBtnCls padding4-25">Book Appointment</button>
+								<button type="button" onclick="bookAppointmentFun()"  data-toggle="modal" class="col-lg-offset-2 col-lg-8  col-md-12 col-xs-12 blueColorBtnCls padding4-25">Book Appointment</button>
 							</div>
 					</div> 
-					<div class="col-md-8"> 
+					<div class="col-lg-8"> 
 							<div class="col-xs-12" id="moreDetailsNameId2">
 								<h2><b>{{provider.providerName}} </b> </h2>
 							</div>
