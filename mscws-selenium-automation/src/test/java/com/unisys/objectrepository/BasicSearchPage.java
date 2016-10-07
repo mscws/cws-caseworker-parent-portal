@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class BasicSearchPage {
 
-  public static WebElement Country(WebDriver driver){
+   public static WebElement Country(WebDriver driver){
 		 WebElement element = null;
 		 element = driver.findElement(By.id("County"));
 		 return element;
@@ -41,8 +41,11 @@ public class BasicSearchPage {
 	public static WebElement SearchBtn(WebDriver driver){
 		 WebElement element = null;
 		 element = driver.findElement(By.id("searchBtn"));
-		 return element;
-	
-	
-  }
+		 return element;	
+    }
+	public static WebElement AdvnSrch(WebDriver driver){
+		 WebElement element = null;
+		 element = driver.findElement(By.xpath("//form/div[3]/div[1]/h4/a/b"));
+		 return element;	
+   }
 }
