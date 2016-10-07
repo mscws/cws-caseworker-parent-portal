@@ -139,7 +139,7 @@ The prototype deployed to AWS (FedRAMP-certified IaaS).
 #### Configuration Management 
 The GitHub Repository is organized as:
 
-* [Unisys CWS Prototype](https://github.com/mscws/cws-caseworker-parent-portal)
+* [MSCWS](https://github.com/mscws/cws-caseworker-parent-portal)
 
 The following repository was utilized to support CI pipelines and are available below:
 
