@@ -5,7 +5,7 @@ Prototype URL: [http://52.24.122.11:8080/mscws-portal-api/resources/index.html#/
 ## Unisys - MS CWS Prototype
 # Project Overview
 
-The purpose of the Child Care Provider Search project is to provide an online search tool that supports case workers and parents needs to easily locate child care providers throughout the state.  In addition to our participation in the Case Worker Web Conference, the project team utilized the Unisys 'Interfaces' design framework for this prototype. At a high level, our design approach incorporated the following:
+The purpose of the Child Care Provider Search project is to provide an online search tool that supports case workers and parents needs to easily locate child care providers throughout the state.  In addition to our participation in the Case Worker Web Conference, the project team utilized the Unisys 'Interfaces' design framework for this prototype. At a high level, our design approach incorporated the following steps:
 
 
 * Conducted qualitative research via focus groups, individual interviews and observations comprised of Mississippi residents in an effort to understand needs gather a wide-ranging span of ideas. 
