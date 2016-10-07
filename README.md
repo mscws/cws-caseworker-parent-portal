@@ -5,17 +5,14 @@ Prototype URL: [http://52.24.122.11:8080/mscws-portal-api/resources/index.html#/
 ## Unisys - MS CWS Prototype
 # Project Overview
 
-The purpose of the Mississippi Department of Human Services (MDHS) Child Care Provider Search project is to provide an information technology (IT) solution to support case workers and parents needs to easily locate child care providers in their vicinity and throughout the state.  The project team  utilized our 'Interfaces' design framework to create our child care provider search prototype. 
-The Interface design framework utilizes a 10-step process, outlined in more detail in the Human-Centered Design section, which promotes user satisfaction and adoption through continuous interaction/feedback. In addition to the information gathered from our participation in the Case Worker Web Conference, our team utilized the following approach for this prototype:
+The purpose of the Child Care Provider Search project is to provide an online search tool that supports case workers and parents needs to easily locate child care providers throughout the state.  In addition to our participation in the Case Worker Web Conference, the project team utilized the Unisys 'Interfaces' design framework for this prototype. At a high level, our design approach incorporated the following:
 
 
-* Conducted qualitative research via focus groups, individual interviews and participation/observations to understand needs and trends within related industry. In an effort to gather a wide-ranging span of ideas, our User Researcher conducted interviews with Mississippi residents representing various socio-economic groups with varying child need concerns. 
-* Conducted quantitative research using Survey Monkey to quantify attitudes, opinions, behaviors, and other defined variables in effort to formulate features and uncover patterns to be considered in the design of the search page.
-* Created initial user interface (UI) documented as wireframes (Balsamiq) which were presented to the research participants. Feedback was incorporated into an updated UI design.
+* Conducted qualitative research via focus groups, individual interviews and observations comprised of Mississippi residents in an effort to understand needs gather a wide-ranging span of ideas. 
+* Conducted quantitative research using surveys and telephone interviews to quantify attitudes and opinions in effort to formulate features to be considered in the design of the search page.
+* Created initial user interface documented as wireframes.  
 * Identified user stories to form initial product backlog. 
-* Developed fully interactive prototype web/mobile application. The initial prototype was presented to the research participants. The findings from the research participants interacting with the application, such as usability improvements, were incorporated into the final design.
-
-The  product development approach [incorporates the application development aspects of the U.S. Digital Services Playbook ](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Adherence-to-U.S.-Digital-Services-Playbook). 
+* Developed fully interactive prototype web/mobile application.  
 
 
 ## Architecture
@@ -25,7 +22,7 @@ Our architecture is based on HTML5, JavaScript (Angular.js) with a Java API (Dro
 [Application Architecture](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Application-Architecture)
 
 # Adherence to U.S. Digital Services Playbook
-
+ 
 We followed all of the applicable Playbook plays. [Details here](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Adherence-to-U.S.-Digital-Services-Playbook).
 
 # Unisys Prototype Team
