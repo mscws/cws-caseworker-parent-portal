@@ -43,7 +43,7 @@ Multi-disciplinary and collaborative team includes nine (9) labor categories:
 8. Agile Coach / Scrum Master – Altony Rice
 
 # Understanding of User Needs
-We employed Human-Centered Design (HCD) to elicit user requirements to form the Product Backlog. The section below summarizes our HCD process for the prototype. [Details here](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Human-Centered-Design-Process)
+We employed our Human-Centered Design (HCD), 'Interfaces' to elicit user requirements to form the Product Backlog. The section below summarizes our HCD process for the prototype. [Details here](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Human-Centered-Design-Process)
 
 ## Human-Centered Design
 
