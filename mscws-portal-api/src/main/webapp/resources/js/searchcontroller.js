@@ -412,6 +412,7 @@ app
 									}
 								});
 							}
+							
 
 							var ModalInstanceCtrl = function($scope,
 									$modalInstance, provider) {
@@ -419,6 +420,13 @@ app
 								$scope.cancel = function() {
 									$modalInstance.dismiss('cancel');
 								};
+								$scope.bookAppointmentFun = function() {
+									console.log('bookAppointmentFun');
+									$modalInstance.dismiss('cancel');
+									setTimeout( function() {
+										window.location.href = '#/bookAppointment'
+									}, 200);
+								}
 							};
 
 						} ]);

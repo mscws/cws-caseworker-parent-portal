@@ -70,17 +70,18 @@ app.controller('starRatingCtrl', function ($scope) {
 		});
     }
 	angular.module('ngMap').run(
-									function($rootScope) {
-										$rootScope.$on('mapInitialized',
-												function(evt, map) {
-													$rootScope.mymap = map;
-													$rootScope.$apply();
-												});
+		function($rootScope) {
+			$rootScope.$on('mapInitialized',
+				function(evt, map) {
+					$rootScope.mymap = map;
+					$rootScope.$apply();
+				});
 
-									});
+	});
 			
 
 });
+
 
 
 

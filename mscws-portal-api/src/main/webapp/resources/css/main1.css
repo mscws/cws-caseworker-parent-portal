@@ -275,11 +275,11 @@ body {
 .modal-dialog{
 	width:90%;
 }
-#modal-transparent1.modal,#modal-transparent2.modal,#modal-transparent3.modal,#modal-transparent4.modal{
+#modal-transparent1.modal,#modal-transparent2.modal,#modal-transparent3.modal,#modal-transparent4.modal, #modal-transparent5.modal{
 	top: 20%;
 }
-#modal-transparent1 .modal-dialog, #modal-transparent2 .modal-dialog, #modal-transparent3 .modal-dialog,#modal-transparent4 .modal-dialog{
-	width:60% !important;
+#modal-transparent1 .modal-dialog, #modal-transparent2 .modal-dialog, #modal-transparent3 .modal-dialog,#modal-transparent4 .modal-dialog,#modal-transparent5 .modal-dialog{
+	width:60%;
 }
 
 
@@ -370,12 +370,12 @@ body {
 		display: none;
 	}
 	.modal-dialog{
-		width:100%;
-		margin: 0;
-		
+		width:100% !important;
+		margin: auto;		
 	}
 	.modal{
-		top: 0;
+		top: 0  !important;
+		padding: 0 !important;
 	}
 	#filterTypeId{
 		display: block;

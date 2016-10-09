@@ -67,8 +67,8 @@
 				</div>
 			  </div>
 			  <div class=" col-sx-12 marginT30">
-				  <button onclick="funcReset()" type="button" onclick="funcCancel()" class="col-sm-offset-1 col-sm-3 col-xs-offset-2 col-xs-8 marginB10 btn blueColorBtnCls">Reset</button>
-				  <button onclick="funcCancel()" type="button" onclick="funcCancel()" class="col-sm-offset-1 col-sm-3 col-xs-offset-2 col-xs-8 marginB10 btn blueColorBtnCls">Cancel</button>
+				  <button onclick="funcReset()" type="button" class="col-sm-offset-1 col-sm-3 col-xs-offset-2 col-xs-8 marginB10 btn blueColorBtnCls">Reset</button>
+				  <button type="button" onclick="funcBACancel()" class="col-sm-offset-1 col-sm-3 col-xs-offset-2 col-xs-8 marginB10 btn blueColorBtnCls">Cancel</button>
 				  <button data-toggle="modal" data-target="#modal-transparent4"  type="button" class="col-sm-offset-1 col-sm-3 col-xs-offset-2 col-xs-8 marginB10 btn blueColorBtnCls">Request Appointment</button>
 			</form>
 			</div>
@@ -110,7 +110,7 @@ $(".modal-transparent").on('hidden.bs.modal', function () {
 function funcSave(){
 	$('#modal-transparent1').modal('hide');
 }
-function funcCancel(){
+function funcBACancel(){
 	window.location.href = '#/providerSearch';
 }
 
