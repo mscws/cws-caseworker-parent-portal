@@ -9,33 +9,33 @@
 					<div class="col-md-offset-2 col-md-2 col-xs-6 marginB20">
 						<select class="col-xs-12 selectpicker customDropDownCls" id="County"
 							ng-model="criteria.countyId" ng-options="c as c.countyName for c in countys track by c.countyNumber" ng-change="filterCitiesForCounty()" >
-							<option value="" selected disabled>County</option>
+							<option value="" selected>County</option>
                              </select>
 						
 					</div>
 					<div class="col-md-2 col-xs-6 marginB20">
 						<select class="col-xs-12 selectpicker customDropDownCls" id="city"
 							ng-model="criteria.cityId" ng-options="c as c.name for c in tempCities | orderBy:'name'  ">
-								<option value="" selected disabled>City</option>
+								<option value="" selected>City</option>
 						    </select>
 					</div>
 					<div class="col-md-2 col-xs-6 marginB20">
 						<select class="col-xs-12 selectpicker customDropDownCls" id="providerType"
 							ng-model="criteria.providerTypeId" ng-options="c as c.providerTypeDescription for c in providerTypes  
 							  | orderBy:'providerTypeDescription'"> 
-								<option value="" selected disabled>Provider Type</option>							
+								<option value="" selected>Provider Type</option>							
 							</select>
 					</div>
 					<div class="col-md-2 col-xs-6 marginB20">
 					<select class="col-xs-12 selectpicker customDropDownCls" id="quality"
 							ng-model="criteria.ratingId" ng-options="c as c.qualityRatingDescription for c in qualityRatings track by c.qualityRating">
-							<option value="" selected disabled>Quality Star Rating</option>
+							<option value="" selected>Quality Star Rating</option>
 							</select>		
 					</div>
 				</div>
 				<div class="form-group marginT30">
 					<div class="col-md-offset-2 col-md-8 marginB20">
-						<input type="search" id="search" value="" class="form-control customSearchCls" placeholder="Search By Provider Name" ng-model="criteria.providerName">
+						<input type="search" id="search" value="" class="form-control customSearchCls" placeholder="Search By Provider Name" ng-model="criteria.providerName"/>
 					</div>
 				</div>
 				  <div class="col-xs-12">

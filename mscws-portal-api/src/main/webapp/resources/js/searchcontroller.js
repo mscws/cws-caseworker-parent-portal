@@ -33,6 +33,8 @@ app
 						'$filter',
 						'DataService',
 						function($scope, $http, $location, $filter, DataService) {
+							DataService.setCriteria( {} );
+							DataService.setProviders([]);
 							$scope.criteria = DataService.getCriteria();
 							$scope.providers = DataService.getProviders();
 							$scope.specialNeedsList = [
@@ -73,11 +75,14 @@ app
 							}
 
 							$scope.reset = function() {
-								$scope.criteria = {
-										 viewMode : 'List'
-								};
+								$scope.criteria={};
+								DataService.setCriteria({});
+							    DataService.setProviders([]);
+								$scope.criteria = DataService.getCriteria();
+							    $scope.providers = DataService.getProviders(); 
 								$scope.error = false;
 								$scope.tempCities = $scope.cities;
+								$scope.criteria.viewMode = 'List';
 							}
 
 							$scope.filterCitiesForCounty = function() {
@@ -95,39 +100,10 @@ app
 							}
 
 							$scope.search1 = function(searchCriteria) {
-								var datas = {
-									'ratingId' : !angular
-											.isUndefined(searchCriteria.ratingId) ? searchCriteria.ratingId.qualityRating
-											: "",
-									'cityId' : !angular
-											.isUndefined(searchCriteria.cityId) ? searchCriteria.cityId.id
-											: "",
-									'providerName' : !angular
-											.isUndefined(searchCriteria.providerName) ? searchCriteria.providerName
-											: "",
-									'providerTypeId' : !angular
-											.isUndefined(searchCriteria.providerTypeId) ? searchCriteria.providerTypeId.providerType
-											: "",
-									'countyId' : !angular
-											.isUndefined(searchCriteria.countyId) ? searchCriteria.countyId.countyNumber
-											: "",
-									'servicePreferred' : !angular
-											.isUndefined(searchCriteria.servicePreferred) ? searchCriteria.servicePreferred
-											: "",
-									'agePreff' : !angular
-											.isUndefined(searchCriteria.agePreff) ? searchCriteria.agePreff
-											: "",
-									'specialNeeds' : !angular
-											.isUndefined(searchCriteria.selectedSpecialNeeds) ? searchCriteria.selectedSpecialNeeds
-											: "",
-									'HandAccess' : !angular
-											.isUndefined(searchCriteria.isHandicapped) ? searchCriteria.isHandicapped
-											: ""
-								};
 								var url = "../api/rest/providers/search";
 								var params = "";
 								if (!angular
-										.isUndefined(searchCriteria.countyId)) {
+										.isUndefined(searchCriteria.countyId) &&  searchCriteria.countyId != null) {
 									if (params == "")
 										params = params
 												+ "county="
@@ -137,7 +113,7 @@ app
 												+ "&county="
 												+ searchCriteria.countyId.countyNumber;
 								}
-								if (!angular.isUndefined(searchCriteria.cityId)) {
+								if (!angular.isUndefined(searchCriteria.cityId) &&  searchCriteria.cityId != null) {
 									if (params == "")
 										params = params + "city="
 												+ searchCriteria.cityId.id;
@@ -156,7 +132,7 @@ app
 
 								}
 								if (!angular
-										.isUndefined(searchCriteria.ratingId)) {
+										.isUndefined(searchCriteria.ratingId) && searchCriteria.ratingId!= null) {
 									if (params == "")
 										params = params
 												+ "rating="
@@ -167,7 +143,7 @@ app
 												+ searchCriteria.ratingId.qualityRating;
 								}
 								if (!angular
-										.isUndefined(searchCriteria.providerTypeId)) {
+										.isUndefined(searchCriteria.providerTypeId) &&  searchCriteria.providerTypeId != null) {
 									if (params == "")
 										params = params
 												+ "providerType="
@@ -184,6 +160,23 @@ app
 									$scope.error = "true";
 									return;
 								}
+								var datas = {
+										'ratingId' : !angular
+												.isUndefined(searchCriteria.ratingId) ? searchCriteria.ratingId.qualityRating
+												: "",
+										'cityId' : !angular
+												.isUndefined(searchCriteria.cityId) ? searchCriteria.cityId.id
+												: "",
+										'providerName' : !angular
+												.isUndefined(searchCriteria.providerName) ? searchCriteria.providerName
+												: "",
+										'providerTypeId' : !angular
+												.isUndefined(searchCriteria.providerTypeId) ? searchCriteria.providerTypeId.providerType
+												: "",
+										'countyId' : !angular
+												.isUndefined(searchCriteria.countyId) ? searchCriteria.countyId.countyNumber
+												: "" 
+									};
 								$http
 										.post(url, datas)
 										.success(
@@ -516,6 +509,11 @@ app
 												county : $scope.appointment.countyId
 											}));
 						}
+					}
+					
+					$scope.reset = function(){
+						this.appointment = {};
+						$scope.tempCities = $scope.cities;
 					}
 					
 				}]);

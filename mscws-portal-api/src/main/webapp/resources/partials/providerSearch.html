@@ -80,7 +80,7 @@
 							 
 							<select class="selectpicker marginL15 selectpicker customDropDownCls maxWidth125" id="ratingFlr"
 									ng-model="rating"
-									ng-options="c as c.qualityRating for c in qualityRatings track by c.qualityRating"> 
+									ng-options="c as c.qualityCode for c in qualityRatings track by c.qualityRating"> 
 										<option value="" selected disabled>Quality Star Rating</option>							
 									</select>
 						</li>
@@ -183,7 +183,7 @@
 			  <div>
 				 
 				<ng-map center="[32.3547, -89.3985]" style="height: 600px;" zoom="7">
-				   <marker ng-repeat="p in providers" animation="Animation.BOUNCE" position="{{p.physicalCity.name}} , {{p.county.countyName}} , {{p.physicalZipCode}}"
+				   <marker ng-repeat="p in providers"  position="{{p.physicalCity.name}} , {{p.county.countyName}} , {{p.physicalZipCode}}"
 				   title="{{p.providerName}}"></marker>
 				</ng-map>  
 				</div>
@@ -221,29 +221,29 @@
 			  <div class="form-group">
 				<label class="col-md-offset-1 col-md-2 col-xs-12">From:</label>
 				<div class="col-md-6 col-xs-11">
-					<input type="text" class="form-control">
+					<input type="text" class="form-control" id="emailFrom">
 				</div>
 			  </div>
 			  <div class="form-group">
 				<label class="col-md-offset-1 col-md-2 col-xs-12">To:</label>
 				<div class="col-md-6 col-xs-11">
-					<input type="text" class="form-control" value="provider@provider.com">
+					<input type="text" class="form-control" value="provider@provider.com" id="emailTo">
 				</div>
 			  </div>
 			  <div class="form-group">
 				<label class="col-md-offset-1 col-md-2 col-xs-12">Subject:</label>
 				<div class="col-md-6 col-xs-11">
-					<input type="text" class="form-control">
+					<input type="text" class="form-control" id="emailSubject">
 				</div>
 			  </div>
 			  <div class="form-group">
 				<label class="col-md-offset-1 col-md-2 col-xs-12">Message:</label>
 				<div class="col-md-6 col-xs-11">
-					<textarea rows="3" class="form-control"></textarea>
+					<textarea rows="3" class="form-control" id="emailMessage"></textarea>
 				</div>
 			  </div>
 			  <button onclick="funcCancel()" type="button" class="col-sm-offset-5 col-sm-3 col-xs-offset-2 col-xs-8 marginB10 btn blueColorBtnCls">Cancel</button>
-			  <button data-toggle="modal" data-target="#modal-transparent2" onclick="funcSave()" type="button" class="col-sm-offset-1 col-sm-3 col-xs-offset-2 col-xs-8 marginB10 btn blueColorBtnCls">Send</button>
+			  <button onclick="funcSave()" type="button" class="col-sm-offset-1 col-sm-3 col-xs-offset-2 col-xs-8 marginB10 btn blueColorBtnCls">Send</button>
 			</form>
 		</div>
 	
@@ -361,13 +361,42 @@ $(".modal-transparent").on('hidden.bs.modal', function () {
   $(".modal-backdrop").addClass("modal-backdrop-transparent");
 });
 function funcSave(){
+    var from = document.getElementById('emailFrom').value;
+	 var to = document.getElementById('emailTo').value;
+	 var sub = document.getElementById('emailSubject').value;
+	 
+	 if(from == '' || from == null) {
+	 alert('please provide from email');
+	 document.getElementById('emailFrom').focus();
+	 return;
+	 }
+	 if(to == '' || to == null) {
+	 alert('please provide to email');
+	 document.getElementById('emailTo').focus();
+	 return;
+	 }
+	 if(sub == '' || sub == null) {
+	 alert('please provide email subject');
+	 document.getElementById('emailSubject').focus();
+	 return;
+	 }
+	 if(from != '' && to != '' && sub != '') {
+	clearEmailData();
 	$('#modal-transparent1').modal('hide');
+	$('#modal-transparent2').modal('show');
+	} 
 }
 function funcCancel(){
-console.log($('.modal'));
-console.log($('#modal-transparent1'));
-	$('.modal').modal('hide');
+  clearEmailData();
+  $('.modal').modal('hide');
 }
+
+function clearEmailData(){
+  document.getElementById('emailFrom').value = '';
+  document.getElementById('emailSubject').value = '';
+  document.getElementById('emailMessage').value = '';
+  document.getElementById('emailTo').value = 'provider@provider.com';
+  }
 </script>
 
     
