@@ -2,17 +2,17 @@ Prototype URL: [http://52.24.122.11:8080/mscws-portal-api/resources/index.html#/
 
 [User Guide](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Caseworker-Parent-Portal-Prototype-User-Guide)
 
-## Unisys - MS Child Care Provider Search Prototype
+## Unisys - MIssissippi Child Care Provider Search Prototype
 # Project Overview
 
-The purpose of the MS Child Care Provider Search project is to provide an online search tool that supports case workers and parents needs to easily locate child care providers throughout the state.  In addition to our participation in the Case Worker Web Conference, the project team utilized the Unisys 'Interfaces' design framework for this prototype. At a high level, our design approach incorporated the following steps:
+The purpose of the Mississippi Child Care Provider Search project is to provide an online search tool for case workers and parents to easily locate child care providers throughout the state.  In addition to our participation in the Case Worker Web Conference, the project team utilized the Unisys 'Interfaces' design framework for this prototype. At a high level, our design approach incorporated the following steps:
 
 
 * Conducted qualitative research via focus groups, individual interviews and observations comprised of Mississippi residents in an effort to understand needs gather a wide-ranging span of ideas. 
 * Conducted quantitative research using surveys and telephone interviews to quantify attitudes and opinions in effort to formulate features to be considered in the design of the search page.
-* Created initial user interface documented as wireframes.  
-* Identified user stories to form initial product backlog. 
-* Developed fully interactive prototype web/mobile application.  
+* Created an initial user interface documented as wireframes.  
+* Identified user stories to form the initial product backlog. 
+* Developed the fully interactive prototype of the web/mobile application.  
 
 
 ## Architecture
@@ -23,17 +23,17 @@ Our architecture is based on HTML5, JavaScript (Angular.js) with a Java API (Dro
 
 # Adherence to U.S. Digital Services Playbook
  
-We followed all of the applicable Playbook plays. [Details here](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Adherence-to-U.S.-Digital-Services-Playbook).
+We followed applicable plays from the U.S. Digital Services Playbook. [Details here](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Adherence-to-U.S.-Digital-Services-Playbook).
 
 # Unisys Prototype Team
 ## Team Leader 
-Unisys assigned Christopher Cox as the one leader with authority, responsibility, and accountability for prototype quality.
+Unisys assigned Rob Plummer as the one leader with authority, responsibility, and accountability for prototype quality.
 
 
 ## Product Development Team 
 Multi-disciplinary and collaborative team includes nine (9) labor categories:
 
-1. Product Owner – Christopher Cox
+1. Product Owner – Rob Plummer
 2. Technical Architect / Back End Web Developer – Kirtish Kulkarni
 3. Front End Web Developer – Ankit Kumar
 4. Interaction Designer/User Researcher/Usability Tester – Mike Stubbs
@@ -52,10 +52,10 @@ We employed our Human-Centered Design (HCD), 'Interfaces' to elicit user require
 ### Inspiration
 
 * Developed **Design Challenge**: "*As a caseworker or parent, I would like to search for child care providers in my vicinity so that I can choose the best provider for a child*"
-* Conducted 1:1 and Group Interviews with real case workers (Case Worker Web Conference) and several Mississippi residents.
+* Conducted group and one on one interviews with real case workers (Case Worker Web Conference) and several Mississippi residents.
 * Conducted user research to identify target audiences
 * Developed personas
-* Brainstormed, starting with "_Diverge_" step to get all ideas (no concern for viability/feasibility), then "_Converged_" to reduce ideas list to only viable/feasible.
+* Brainstormed, starting with the "Diverge" step to get all ideas (no concern for viability/feasibility), then executed the "Converged" step to reduce ideas list to only viable/feasible.
 
 ### Ideation
 * Synthesized insights from users (wants):
