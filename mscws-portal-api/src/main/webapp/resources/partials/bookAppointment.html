@@ -5,63 +5,93 @@
 	
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 			<form class="form-horizontal" name="appointmentForm" novalidate ng-controller="AppointmentController">
-			  <div class="form-group marginB20 marginT30" ng-class="{ 'has-error' : appointmentForm.firstName.$invalid  }">
+			  <div class="form-group marginB20 marginT30">
 				<label class="col-md-offset-1 col-md-2 col-xs-12">First Name :</label>
 				<div class="col-md-3 col-xs-11 marginB20">
 					<input type="text" class="form-control" name="firstName" ng-model="appointment.firstName" required>
+					 <span class="help-block" 
+         ng-show="appointmentForm.firstName.$error.required">Required</span>
 				</div>
 				<label class="col-md-offset-1 col-md-2 col-xs-12">Last Name :</label>
-				<div class=" col-md-3 col-xs-11 marginB20" ng-class="{ 'has-error' : appointmentForm.lastName.$invalid  }">
+				<div class=" col-md-3 col-xs-11 marginB20">
 					<input type="text" class="form-control"name="lastName"  ng-model="appointment.lastName" required>
+					 <span class="help-block" 
+         ng-show="appointmentForm.lastName.$error.required">Required</span>
 				</div>
 			  </div>
-			  <div class="form-group marginT30" ng-class="{ 'has-error' : appointmentForm.address.$invalid  }">
+			  <div class="form-group marginT30">
 				<label class="col-md-offset-1 col-md-2 col-xs-12">Address :</label>
 				<div class="col-md-9 col-xs-11 marginB20">
 					<input type="text" class="form-control" name="address" ng-model="appointment.address" required>
+					 <span class="help-block" 
+         ng-show="appointmentForm.address.$error.required">Required</span>
 				</div>
-				<div class="col-md-offset-3 col-md-3 col-xs-11 marginB20" ng-class="{ 'has-error' : appointmentForm.countyId.$invalid }">
+				<div class="col-md-offset-3 col-md-3 col-xs-11 marginB20">
 					<select class="col-xs-12 selectpicker customDropDownCls" title="County" name="countyId"
 					ng-model="appointment.countyId" ng-options="c as c.countyName for c in countys track by c.countyNumber" ng-change="filterCitiesForCounty()" required>
 							<option value="" selected disabled>County</option>						 
 					</select>
+					 <span class="help-block" 
+         ng-show="appointmentForm.countyId.$error.required">Required</span>
 				</div>
-				<div class="col-md-offset-3 col-md-3 col-xs-11 marginB20" ng-class="{ 'has-error' : appointmentForm.cityId.$invalid }">
+				<div class="col-md-offset-3 col-md-3 col-xs-11 marginB20">
 					<select class="col-xs-12 selectpicker customDropDownCls" title="City" name="cityId"
 					ng-model="appointment.cityId" ng-options="c as c.name for c in tempCities | orderBy:'name'  " required>
 						  <option value="" selected disabled>City</option>
 					</select>
+					 <span class="help-block" 
+         ng-show="appointmentForm.cityId.$error.required">Required</span>
 				</div>				 
-				<div class="col-md-offset-3 col-md-3 col-xs-11 marginB20" ng-class="{ 'has-error' : appointmentForm.zipCode.$error.pattern}">
-					<input type="text" class="form-control" placeholder="Zip Code" name="zipCode" ng-model="appointment.zipCode" 
-					ng-pattern="/^(\d{5}(-\d{4})?|[A-Z]\d[A-Z] *\d[A-Z]\d)$/" required>
+				<div class="col-md-offset-3 col-md-3 col-xs-11 marginB20">
+					<input type="text" class="form-control" placeholder="Zip Code" name="zipCode" ng-model="appointment.zipCode"
+					ng-maxlength = "5" required>
+					 <span class="help-block" 
+         ng-show="appointmentForm.zipCode.$error.required">Required</span>
+		   <span class="help-block" ng-show="appointmentForm.zipCode.$error.maxlength">
+        Please provide 5 digit zipcode</span>
 				</div>
 			  </div>
-			  <div class="form-group marginT30" ng-class="{ 'has-error' : appointmentForm.emailId.$invalid }">
+			  <div class="form-group marginT30">
 				<label class="col-md-offset-1 col-md-2 col-xs-12">Email Id :</label>
 				<div class="col-md-3 col-xs-11 marginB20">
 					<input type="email" class="form-control" name="emailId" ng-model="appointment.emailId" required>
+					 <span class="help-block" 
+         ng-show="appointmentForm.emailId.$error.required">Required</span>
+		  <span class="help-block" ng-show="appointmentForm.emailId.$error.email">
+        Not valid email!</span>
 				</div>
 				<label class="col-md-offset-1 col-md-2 col-xs-12">Telephone Number :</label>
-				<div class=" col-md-3 col-xs-11 marginB20" ng-class="{ 'has-error' : appointmentForm.telephoneNo.$error.pattern}">
-					<input type="text" class="form-control" name="telephoneNo"placeholder="123-123-78658" 
-					ng-model="appointment.telephoneNo" ng-pattern="/^\+?\d{3}[- ]?\d{3}[- ]?\d{5}$/" required>
+				<div class=" col-md-3 col-xs-11 marginB20">
+					<input type="text" class="form-control" name="telephoneNo" id="telephoneNo" placeholder="123-456-7890" 
+					ng-model="appointment.telephoneNo" ng-maxlength= "12" format-phone required>
+					 <span class="help-block" 
+         ng-show="appointmentForm.telephoneNo.$error.required">Required</span>
+		  <span class="help-block" ng-show="appointmentForm.telephoneNo.$error.maxlength">
+        Please provide 10 digit Telephone Number</span>
 				</div>
 			  </div>
-			  <hr>
-			  <div class="form-group marginT30" ng-class="{ 'has-error' : appointmentForm.appDate.$invalid }">
+			  <hr> 
+			  <div class="form-group marginT30">
 				<label class="col-md-offset-1 col-md-2 col-xs-12">Choose Date :</label>
 				<div class="col-md-3 col-xs-11 marginB20" >
-				    <input type='date' class="form-control" ng-model="appointment.appDate"  name="appDate" required/>
-                    
+				    <input type='datetime-local' class="form-control" ng-model="appointment.appDate"  name="appDate" 
+                     ng-min="{{currentDate}}"  required/>
+                     <span class="help-block" 
+         ng-show="appointmentForm.appDate.$error.required">Required</span>
+		   <span class="help-block" 
+         ng-show="appointmentForm.appDate.$error.datetimelocal">Not a valid date!</span>
+		   <span class="help-block" 
+         ng-show="appointmentForm.appDate.$error.min">Selected Slot should be greater than current date and time</span>
 				</div>
 				<label class="col-md-offset-1 col-md-2 col-xs-12">Number of Children :</label>
-				<div class=" col-md-3 col-xs-11 marginB20" ng-class="{ 'has-error' : appointmentForm.noChildren.$invalid }">
+				<div class=" col-md-3 col-xs-11 marginB20">
 					<select class="col-xs-12 selectpicker customDropDownCls" ng-model="appointment.noChildren" name="noChildren" required>
 						  <option>1</option>
 						  <option>2</option>
 						  <option>3</option>
 					</select>
+					  <span class="help-block" 
+         ng-show="appointmentForm.noChildren.$error.required">Required</span>
 				</div>
 			  </div>
 			  <div class=" col-sx-12 marginT30">
@@ -121,5 +151,4 @@ function funcOk(){
 	}, 1000);
 	
 }
-
 </script>

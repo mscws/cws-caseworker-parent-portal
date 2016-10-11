@@ -89,7 +89,7 @@ app
 								console.log($scope.criteria);
 								$scope.tempCities = $scope.cities;
 								if (!angular
-										.isUndefined($scope.criteria.countyId)) {
+										.isUndefined($scope.criteria.countyId) && $scope.criteria.countyId != null) {
 									$scope.tempCities = ($filter('filter')
 											(
 													$scope.cities,
@@ -161,20 +161,20 @@ app
 									return;
 								}
 								var datas = {
-										'ratingId' : !angular
-												.isUndefined(searchCriteria.ratingId) ? searchCriteria.ratingId.qualityRating
+										'ratingId' : (!angular
+												.isUndefined(searchCriteria.ratingId) && searchCriteria.ratingId != null) ? searchCriteria.ratingId.qualityRating
 												: "",
-										'cityId' : !angular
-												.isUndefined(searchCriteria.cityId) ? searchCriteria.cityId.id
+										'cityId' : (!angular
+												.isUndefined(searchCriteria.cityId) &&  searchCriteria.cityId != null)? searchCriteria.cityId.id
 												: "",
-										'providerName' : !angular
-												.isUndefined(searchCriteria.providerName) ? searchCriteria.providerName
+										'providerName' : (!angular
+												.isUndefined(searchCriteria.providerName) ) ? searchCriteria.providerName
 												: "",
-										'providerTypeId' : !angular
-												.isUndefined(searchCriteria.providerTypeId) ? searchCriteria.providerTypeId.providerType
+										'providerTypeId' : (!angular
+												.isUndefined(searchCriteria.providerTypeId) && searchCriteria.providerTypeId != null)? searchCriteria.providerTypeId.providerType
 												: "",
-										'countyId' : !angular
-												.isUndefined(searchCriteria.countyId) ? searchCriteria.countyId.countyNumber
+										'countyId' : (!angular
+												.isUndefined(searchCriteria.countyId) && searchCriteria.countyId != null)? searchCriteria.countyId.countyNumber
 												: "" 
 									};
 								$http
@@ -263,7 +263,7 @@ app
 								var url = "../api/rest/providers/find";
 								var params = "";
 								if (!angular
-										.isUndefined($scope.searchCriteria.countyId)) {
+										.isUndefined($scope.searchCriteria.countyId) && $scope.searchCriteria.countyId != null) {
 									if (params == "")
 										params = params
 												+ "county="
@@ -274,7 +274,7 @@ app
 												+ $scope.searchCriteria.countyId.countyNumber;
 								}
 								if (!angular
-										.isUndefined($scope.searchCriteria.cityId)) {
+										.isUndefined($scope.searchCriteria.cityId) && $scope.searchCriteria.cityId != null) {
 									if (params == "")
 										params = params
 												+ "city="
@@ -297,7 +297,7 @@ app
 
 								}
 								if (!angular
-										.isUndefined($scope.searchCriteria.ratingId)) {
+										.isUndefined($scope.searchCriteria.ratingId) && $scope.searchCriteria.ratingId != null) {
 									if (params == "")
 										params = params
 												+ "rating="
@@ -308,7 +308,7 @@ app
 												+ $scope.searchCriteria.ratingId.qualityRating;
 								}
 								if (!angular
-										.isUndefined($scope.searchCriteria.providerTypeId)) {
+										.isUndefined($scope.searchCriteria.providerTypeId) && $scope.searchCriteria.providerTypeId != null) {
 									if (params == "")
 										params = params
 												+ "providerType="
@@ -362,7 +362,7 @@ app
 							
 							$scope.filterCitiesForCounty = function(){
 								$scope.tempCities = $scope.cities;
-								if(!angular.isUndefined($scope.searchCriteria.countyId)) {
+								if(!angular.isUndefined($scope.searchCriteria.countyId) && $scope.searchCriteria.countyId != null) {
 							 $scope.tempCities = ($filter('filter')($scope.cities, {county: $scope.searchCriteria.countyId}));
 								}
 							}
@@ -483,6 +483,7 @@ app
 				 
 				function($scope, $http, $location, $filter) {
 					$scope.appointment = {};
+					$scope.currentDate = new Date();
 					if ( $location.path() == "/bookAppointment") {
 					var baseUrl = '../api/rest/metadata/';
 					$http.get(baseUrl + 'county').success(
@@ -517,3 +518,23 @@ app
 					}
 					
 				}]);
+
+app.directive('formatPhone', [
+                              function() {
+                                  return {
+                                      require: 'ngModel',
+                                      restrict: 'A',
+                                      link: function(scope, elem, attrs, ctrl, ngModel) {
+                                          elem.add(telephoneNo).on('keyup', function() {
+                                             var origVal = elem.val().replace(/[^\w\s]/gi, '');
+                                             if(origVal.length === 10) {
+                                               var str = origVal.replace(/(.{3})/g,"$1-");
+                                               var phone = str.slice(0, -2) + str.slice(-1);
+                                               jQuery("#telephoneNo").val(phone);
+                                             }
+
+                                          });
+                                      }
+                                  };
+                              }
+                          ]);
