@@ -343,7 +343,9 @@ body {
 .modal-footer {;
     border-top: 0px;
 }
-	
+.has-error .form-control{
+	border-color: #ccc;
+}
 /* Responsive Styles */
 @media (max-width: 1200px ) {
 	#moreDetailsNameId{
