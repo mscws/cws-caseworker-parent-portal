@@ -11,24 +11,28 @@
 								<strong class="col-sm-6 col-xs-12 pull-left"> County:</strong>
 								<select class="col-sm-5 col-xs-12 selectpicker customDropDownCls" id="County1"
 								ng-model="searchCriteria.countyId" ng-options="c as c.countyName for c in countys track by c.countyNumber" ng-change="filterCitiesForCounty()">
+									<option value="" selected>County</option>
 								 </select>
 							</div>
 							<div class="col-sm-6  col-xs-12 marginB10">
 								<strong class="col-sm-6 col-xs-12 pull-left"> City:</strong>
 								<select class="col-sm-5 col-xs-12 selectpicker customDropDownCls" id="city1"
 								ng-model="searchCriteria.cityId" ng-options="c as c.name for c in tempCities | orderBy:'name'  track by c.id ">
+									<option value="" selected>City</option>
 								</select>
 							</div>
 							<div class="col-sm-6 col-xs-12 marginB10">
 								<strong class="col-sm-6 col-xs-12 pull-left"> Quality Star Rating:</strong>
 								<select class="col-sm-5 col-xs-12 selectpicker customDropDownCls" id="quality1"
 								ng-model="searchCriteria.ratingId" ng-options="c as c.qualityRatingDescription for c in qualityRatings track by c.qualityRating">
+									<option value="" selected>Quality Star Rating</option>
 								</select>
 							</div>
 							<div class="col-sm-6 col-xs-12 marginB10">
 								<strong class="col-sm-6 col-xs-12 pull-left"> Provider Type:</strong>
 								<select class="col-sm-5 col-xs-12 selectpicker customDropDownCls" id="providerType1"
-								ng-model="searchCriteria.providerTypeId" ng-options="c as c.providerTypeDescription for c in providerTypes | orderBy:'providerTypeDescription' track by c.providerType ">  
+								ng-model="searchCriteria.providerTypeId" ng-options="c as c.providerTypeDescription for c in providerTypes | orderBy:'providerTypeDescription' track by c.providerType "> 
+									<option value="" selected>Provider Type</option>								
 								</select>
 							</div>
 							<div class="col-md-6 col-xs-12 marginB10">
@@ -64,13 +68,13 @@
 		<div ng-show="tableVisible">
 			<div id="filterByDivId" class="col-lg-2 col-md-3 col-sm-3 col-xs-3" >
 				<div id="sidebar-wrapper">
-					<ul class="sidebar-nav nav sidebarMinHeight">
+					<ul class="sidebar-nav nav sidebarMinHeight text-center">
 						<li class="sidebar-brand heading-background">
 							<span>Filter By</span>
 							
 						</li>
 						<li>
-							 <select class="selectpicker marginL15 selectpicker customDropDownCls maxWidth125" id="providerTypeFlr"
+							 <select class="col-xs-offset-1 col-xs-10 selectpicker selectpicker customDropDownCls marginT10" id="providerTypeFlr"
 									ng-model="providerType"
 									ng-options="c as c.providerTypeDescription for c in providerTypes track by c.providerType">  
 									<option value="" selected disabled>Provider Type</option>
@@ -78,7 +82,7 @@
 						</li>
 						<li>
 							 
-							<select class="selectpicker marginL15 selectpicker customDropDownCls maxWidth125" id="ratingFlr"
+							<select class="col-xs-offset-1 col-xs-10 selectpicker selectpicker customDropDownCls marginT10" id="ratingFlr"
 									ng-model="rating"
 									ng-options="c as c.qualityCode for c in qualityRatings track by c.qualityRating"> 
 										<option value="" selected disabled>Quality Star Rating</option>							
@@ -86,7 +90,7 @@
 						</li>
 						<li>
 							 
-							<select class="selectpicker marginL15 selectpicker customDropDownCls maxWidth125" id="licenseFlr"
+							<select class="col-xs-offset-1 col-xs-10 selectpicker selectpicker customDropDownCls marginT10" id="licenseFlr"
 									ng-model="license">
 									<option value="" selected disabled>License Type</option>
 										<option value="LICENSED">LICENSED</option>
@@ -280,7 +284,7 @@
 							<div class="col-xs-12 text-center" id="moreDetailsNameId">
 								<h2><b>{{provider.providerName}} </b> </h2>
 							</div>
-							<div class="text-center col-xs-12">
+							<div class="text-center col-xs-12 marginT20">
 								<img src="img/person_blank.png" class="imgLogoMaxWd">
 							</div>
 							<div class="text-center">

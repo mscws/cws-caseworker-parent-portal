@@ -41,12 +41,12 @@ app
 									'Emotionally Disturbed',
 									'Emotionally Impaired', 'Hearing Impaired',
 									'Mentally Impaired',
-									'Intellectual Disability', 'None',
+									'Intellectual Disability', 'Visually Impaired',
 									'Not Yet Determined',
 									'Other Medically Diagnosed Condition',
 									'Physically Disabled',
 									'Specific Learning Disability',
-									'Speech and Language', 'Visually Impaired' ];
+									'Speech and Language', 'None' ];
 
 							if ($location.path() == "/"
 									|| $location.path() == "/providerSearch"
