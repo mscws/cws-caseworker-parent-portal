@@ -81,7 +81,7 @@ We employed our Human-Centered Design (HCD), 'Interfaces' to elicit user require
 * Updated user stories elaborations, including acceptance criteria
 
 # Design
-As a result of the research and discovery phase of the project, the Unisys Team created a number of artifacts that were used to facilitate further conversations with the end users as we designed and developed the prototype using an iterative and agile approach. Our design artifacts are listed below.
+As a result of the research and discovery phase of the project, the Unisys Team created a number of artifacts that were used to facilitate further conversations with the end users. We designed and developed the prototype using an iterative and agile approach. Our design artifacts are listed below.
 
 * Developed [Balsamiq low-fi interactive prototypes](https://github.com/mscws/cws-caseworker-parent-portal/tree/master/Low%20Fidelity%20mockups) - feedback from internal / user testing
 * Met with end users multiple times during development to test prototypes and gather their feedback both in person and electronically
