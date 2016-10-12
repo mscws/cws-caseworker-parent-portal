@@ -53,7 +53,7 @@ We employed our Human-Centered Design (HCD), 'Interfaces' to elicit user require
 
 * Developed **Design Challenge**: "*As a caseworker or parent, I would like to search for child care providers in my vicinity so that I can choose the best provider for a child*"
 * Conducted group and one on one interviews with real case workers (Case Worker Web Conference) and several Mississippi residents.
-* Conducted user research to identify target audiences
+* Conducted user research [see here]() to identify target audiences
 * Developed personas
 * Brainstormed, starting with the "Diverge" step to get all ideas (no concern for viability/feasibility), then executed the "Converged" step to reduce ideas list to only viable/feasible.
 
