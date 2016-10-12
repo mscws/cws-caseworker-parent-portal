@@ -107,8 +107,7 @@ As a result of the research and discovery phase of the project, the Unisys Team 
 We followed applicable plays from the U.S. Digital Services Playbook. [Details here](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Adherence-to-U.S.-Digital-Services-Playbook).
 
 ## Prototype Development
-### Architecture
-Our architecture is based on HTML5, JavaScript (Angular.js) with a Java API (Dropwizard), Apache Tomcat 8.0 and mySQL database.
+For the development of the Mississippi Vendor Challenge, the Unisys team leveraged the Agile development process to facilitate collaboration amongst the team and to incorporate end user feedback on a frequent basis. We created our prototype to work on multiple devices (e.g. desktops, tablets, smart phones) using a responsive design. Our [architecture](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Application-Architecture)  is based on HTML5, JavaScript (Angular.js) with a Java API (Dropwizard), Apache Tomcat 8.0 and mySQL database. We leveraged modern open source technologies everywhere; please see below for additional detail.
 
 ### Modern Open Source Technologies
 The Unisys team chose the following technologies for our Architecture for the Mississippi Vendor Challenge. We selected these tools for three reasons:
@@ -119,7 +118,7 @@ The Unisys team chose the following technologies for our Architecture for the Mi
 
 <a Name="Frameworks">
 
-#### All Open Source Solution Frameworks and Components with Version #
+#### All Open Source Solution Frameworks and Components with Version Number and Licenses
 </a>
 * Front end
 	* Bootstrap v3.3.7 (License : MIT)
@@ -137,18 +136,6 @@ The Unisys team chose the following technologies for our Architecture for the Mi
 	* Hibernate ORM v4.2.4.FINAL (License : GNU Lesser General Public License)
 * Database – mySQL
 	* Version 5.5.52 (License : GNU General Public License ,version 2)
-	
-#### Automated Unit Testing
-* Front end
-	* Junit 4 (License : Eclipse Public License 1.0)
-* Back end
-	* Junit 4 (License : Eclipse Public License 1.0)
-
-#### Automated Functional Testing
-* Front end 
-	* Selenium v2.53 (License : The Apache Software License, Version 2.0)
-* Back end
-	* JUnit 4 (License : Eclipse Public License 1.0)
 
 #### Continuous Integration
 Implemented Jenkins inside VMWare for automated build, unit testing, code quality check, functional testing and deployment as code is checked in to GitHub.
@@ -161,10 +148,6 @@ Implemented Jenkins inside VMWare for automated build, unit testing, code qualit
 * Deploy
   - Server – AWS EC2 
   - Developer/QA – VMWare 
-
-#### Prototype Deployment Environment
-The prototype deployed to AWS (FedRAMP-certified IaaS). 
-
 
 #### Configuration Management 
 The GitHub Repository is organized as shown in the page below.
@@ -182,13 +165,24 @@ Implemented the following monitoring:
 * Nagios
 * Vanda Appliance
 
-#### Containerization 
-The prototype wasn't deployed in a container (such as Docker) due to the limited amount of time to complete the vendor challenge.
+### Deployment Documentation
+We deployed our prototype on a public Amazon Web Services (AWS) Cloud. AWS is a FedRAMP-certified Infrastructure as a Service (IaaS)  hosting provider. It provides us the ability to easily manage the configuration of the prototype and monitor the deployment in real-time. Additionally, it will automatically alert us of any issues. Please see the [Deployment Documentation](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Deployment-Documentation) for additonal details.
 
+### Automated Unit Test
+The Unisys team leverage tools to create automated unit and functional testing. The Unit Testing code coverage was nearly 100% and the evidence can be found in our codebase. Please refer to the following GitHub libraries to review this: 
+#### Automated Unit Testing
+* Front end
+	* Junit 4 (License : Eclipse Public License 1.0)
+* Back end
+	* Junit 4 (License : Eclipse Public License 1.0)
+
+#### Automated Functional Testing
+* Front end 
+	* Selenium v2.53 (License : The Apache Software License, Version 2.0)
+* Back end
+	* JUnit 4 (License : Eclipse Public License 1.0)
+	
 ## Miscellaneous
-### Deployment Documentation 
-[Deployment Docs](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Deployment-Documentation)
-
 ### Prototype / Underlying Platform Licensing 
 The prototype and underlying platforms are open licensed and free of charge.
 
