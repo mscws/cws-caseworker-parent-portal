@@ -156,6 +156,7 @@ Implemented the following monitoring:
 ### Containerization 
 The prototype wasn't deployed in a container (such as Docker) due to the limited amount of time to complete the vendor challenge.
 
+## Miscellaneous
 ### Deployment Documentation 
 [Deployment Docs](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Deployment-Documentation)
 
