@@ -30,6 +30,25 @@ The purpose of the Mississippi Child Care Provider Search project is to provide 
 12. [Deployment Documentation](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Deployment-Documentation)
 13. [Notes and Assumptions](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Notes-and-Assumptions)
 
+
+### Unisys Prototype Team Structure
+#### Team Leader 
+Unisys assigned Rob Plummer as the one leader with authority, responsibility, and accountability for prototype quality.
+
+#### Product Development Team 
+Multi-disciplinary and collaborative team includes nine (9) labor categories:
+
+1. Product Owner – Rob Plummer
+  * 
+2. Technical Architect / Back End Web Developer – Kirtish Kulkarni
+3. Front End Web Developer – Ankit Kumar
+4. Interaction Designer/User Researcher/Usability Tester – Mike Stubbs
+5. DevOps Team - Gopal Krishna Dash, Kangkan Goswami
+6. Tech Writer – Martha Koffman
+7. Visual Designer - Arun Purohit
+8. Delivery Manager – Altony Rice
+
+
 ##### Understanding of User Needs
 We employed our Human-Centered Design (HCD), 'Interfaces' to elicit user requirements to form the Product Backlog. The section below summarizes our HCD process for the prototype. [Details here](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Human-Centered-Design-Process)
 
@@ -77,22 +96,6 @@ We employed our Human-Centered Design (HCD), 'Interfaces' to elicit user require
 * Developed prototype HTML using HTML mockup, user testing feedback, and DSG
 * Iterated on pages, incorporating user testing feedback during iteration, finally reaching minimal viable product (MVP) 
 
-## Unisys Prototype Team Structure
-### Team Leader 
-Unisys assigned Rob Plummer as the one leader with authority, responsibility, and accountability for prototype quality.
-
-
-### Product Development Team 
-Multi-disciplinary and collaborative team includes nine (9) labor categories:
-
-1. Product Owner – Rob Plummer
-2. Technical Architect / Back End Web Developer – Kirtish Kulkarni
-3. Front End Web Developer – Ankit Kumar
-4. Interaction Designer/User Researcher/Usability Tester – Mike Stubbs
-5. DevOps Team - Gopal Krishna Dash, Kangkan Goswami
-6. Tech Writer – Martha Koffman
-7. Visual Designer - Arun Purohit
-8. Delivery Manager – Altony Rice
 
 #### Adherence to U.S. Digital Services Playbook
  
