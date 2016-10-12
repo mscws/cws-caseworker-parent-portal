@@ -137,18 +137,6 @@ The Unisys team chose the following technologies for our Architecture for the Mi
 * Database – mySQL
 	* Version 5.5.52 (License : GNU General Public License ,version 2)
 
-#### Continuous Integration
-Implemented Jenkins inside VMWare for automated build, unit testing, code quality check, functional testing and deployment as code is checked in to GitHub.
-
-* Configuration Management - GitHub
-* Continuous Integration Automation - Jenkins [CI Screenshots] (https://github.com/mscws/cws-caseworker-parent-portal/wiki/Continuous-Integration) 
-* Build
-	* Front end – Maven 3.1.1 (License : Apache License Version 2.0)
-	* Back end – Maven 3.1.1 (License : Apache License Version 2.0)
-* Deploy
-  - Server – AWS EC2 
-  - Developer/QA – VMWare 
-
 #### Configuration Management 
 The GitHub Repository is organized as shown in the page below.
 
@@ -174,7 +162,24 @@ The Unisys team leverage tools to create automated unit and functional testing. 
 In addition automated unit testing, we also automated functional testing. Our functional testing coverage is documented in the [Suggested Testing Workflow](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Suggested-Testing-Workflow). We leverage Selenium v2.53 (License : The Apache Software License, Version 2.0) for front-end testing and JUnit 4 (License : Eclipse Public License 1.0) for back-end testing.
 
 Finally, the team conducted guerilla testing to identify any defects not found by automated testing.
-	
+
+### Continuous Integration & Deployment
+The Unisys team implemented Jenkins inside VMWare for automated build, unit testing, code quality check, functional testing and deployment to both our internal QA environments and the AWS production environment. The builds are executed as code is checked into GitHub. We leverage the following tools as part of our continuous integration process:
+
+* Configuration Management - GitHub
+* Continuous Integration Automation - Jenkins 
+* Build
+	* Front end – Maven 3.1.1 (License : Apache License Version 2.0)
+	* Back end – Maven 3.1.1 (License : Apache License Version 2.0)
+* Deploy
+  - Server – AWS EC2 
+  - Developer/QA – VMWare 
+
+Please refer to the following [Continuous Integration] (https://github.com/mscws/cws-caseworker-parent-portal/wiki/Continuous-Integration) document for additional details of our process.
+
+### Prototype Installation Guide
+Please refer to the [Deployment Documentation](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Deployment-Documentation) for instructions on how to install and run the prototype on another target.
+
 ## Miscellaneous
 ### Prototype / Underlying Platform Licensing 
 The prototype and underlying platforms are open licensed and free of charge.
