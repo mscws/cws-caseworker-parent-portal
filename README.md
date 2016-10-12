@@ -112,7 +112,7 @@ We employed our Human-Centered Design (HCD), 'Interfaces' to elicit user require
 * Back end
 	* Junit 4 (License : Eclipse Public License 1.0)
 
-### Automated Functional Testing
+#### Automated Functional Testing
 * Front end 
 	* Selenium v2.53 (License : The Apache Software License, Version 2.0)
 * Back end
