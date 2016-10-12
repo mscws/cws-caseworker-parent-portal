@@ -1,5 +1,4 @@
 Prototype URL: [http://52.24.122.11:8080/mscws-portal-api/resources/index.html#/](http://52.24.122.11:8080/mscws-portal-api/resources/index.html#/)
-##### [Inspiration](#Inspiration)
 
 # Unisys - Mississippi Child Care Provider Search Prototype
 ## Documentation
