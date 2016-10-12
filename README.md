@@ -1,5 +1,5 @@
 Prototype URL: [http://52.24.122.11:8080/mscws-portal-api/resources/index.html#/](http://52.24.122.11:8080/mscws-portal-api/resources/index.html#/)
-##### [Inspiration](#Inspiration)
+##### (#Inspiration)
 [User Guide](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Caseworker-Parent-Portal-Prototype-User-Guide)
 
 # Unisys - Mississippi Child Care Provider Search Prototype
