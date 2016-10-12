@@ -37,7 +37,7 @@ Unisys assigned Rob Plummer as the one leader with authority, responsibility, an
 #### Product Development Team 
 Multi-disciplinary and collaborative team includes nine (9) labor categories:
 
-**Role** |**Name** | **Responsibilities** | **Hours Worked** | **Rate**
+**Role** |**Name** | **Responsibilities** | **Hours Worked** | **Hourly Rate**
 :------------- |:------------- |:------------- |:------------- |:-------------
 | Product Owner | Rob Plummer | Responsible for ensuring the success of the Mississippi Vendor Challenge Project | a | $328.45
 | Technical Architect / Back End Web Developer | Kirtish Kulkarni | Responsible for defining the application architecture and coding the back end functionality | a | $168.95
@@ -108,10 +108,14 @@ We followed applicable plays from the U.S. Digital Services Playbook. [Details h
 
 ## Prototype Development
 ### Architecture
-
 Our architecture is based on HTML5, JavaScript (Angular.js) with a Java API (Dropwizard), Apache Tomcat 8.0 and mySQL database.
 
 ### Modern Open Source Technologies
+The Unisys team chose the following technologies for our Architecture for the Mississippi Vendor Challenge. We selected these tools for three reasons:
+1. Our team was familiar with these frameworks, libraries and components from work on previous engagements
+2. We prioritized the selection of open source tools over commericial products
+3. They provided the functions we needed in order to complete the challenge; For example, we leverage bootstrap for front-end development to complete a fully responsive design
+
 <a Name="Frameworks">
 
 #### All Open Source Solution Frameworks and Components with Version #
