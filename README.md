@@ -112,6 +112,7 @@ Our architecture is based on HTML5, JavaScript (Angular.js) with a Java API (Dro
 
 ### Modern Open Source Technologies
 The Unisys team chose the following technologies for our Architecture for the Mississippi Vendor Challenge. We selected these tools for three reasons:
+
 1. Our team was familiar with these frameworks, libraries and components from work on previous engagements
 2. We prioritized the selection of open source tools over commericial products
 3. They provided the functions we needed in order to complete the challenge; For example, we leverage bootstrap for front-end development to complete a fully responsive design
