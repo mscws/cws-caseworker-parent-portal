@@ -80,10 +80,7 @@ We employed our Human-Centered Design (HCD), 'Interfaces' to elicit user require
 * Conducted user tests and gathered feedback
 * Developed [JustInMind high-fi interactive and responsive web mockup prototype](https://github.com/mscws/cws-caseworker-parent-portal/tree/master/hi-fi%20mockups) - To get early feedback on styling, placement of interaction elements and readability. 
 * Conducted mockup prototype user tests; gathered feedback
-* Developed live [Design Style Guide (DSG)](https://parentportal.tabordasolutions.net/guidelines.html) using bootstrap/CSS/HTML5. DSG elements leveraged HTML mockup / user testing feedback.
 * Conducted responsive design testing on desktop (Mac, PC) and mobile devices (iOS, Android)
-* Updated DSG Design elements as prototype was elaborated – keeping DSG and prototype pages consistent and synchronized
-* Developed prototype HTML using HTML mockup, user testing feedback, and DSG
 * Iterated on pages, incorporating user testing feedback between iterations, finally reaching minimal viable product (MVP) 
 
 ## Prototype Development
