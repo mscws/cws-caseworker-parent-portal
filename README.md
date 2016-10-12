@@ -94,10 +94,10 @@ As a result of the research and discovery phase of the project, the Unisys Team 
 * Iterated on pages, incorporating user testing feedback during iteration, finally reaching minimal viable product (MVP) 
 
 # Prototype Development
-For the development of the Mississippi Vendor Challenge, the Unisys team leveraged the Agile development process to facilitate collaboration amongst the team and to incorporate end user feedback on a frequent basis. We created our prototype to work on multiple devices (e.g. desktops, tablets, smart phones) using a responsive design. Our [architecture](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Application-Architecture)  is based on HTML5, JavaScript (Angular.js) with a Java API (Dropwizard), Apache Tomcat 8.0 and mySQL database. We leveraged modern open source technologies everywhere; please see below for additional detail.
+During the development of the Mississippi Vendor Challenge, the Unisys team leveraged the Agile development process to facilitate collaboration among the team and to incorporate end user feedback on a frequent basis. We created our prototype to work on multiple devices (e.g. desktops, tablets, smart phones) using a responsive design. Our [architecture](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Application-Architecture)  is based on HTML5, JavaScript (Angular.js) with a Java API (Dropwizard), Apache Tomcat 8.0 and mySQL database. We leveraged modern open source technologies everywhere; please see below for additional detail.
 
 ## Modern Open Source Technologies
-The Unisys team chose the following technologies for our Architecture for the Mississippi Vendor Challenge. We selected these tools for three reasons:
+We architected the Mississippi Vendor Challenge using the technologies shown in the table below. We selected these tools for three reasons:
 
 1. Our team was familiar with these frameworks, libraries and components from work on previous engagements
 2. We prioritized the selection of open source tools over commericial products
@@ -107,22 +107,20 @@ The Unisys team chose the following technologies for our Architecture for the Mi
 
 ### All Open Source Solution Frameworks and Components with Version Number and Licenses
 </a>
-* Front end
-	* Bootstrap v3.3.7 (License : MIT)
-	* Javascript
-	* Angular.js v1.5.8 (License : MIT)
-	* jQuery v3.1.1 (License : MIT)
-	* NgMap v1.17.3 (License:  MIT)
-	* angular-input-stars-directive v1.5.5 (License:  MIT)
-	* eonasdan-bootstrap-datetimepicker v4.17.42 (License : Apache License, Version 2.0)
-* Middleware
-	* Web Server – Tomcat 8.5.5 (License : Apache License, Version 2.0)
-* Back end
-	* Java 8.0 (License : Oracle Binary Code License Agreement for the Java SE Platform)
-	* spring-data-rest-webmvc v2.5.2 (License : Apache License, Version 2.0)
-	* Hibernate ORM v4.2.4.FINAL (License : GNU Lesser General Public License)
-* Database – mySQL
-	* Version 5.5.52 (License : GNU General Public License ,version 2)
+
+**Tier** |**Framework / Component** | **Version Number** | **Licenses**
+:------------- |:------------- |:------------- |:-------------
+| Front end | Bootstrap | v3.3.7 | MIT
+| Front end | Angular.js | v1.5.8 | MIT
+| Front end | jQuery | v3.1.1 | MIT
+| Front end | NgMap | v1.17.3 | MIT
+| Front end | angular-input-stars-directive | v1.5.5 | MIT
+| Front end | eonasdan-bootstrap-datetimepicker | v4.17.42 | Apache License, Version 2.0
+| Middleware | Web Server – Tomcat | 8.5.5 | Apache License, Version 2.0
+| Back end | Java | 8.0 | Oracle Binary Code License Agreement for the Java SE Platform
+| Back end | spring-data-rest-webmvc | v2.5.2 | Apache License, Version 2.0
+| Back end | Hibernate ORM | v4.2.4.FINAL | GNU Lesser General Public License
+| Database | mySQL | Version 5.5.52 | GNU General Public License ,version 2
 
 ### Configuration Management 
 The GitHub Repository is organized as shown in the page below.
