@@ -81,7 +81,7 @@ We employed our Human-Centered Design (HCD), 'Interfaces' to elicit user require
 * Developed [JustInMind high-fi interactive and responsive web mockup prototype](https://github.com/mscws/cws-caseworker-parent-portal/tree/master/hi-fi%20mockups) - To get early feedback on styling, placement of interaction elements and readability. 
 * Conducted mockup prototype user tests; gathered feedback
 * Conducted responsive design testing on desktop (Mac, PC) and mobile devices (iOS, Android)
-* Iterated on pages, incorporating user testing feedback between iterations, finally reaching minimal viable product (MVP) 
+* Iterated on pages, incorporating user testing feedback during iteration, finally reaching minimal viable product (MVP) 
 
 ## Prototype Development
 ### Modern Open Source Technologies
