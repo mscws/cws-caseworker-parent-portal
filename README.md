@@ -40,7 +40,7 @@ Multi-disciplinary and collaborative team includes nine (9) labor categories:
 5. DevOps Team - Gopal Krishna Dash, Kangkan Goswami
 6. Tech Writer – Martha Koffman
 7. Visual Designer - Arun Purohit
-8. Agile Coach / Scrum Master – Altony Rice
+8. Delivery Manager – Altony Rice
 
 # Understanding of User Needs
 We employed our Human-Centered Design (HCD), 'Interfaces' to elicit user requirements to form the Product Backlog. The section below summarizes our HCD process for the prototype. [Details here](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Human-Centered-Design-Process)
