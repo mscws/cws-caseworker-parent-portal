@@ -35,18 +35,18 @@ The purpose of the Mississippi Child Care Provider Search project is to provide 
 Unisys assigned Rob Plummer as the one leader with authority, responsibility, and accountability for prototype quality.
 
 #### Product Development Team 
-Multi-disciplinary and collaborative team includes nine (9) labor categories:
+The Unisys multi-disciplinary and collaborative team includes eight (8) labor categories for the Mississippi Vendor Challenge. Please find below the role, name, responsibilities, hours worked and hourly rate for each team member.
 
 **Role** |**Name** | **Responsibilities** | **Hours Worked** | **Hourly Rate**
 :------------- |:------------- |:------------- |:------------- |:-------------
-| Product Owner | Rob Plummer | Responsible for ensuring the success of the Mississippi Vendor Challenge Project | a | $328.45
-| Technical Architect / Back End Web Developer | Kirtish Kulkarni | Responsible for defining the application architecture and coding the back end functionality | a | $168.95
-| Front End Web Developer | Ankit Kumar | Responsible for coding the front end look which demonstrates the look and feel of the application | a | $133.75
-| Interaction Designer / User Researcher / Usability Tester | Mike Stubbs | Responsible for conducting research, writing/ reviewing user stories, and prioritizing user story development based on expressed user needs | a | $152.50
-| DevOps Team | <ul> <li> Gopal Krishna Dash </li> <li> Kangkan Goswami </li> </ul> | Responsible for developing and executing the build and deployment strategy | a | $168.95
-| Writer / Content Designer / Content Strategist | Martha Koffman | Responsible for developing the documentation structure and authoring the User Guide | a | $152.50
-| Visual Designer | Arun Purohit | Responsible for creating the Design Style Guide, coaching the team on our Human Centered Design approach, and developing the low and high fidelity prototypes for the applicatiion | a | $133.75
-| Agile Coach / Delivery Manager | Altony Rice | Responsible for the overall Agile process, managing the user story backlog, facilitating communication among the team members, and developing technical documentation | a | $328.45
+| Product Owner | Rob Plummer | Responsible for ensuring the success of the Mississippi Vendor Challenge Project | 68 | $328.45
+| Technical Architect / Back End Web Developer | Kirtish Kulkarni | Responsible for defining the application architecture and coding the back end functionality | 86 | $168.95
+| Front End Web Developer | Ankit Kumar | Responsible for coding the front end look which demonstrates the look and feel of the application | 72 | $133.75
+| Interaction Designer / User Researcher / Usability Tester | Mike Stubbs | Responsible for conducting research, writing/ reviewing user stories, and prioritizing user story development based on expressed user needs | 64 | $152.50
+| DevOps Team | <ul> <li> Gopal Krishna Dash </li> <li> Kangkan Goswami </li> </ul> | Responsible for developing and executing the build and deployment strategy | 120 | $168.95
+| Writer / Content Designer / Content Strategist | Martha Koffman | Responsible for developing the documentation structure and authoring the User Guide | 40 | $152.50
+| Visual Designer | Arun Purohit | Responsible for creating the Design Style Guide, coaching the team on our Human Centered Design approach, and developing the low and high fidelity prototypes for the applicatiion | 60 | $133.75
+| Agile Coach / Delivery Manager | Altony Rice | Responsible for the overall Agile process, managing the user story backlog, facilitating communication among the team members, and developing technical documentation | 90 | $328.45
 
 #Research and Discovery
 The Unisys Team worked with prospective parents in Mississippi to understand how a web search portal could help them find child care providers for their children more effectively and efficiently. We identified the prospective end useres by soliciting volunteers through several charitable organizations that serve parents likely to be eligible for subsidized child care.  Additionally, we participated in the Q&A session organized by the procurement committee to better understand the needs of caseworkers who use the search portal to find child care for children in the custody of the State.  Our research findings are documented [here](https://github.com/mscws/cws-caseworker-parent-portal/blob/master/Assets/Survey_Data.pdf). 
