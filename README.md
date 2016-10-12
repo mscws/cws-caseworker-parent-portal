@@ -14,6 +14,8 @@ The purpose of the Mississippi Child Care Provider Search project is to provide 
 
 
 ### Artifacts Used to Create the Prototype
+During the implementation of the Mississippi Vendor Challenge, the Unisys team created many artifacts. These include research findings, user stories, frameworks or libraries, and functional descriptions for all components of the prototype; they are provided below.
+
 1. [Research Findings](https://github.com/mscws/cws-caseworker-parent-portal/blob/master/Assets/Survey_Data.pdf)
 2. [Developed User Stories](https://github.com/mscws/cws-caseworker-parent-portal/tree/master/stories)
 3. [Additional User Stories Not Implemented](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Additional-Identified-User-Stories-Not-Implemented)
