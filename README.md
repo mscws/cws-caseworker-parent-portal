@@ -100,7 +100,7 @@ We employed our Human-Centered Design (HCD), 'Interfaces' to elicit user require
 * Middleware
 	* Web Server – Tomcat 8.5.5 (License : Apache License, Version 2.0)
 * Back end
-	* Java 8.0 
+	* Java 8.0 (License : Oracle Binary Code License Agreement for the Java SE Platform)
 	* spring-data-rest-webmvc v2.5.2 (License : Apache License, Version 2.0)
 	* Hibernate ORM v4.2.4.FINAL (License : GNU Lesser General Public License)
 * Database – mySQL
