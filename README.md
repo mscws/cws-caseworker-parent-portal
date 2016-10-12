@@ -15,9 +15,9 @@ The purpose of the Mississippi Child Care Provider Search project is to provide 
 * Developed the fully interactive prototype of the web/mobile application.  
 
 ### Artifacts Used to Create the Prototype
-1. [(Research Findings)](https://github.com/mscws/cws-caseworker-parent-portal/blob/master/Assets/Survey_Data.pdf)
-2. [(Developed User Stories)](https://github.com/mscws/cws-caseworker-parent-portal/tree/master/stories)
-3. [Additional User Stories Not Implemented]()
+1. [Research Findings](https://github.com/mscws/cws-caseworker-parent-portal/blob/master/Assets/Survey_Data.pdf)
+2. [Developed User Stories](https://github.com/mscws/cws-caseworker-parent-portal/tree/master/stories)
+3. [Additional User Stories Not Implemented](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Additional-Identified-User-Stories-Not-Implemented)
 3. [Frameworks](#Frameworks)
 4. [Functional Description](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Caseworker-Parent-Portal-Prototype-User-Guide)
 5. [Human Center Design](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Human-Centered-Design-Process)
