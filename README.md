@@ -15,7 +15,8 @@ The purpose of the Mississippi Child Care Provider Search project is to provide 
 * Identified user stories to form the initial product backlog. 
 * Developed the fully interactive prototype of the web/mobile application.  
 
-### Adherence to U.S. Digital Services Playbook
+### Artifacts Used to Create the Prototype
+#### Adherence to U.S. Digital Services Playbook
  
 We followed applicable plays from the U.S. Digital Services Playbook. [Details here](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Adherence-to-U.S.-Digital-Services-Playbook).
 
