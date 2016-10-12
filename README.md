@@ -87,33 +87,33 @@ We employed our Human-Centered Design (HCD), 'Interfaces' to elicit user require
 ### Modern Open Source Technologies
 #### All Open Source Solution Components with Version #
 * Front end
-	* Bootstrap v3.3.7
+	* Bootstrap v3.3.7 (License : MIT)
 	* Javascript
-	* Angular.js v1.5.8
-	* jQuery v3.1.1
-	* NgMap v1.17.3
-	* angular-input-stars-directive v1.5.5
-	* eonasdan-bootstrap-datetimepicker v4.17.42
+	* Angular.js v1.5.8 (License : MIT)
+	* jQuery v3.1.1 (License : MIT)
+	* NgMap v1.17.3 (License:  MIT)
+	* angular-input-stars-directive v1.5.5 (License:  MIT)
+	* eonasdan-bootstrap-datetimepicker v4.17.42 (License : Apache License, Version 2.0)
 * Middleware
-	* Web Server – Tomcat 8.5.5
+	* Web Server – Tomcat 8.5.5 (License : Apache License, Version 2.0)
 * Back end
 	* Java 8.0 
-	* spring-data-rest-webmvc v2.5.2
-	* Hibernate ORM v4.2.4.FINAL
+	* spring-data-rest-webmvc v2.5.2 (License : Apache License, Version 2.0)
+	* Hibernate ORM v4.2.4.FINAL (License : GNU Lesser General Public License)
 * Database – mySQL
-	* Version 5.5.52 
+	* Version 5.5.52 (License : GNU General Public License ,version 2)
 	
 #### Automated Unit Testing
 * Front end
-	* Junit 4 
+	* Junit 4 (License : Eclipse Public License 1.0)
 * Back end
-	* Junit 4 
+	* Junit 4 (License : Eclipse Public License 1.0)
 
 ### Automated Functional Testing
 * Front end 
-	* Selenium v2.53
+	* Selenium v2.53 (License : The Apache Software License, Version 2.0)
 * Back end
-	* JUnit 4
+	* JUnit 4 (License : Eclipse Public License 1.0)
 
 #### Continuous Integration
 Implemented Jenkins inside VMWare for automated build, unit testing, code quality check, functional testing and deployment as code is checked in to GitHub.
@@ -121,8 +121,8 @@ Implemented Jenkins inside VMWare for automated build, unit testing, code qualit
 * Configuration Management - GitHub
 * Continuous Integration Automation - Jenkins [CI Screenshots] (https://github.com/mscws/cws-caseworker-parent-portal/wiki/Continuous-Integration) 
 * Build
-	* Front end – Maven 3.1.1
-	* Back end – Maven 3.1.1
+	* Front end – Maven 3.1.1 (License : Apache License Version 2.0)
+	* Back end – Maven 3.1.1 (License : Apache License Version 2.0)
 * Deploy
   - Server – AWS EC2 
   - Developer/QA – VMWare 
