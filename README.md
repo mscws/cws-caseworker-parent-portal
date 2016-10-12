@@ -1,6 +1,5 @@
 Prototype URL: [http://52.24.122.11:8080/mscws-portal-api/resources/index.html#/](http://52.24.122.11:8080/mscws-portal-api/resources/index.html#/)
 ##### [Inspiration](#Inspiration)
-[User Guide](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Caseworker-Parent-Portal-Prototype-User-Guide)
 
 # Unisys - Mississippi Child Care Provider Search Prototype
 ## Documentation
@@ -16,8 +15,20 @@ The purpose of the Mississippi Child Care Provider Search project is to provide 
 * Developed the fully interactive prototype of the web/mobile application.  
 
 ### Artifacts Used to Create the Prototype
-#### Research Findings
-
+1. [(Research Findings)](https://github.com/mscws/cws-caseworker-parent-portal/blob/master/Assets/Survey_Data.pdf)
+2. [(Developed User Stories)](https://github.com/mscws/cws-caseworker-parent-portal/tree/master/stories)
+3. [Additional User Stories Not Implemented]()
+3. [Frameworks](#Frameworks)
+4. [Functional Description](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Caseworker-Parent-Portal-Prototype-User-Guide)
+5. [Human Center Design](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Human-Centered-Design-Process)
+6. [Design Style Guide (DSG)](http://htmlpreview.github.io/?https://github.com/mscws/cws-caseworker-parent-portal/blob/master/designs/DesignStyleGuide.htm)
+7. [Infrastructure Architecture](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Infrastructure-Architecture)
+8. [Application Architecture](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Application-Architecture)
+9. [Continuous Integration] (https://github.com/mscws/cws-caseworker-parent-portal/wiki/Continuous-Integration)
+10. [Suggested Testing Workflow]()
+11. [Definition of Done]()
+12. [Deployment Documentation](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Deployment-Documentation)
+13. [Notes and Assumptions](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Notes-and-Assumptions)
 
 ##### Understanding of User Needs
 We employed our Human-Centered Design (HCD), 'Interfaces' to elicit user requirements to form the Product Backlog. The section below summarizes our HCD process for the prototype. [Details here](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Human-Centered-Design-Process)
@@ -43,7 +54,7 @@ We employed our Human-Centered Design (HCD), 'Interfaces' to elicit user require
 	* Trustworthy
 	* Case worker / children photos
 	* Print time-stamped case worker conversations  
-* Created [user stories](https://github.com/mscws/cws-caseworker-parent-portal/tree/master/stories)
+* Created [User Stories](https://github.com/mscws/cws-caseworker-parent-portal/tree/master/stories)
 	* [Child Care Provider Basic Search](https://github.com/mscws/cws-caseworker-parent-portal/wiki/User-Story:-Child-Care-Provider-Basic-Search)
 	* [Child Care Provider Advanced Search](https://github.com/mscws/cws-caseworker-parent-portal/wiki/User-Story:-Child-Care-Provider-Advanced-Search)
 	* [Child Care Provider Map Search](https://github.com/mscws/cws-caseworker-parent-portal/wiki/User-Story:-Child-Care-Provider-Map-Search)
@@ -86,14 +97,19 @@ Multi-disciplinary and collaborative team includes nine (9) labor categories:
 #### Adherence to U.S. Digital Services Playbook
  
 We followed applicable plays from the U.S. Digital Services Playbook. [Details here](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Adherence-to-U.S.-Digital-Services-Playbook).
+
 ## Architecture
 
 Our architecture is based on HTML5, JavaScript (Angular.js) with a Java API (Dropwizard), Apache Tomcat 8.0 and mySQL database.
 
-[Application Architecture](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Application-Architecture)
+
+
 ## Prototype Development
 ### Modern Open Source Technologies
-#### All Open Source Solution Components with Version #
+<a Name="Frameworks">
+
+#### All Open Source Solution Frameworks and Components with Version #
+</a>
 * Front end
 	* Bootstrap v3.3.7 (License : MIT)
 	* Javascript
@@ -137,8 +153,6 @@ Implemented Jenkins inside VMWare for automated build, unit testing, code qualit
 
 #### Prototype Deployment Environment
 The prototype deployed to AWS (FedRAMP-certified IaaS). 
-
-[Infrastructure Architecture](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Infrastructure-Architecture)
 
 
 #### Configuration Management 
