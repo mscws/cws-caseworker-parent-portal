@@ -370,17 +370,17 @@ function funcSave(){
 	 var sub = document.getElementById('emailSubject').value;
 	 
 	 if(from == '' || from == null) {
-	 alert('please provide from email');
+	 alert('From field cannot be empty');
 	 document.getElementById('emailFrom').focus();
 	 return;
 	 }
 	 if(to == '' || to == null) {
-	 alert('please provide to email');
+	 alert('To field cannot be empty');
 	 document.getElementById('emailTo').focus();
 	 return;
 	 }
 	 if(sub == '' || sub == null) {
-	 alert('please provide email subject');
+	 alert('Subject field cannot be empty');
 	 document.getElementById('emailSubject').focus();
 	 return;
 	 }
