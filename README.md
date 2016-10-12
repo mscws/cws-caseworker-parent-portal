@@ -1,8 +1,7 @@
 Prototype URL: [http://52.24.122.11:8080/mscws-portal-api/resources/index.html#/](http://52.24.122.11:8080/mscws-portal-api/resources/index.html#/)
 
-# Unisys - Mississippi Child Care Provider Search Prototype
-## Documentation
-### Brief Description of the Project
+# Documentation
+## Brief Description of the Project
 
 The purpose of the Mississippi Child Care Provider Search project is to provide an online search tool for case workers and parents to easily locate child care providers throughout the state. In the development of this prototype, we used the U.S. Digital Services Playbook to guide us; [details can be found here](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Adherence-to-U.S.-Digital-Services-Playbook). In addition to our participation in the Case Worker Web Conference, the project team utilized the Unisys 'Interfaces' design framework for this prototype. At a high level, our design approach incorporated the following steps:
 
@@ -13,7 +12,7 @@ The purpose of the Mississippi Child Care Provider Search project is to provide 
 * Developed the fully interactive prototype of the web/mobile application.  
 
 
-### Artifacts Used to Create the Prototype
+## Artifacts Used to Create the Prototype
 During the implementation of the Mississippi Vendor Challenge, the Unisys team created many artifacts. These include research findings, user stories, frameworks or libraries, and functional descriptions for all components of the prototype; they are provided below.
 
 1. [Research Findings](https://github.com/mscws/cws-caseworker-parent-portal/blob/master/Assets/Survey_Data.pdf)
@@ -32,11 +31,7 @@ During the implementation of the Mississippi Vendor Challenge, the Unisys team c
 13. [Notes and Assumptions](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Notes-and-Assumptions)
 
 
-### Unisys Prototype Team Structure
-#### Team Leader 
-Unisys assigned Rob Plummer as the one leader with authority, responsibility, and accountability for prototype quality.
-
-#### Product Development Team 
+## Unisys Team Structure
 The Unisys multi-disciplinary and collaborative team includes eight (8) labor categories for the Mississippi Vendor Challenge. Please find below the role, name, responsibilities, hours worked and hourly rate for each team member.
 
 **Role** |**Name** | **Responsibilities** | **Hours Worked** | **Hourly Rate**
@@ -50,19 +45,19 @@ The Unisys multi-disciplinary and collaborative team includes eight (8) labor ca
 | Visual Designer | Arun Purohit | Responsible for creating the Design Style Guide, coaching the team on our Human Centered Design approach, and developing the low and high fidelity prototypes for the applicatiion | 60 | $133.75
 | Agile Coach / Delivery Manager | Altony Rice | Responsible for the overall Agile process, managing the user story backlog, facilitating communication among the team members, and developing technical documentation | 90 | $328.45
 
-#Research and Discovery
+## Research and Discovery
 The Unisys Team worked with prospective parents in Mississippi to understand how a web search portal could help them find child care providers for their children more effectively and efficiently. We identified the prospective end useres by soliciting volunteers through several charitable organizations that serve parents likely to be eligible for subsidized child care.  Additionally, we participated in the Q&A session organized by the procurement committee to better understand the needs of caseworkers who use the search portal to find child care for children in the custody of the State.  Our research findings are documented [here](https://github.com/mscws/cws-caseworker-parent-portal/blob/master/Assets/Survey_Data.pdf). 
 
-##### Understanding of User Needs
+### Understanding of User Needs
 We employed our Human-Centered Design (HCD), 'Interfaces' to elicit user requirements to form the Product Backlog. The section below summarizes our HCD process for the prototype. [Details here](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Human-Centered-Design-Process)
 
-##### Human-Centered Design
+### Human-Centered Design
 
 [Our HCD process](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Human-Centered-Design-Process) leveraged the following techniques:
 
 <a Name="Inspiration">
 
-##### Inspiration
+#### Inspiration
 
 </a>
 * Developed **Design Challenge**: "*As a caseworker or parent, I would like to search for child care providers in my vicinity so that I can choose the best provider for a child*"
@@ -71,7 +66,7 @@ We employed our Human-Centered Design (HCD), 'Interfaces' to elicit user require
 * Developed personas
 * Brainstormed, starting with the "Diverge" step to get all ideas (no concern for viability/feasibility), then executed the "Converged" step to reduce ideas list to only viable/feasible.
 
-##### Ideation
+#### Ideation
 * Synthesized insights from users (wants):
 	* Simple / Intuitive
 	* Trustworthy
@@ -102,10 +97,10 @@ As a result of the research and discovery phase of the project, the Unisys Team 
 * Developed prototype HTML using HTML mockup, user testing feedback, and DSG
 * Iterated on pages, incorporating user testing feedback during iteration, finally reaching minimal viable product (MVP) 
 
-## Prototype Development
+# Prototype Development
 For the development of the Mississippi Vendor Challenge, the Unisys team leveraged the Agile development process to facilitate collaboration amongst the team and to incorporate end user feedback on a frequent basis. We created our prototype to work on multiple devices (e.g. desktops, tablets, smart phones) using a responsive design. Our [architecture](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Application-Architecture)  is based on HTML5, JavaScript (Angular.js) with a Java API (Dropwizard), Apache Tomcat 8.0 and mySQL database. We leveraged modern open source technologies everywhere; please see below for additional detail.
 
-### Modern Open Source Technologies
+## Modern Open Source Technologies
 The Unisys team chose the following technologies for our Architecture for the Mississippi Vendor Challenge. We selected these tools for three reasons:
 
 1. Our team was familiar with these frameworks, libraries and components from work on previous engagements
@@ -114,7 +109,7 @@ The Unisys team chose the following technologies for our Architecture for the Mi
 
 <a Name="Frameworks">
 
-#### All Open Source Solution Frameworks and Components with Version Number and Licenses
+### All Open Source Solution Frameworks and Components with Version Number and Licenses
 </a>
 * Front end
 	* Bootstrap v3.3.7 (License : MIT)
@@ -133,7 +128,7 @@ The Unisys team chose the following technologies for our Architecture for the Mi
 * Database – mySQL
 	* Version 5.5.52 (License : GNU General Public License ,version 2)
 
-#### Configuration Management 
+### Configuration Management 
 The GitHub Repository is organized as shown in the page below.
 
 * [MSCWS](https://github.com/mscws/cws-caseworker-parent-portal)
@@ -143,23 +138,23 @@ The following repository was utilized to support CI pipelines and are available 
 Source Code repository: [GitHub Repositories](https://github.com/mscws/cws-caseworker-parent-portal/wiki/GitHub-Repositories)
 Binary repository: Nexus
 
-#### Continuous Monitoring 
+### Continuous Monitoring 
 Implemented the following monitoring:
 
 * Nagios
 * Vanda Appliance
 
-### Deployment Documentation
+## Deployment Documentation
 We deployed our prototype on a public Amazon Web Services (AWS) Cloud. AWS is a FedRAMP-certified Infrastructure as a Service (IaaS)  hosting provider. It provides us the ability to easily manage the configuration of the prototype and monitor the deployment in real-time. Additionally, it will automatically alert us of any issues. Please see the [Deployment Documentation](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Deployment-Documentation) for additonal details.
 
-### Automated Unit Testing
+## Automated Unit Testing
 The Unisys team leverage tools to create automated unit and functional testing. The Unit Testing code coverage was nearly 100% and the evidence can be found in our codebase. Please refer to the GitHub Repositories Page [here](https://github.com/mscws/cws-caseworker-parent-portal/wiki/GitHub-Repositories) for further details. For front-end and back-end automated unit testing, we use JUnit 4 (License : Eclipse Public License 1.0).
 
 In addition automated unit testing, we also automated functional testing. Our functional testing coverage is documented in the [Suggested Testing Workflow](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Suggested-Testing-Workflow). We leverage Selenium v2.53 (License : The Apache Software License, Version 2.0) for front-end testing and JUnit 4 (License : Eclipse Public License 1.0) for back-end testing.
 
 Finally, the team conducted guerilla testing to identify any defects not found by automated testing.
 
-### Continuous Integration & Deployment
+## Continuous Integration & Deployment
 The Unisys team implemented Jenkins inside VMWare for automated build, unit testing, code quality check, functional testing and deployment to both our internal QA environments and the AWS production environment. The builds are executed as code is checked into GitHub. We leverage the following tools as part of our continuous integration process:
 
 * Configuration Management - GitHub
@@ -173,10 +168,10 @@ The Unisys team implemented Jenkins inside VMWare for automated build, unit test
 
 Please refer to the following [Continuous Integration] (https://github.com/mscws/cws-caseworker-parent-portal/wiki/Continuous-Integration) document for additional details of our process.
 
-### Prototype Installation Guide
+## Prototype Installation Guide
 Please refer to the [Deployment Documentation](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Deployment-Documentation) for instructions on how to install and run the prototype on another target.
 
-## Miscellaneous
+# Miscellaneous
 ### Prototype / Underlying Platform Licensing 
 The prototype and underlying platforms are open licensed and free of charge.
 
