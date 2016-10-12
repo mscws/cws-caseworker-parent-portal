@@ -1,3 +1,12 @@
+/** 
+ * <p>Title: SearchController </p>
+ * <p>Description: This class exposes methods for basic and advance search rest services which 
+ *  can be consumed by the front end</p>
+ * <p>Copyright: Copyright (c) 2016</p>
+ * <p>Company: Unisys</p>
+ *
+ * @author Kulkarnk
+ */
 package com.unisys.cws.controller;
 
 import java.util.List;
@@ -21,6 +30,15 @@ public class SearchController {
 	@Autowired
 	ISearchDAO searchDao;
 
+	/**
+	 * @param providerName Variable of type String
+	 * @param county  Variable of type Long
+	 * @param providertype  Variable of type Long
+	 * @param city  Variable of type Long
+	 * @param rating Variable of type Long
+	 * @return List of providers which full fill the search parameters,otherwise
+	 *         return empty list
+	 */
 	@RequestMapping(path = "/find", produces = MediaType.APPLICATION_JSON_VALUE, method = RequestMethod.GET)
 	public List<Providers> findProvidersByCriteria(
 			@RequestParam(value = "providerName", required = false) String providerName,
@@ -28,10 +46,15 @@ public class SearchController {
 			@RequestParam(value = "providerType", required = false) Long providertype,
 			@RequestParam(value = "city", required = false) Long city,
 			@RequestParam(value = "rating", required = false) Long rating) {
-		SearchCriteria searchCriteria =  new SearchCriteria(providerName, county, providertype, city, rating);
+		SearchCriteria searchCriteria = new SearchCriteria(providerName, county, providertype, city, rating);
 		return searchDao.findProvidersByCriteria(searchCriteria);
 	}
 
+	/**
+	 * @param searchCriteria contains user search values
+	 * @return  List of providers which full fill the search criteria,otherwise
+	 *         return empty list
+	 */
 	@RequestMapping(path = "/search", produces = MediaType.APPLICATION_JSON_VALUE, method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
 	public List<Providers> findProvidersByCriteria(@RequestBody SearchCriteria searchCriteria) {
 		return searchDao.findProvidersByCriteria(searchCriteria);

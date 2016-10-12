@@ -1,3 +1,11 @@
+/** 
+ * <p>Title: IMetadataDAO </p>
+ * <p>Copyright: Copyright (c) 2016</p>
+ * <p>Company: Unisys</p>
+ *
+ * @author Kulkarnk
+ */
+
 package com.unisys.cws.dao;
 
 import java.util.List;

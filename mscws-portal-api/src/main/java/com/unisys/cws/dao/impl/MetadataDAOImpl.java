@@ -1,3 +1,11 @@
+/** 
+ * <p>Title: MetadataDAOImpl </p>
+ * <p>Description: Implementation class for IMetadataDAO operations</p>
+ * <p>Copyright: Copyright (c) 2016</p>
+ * <p>Company: Unisys</p>
+ *
+ * @author Kulkarnk
+ */
 package com.unisys.cws.dao.impl;
 
 import java.util.List;

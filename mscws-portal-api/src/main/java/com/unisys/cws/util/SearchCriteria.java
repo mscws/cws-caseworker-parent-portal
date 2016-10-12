@@ -1,3 +1,11 @@
+/** 
+ * <p>Title: MetadataDAOImpl </p>
+ * <p>Description: This class is a utility class for capturing the search parameters</p>
+ * <p>Copyright: Copyright (c) 2016</p>
+ * <p>Company: Unisys</p>
+ *
+ * @author Kulkarnk
+ */
 package com.unisys.cws.util;
 
 import java.io.Serializable;
