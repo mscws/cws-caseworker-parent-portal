@@ -76,7 +76,7 @@ We employed our Human-Centered Design (HCD), 'Interfaces' to elicit user require
 * Updated user stories elaborations, including acceptance criteria
 
 ### Implementation
-* Developed [Balsamiq low-fi interactive prototypes](https://github.com/mscws/cws-caseworker-parent-portal/tree/master/Low%20FIdelity%20mockups) - feedback from internal / user testing
+* Developed [Balsamiq low-fi interactive prototypes](https://github.com/mscws/cws-caseworker-parent-portal/tree/master/Low%20Fidelity%20mockups) - feedback from internal / user testing
 * Conducted user tests and gathered feedback
 * Developed [JustInMind high-fi interactive and responsive web mockup prototype](https://github.com/mscws/cws-caseworker-parent-portal/tree/master/hi-fi%20mockups) - To get early feedback on styling, placement of interaction elements and readability. 
 * Conducted mockup prototype user tests; gathered feedback
