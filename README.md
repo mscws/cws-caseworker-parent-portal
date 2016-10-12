@@ -39,7 +39,7 @@ Unisys assigned Rob Plummer as the one leader with authority, responsibility, an
 Multi-disciplinary and collaborative team includes nine (9) labor categories:
 
 1. Product Owner – Rob Plummer
-  * 
+  * Developed and prioritized user stories in the product backlog
 2. Technical Architect / Back End Web Developer – Kirtish Kulkarni
 3. Front End Web Developer – Ankit Kumar
 4. Interaction Designer/User Researcher/Usability Tester – Mike Stubbs
