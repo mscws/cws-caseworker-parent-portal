@@ -38,16 +38,17 @@ Unisys assigned Rob Plummer as the one leader with authority, responsibility, an
 #### Product Development Team 
 Multi-disciplinary and collaborative team includes nine (9) labor categories:
 
-1. Product Owner – Rob Plummer
-  * Developed and prioritized user stories in the product backlog
-2. Technical Architect / Back End Web Developer – Kirtish Kulkarni
-3. Front End Web Developer – Ankit Kumar
-4. Interaction Designer/User Researcher/Usability Tester – Mike Stubbs
-5. DevOps Team - Gopal Krishna Dash, Kangkan Goswami
-6. Tech Writer – Martha Koffman
-7. Visual Designer - Arun Purohit
-8. Delivery Manager – Altony Rice
+1. Product Owner – Rob Plummer: Responsible for ensuring the success of the Mississippi Vendor Challenge Project
+2. Technical Architect / Back End Web Developer – Kirtish Kulkarni: Responsible for defining the application architecture and coding the back end functionality.
+3. Front End Web Developer – Ankit Kumar: Responsible for coding the front end look which demonstrates the look and feel of the application.
+4. Interaction Designer/User Researcher/Usability Tester – Mike Stubbs: Responsible for conducting research, writing/ reviewing user stories, and prioritizing user story development based on expressed user needs.
+5. DevOps Team - Gopal Krishna Dash, Kangkan Goswami: Responsible for developing and executing the build and deployment strategy.
+6. Tech Writer – Martha Koffman: Responsible for developing the documentation structure and authoring the User Guide.
+7. Visual Designer - Arun Purohit: Responsible for creating the Design Style Guide, coaching the team on our Human Centered Design approach, and developing the low and high fidelity prototypes for the applicatiion. 
+8. Delivery Manager – Altony Rice: Responsible for managing the user story backlog, facilitating communication among the team members, and developing technical documentation.
 
+#Research and Discovery
+The Unisys Team worked with prospective parents in Mississippi to understand how a web search portal could help them find child care providers for their children more effectively and efficiently. We identified the prospective end useres by soliciting volunteers through several charitable organizations that serve parents likely to be eligible for subsidized child care.  Additionally, we participated in the call organized by the procurement committee to better understand the needs of caseworkers who use the search portal to find child care for children in the custody of the State.  Our research findings are documented [here](https://github.com/mscws/cws-caseworker-parent-portal/blob/master/Assets/Survey_Data.pdf). 
 
 ##### Understanding of User Needs
 We employed our Human-Centered Design (HCD), 'Interfaces' to elicit user requirements to form the Product Backlog. The section below summarizes our HCD process for the prototype. [Details here](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Human-Centered-Design-Process)
@@ -85,9 +86,11 @@ We employed our Human-Centered Design (HCD), 'Interfaces' to elicit user require
 	* [Provider Details Page](https://github.com/mscws/cws-caseworker-parent-portal/wiki/User-Story:-Provider-Details-Page)
 * Updated user stories elaborations, including acceptance criteria
 
-##### Implementation
+# Design
+As a result of the research and discovery phase of the project, the Unisys Team created a number of artifacts that were used to facilitate further conversations with the end users as we designed and developed the prototype using an iterative and agile approach. Our design artifacts are listed below.
+
 * Developed [Balsamiq low-fi interactive prototypes](https://github.com/mscws/cws-caseworker-parent-portal/tree/master/Low%20Fidelity%20mockups) - feedback from internal / user testing
-* Conducted user tests and gathered feedback
+* Met with end users multiple times during development to test prototypes and gather their feedback both in person and electronically
 * Developed [JustInMind high-fi interactive and responsive web mockup prototype](https://github.com/mscws/cws-caseworker-parent-portal/tree/master/hi-fi%20mockups) - To get early feedback on styling, placement of interaction elements and readability. 
 * Conducted mockup prototype user tests; gathered feedback
 * Developed live [Design Style Guide (DSG)](http://htmlpreview.github.io/?https://github.com/mscws/cws-caseworker-parent-portal/blob/master/designs/DesignStyleGuide.htm) using bootstrap/CSS/HTML. DSG elements leveraged HTML mockup / user testing feedback
@@ -95,6 +98,7 @@ We employed our Human-Centered Design (HCD), 'Interfaces' to elicit user require
 * Updated DSG Design elements as prototype was elaborated – keeping DSG and prototype pages consistent and synchronized
 * Developed prototype HTML using HTML mockup, user testing feedback, and DSG
 * Iterated on pages, incorporating user testing feedback during iteration, finally reaching minimal viable product (MVP) 
+
 
 
 #### Adherence to U.S. Digital Services Playbook
