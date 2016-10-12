@@ -26,8 +26,11 @@ We employed our Human-Centered Design (HCD), 'Interfaces' to elicit user require
 
 [Our HCD process](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Human-Centered-Design-Process) leveraged the following techniques:
 
-Inspiration
+<a Name="Inspiration">
 
+##### Inspiration
+
+</a>
 * Developed **Design Challenge**: "*As a caseworker or parent, I would like to search for child care providers in my vicinity so that I can choose the best provider for a child*"
 * Conducted group and one on one interviews with real case workers (Case Worker Web Conference) and several Mississippi residents.
 * Conducted user research [(see here)](https://github.com/mscws/cws-caseworker-parent-portal/blob/master/Assets/Survey_Data.pdf) to identify target audiences
