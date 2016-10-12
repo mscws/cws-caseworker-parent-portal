@@ -4,14 +4,14 @@ Prototype URL: [http://52.24.122.11:8080/mscws-portal-api/resources/index.html#/
 ## Documentation
 ### Brief Description of the Project
 
-The purpose of the Mississippi Child Care Provider Search project is to provide an online search tool for case workers and parents to easily locate child care providers throughout the state.  In addition to our participation in the Case Worker Web Conference, the project team utilized the Unisys 'Interfaces' design framework for this prototype. At a high level, our design approach incorporated the following steps:
-
+The purpose of the Mississippi Child Care Provider Search project is to provide an online search tool for case workers and parents to easily locate child care providers throughout the state. In the development of this prototype, we used the U.S. Digital Services Playbook to guide us; [details can be found here](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Adherence-to-U.S.-Digital-Services-Playbook). In addition to our participation in the Case Worker Web Conference, the project team utilized the Unisys 'Interfaces' design framework for this prototype. At a high level, our design approach incorporated the following steps:
 
 * Conducted qualitative research via focus groups, individual interviews and observations comprised of Mississippi residents in an effort to understand needs gather a wide-ranging span of ideas. 
 * Conducted quantitative research using surveys and telephone interviews to quantify attitudes and opinions in effort to formulate features to be considered in the design of the search page.
 * Created an initial user interface documented as wireframes.  
 * Identified user stories to form the initial product backlog. 
 * Developed the fully interactive prototype of the web/mobile application.  
+
 
 ### Artifacts Used to Create the Prototype
 1. [Research Findings](https://github.com/mscws/cws-caseworker-parent-portal/blob/master/Assets/Survey_Data.pdf)
@@ -99,12 +99,6 @@ As a result of the research and discovery phase of the project, the Unisys Team 
 * Updated DSG Design elements as prototype was elaborated – keeping DSG and prototype pages consistent and synchronized
 * Developed prototype HTML using HTML mockup, user testing feedback, and DSG
 * Iterated on pages, incorporating user testing feedback during iteration, finally reaching minimal viable product (MVP) 
-
-
-
-#### Adherence to U.S. Digital Services Playbook
- 
-We followed applicable plays from the U.S. Digital Services Playbook. [Details here](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Adherence-to-U.S.-Digital-Services-Playbook).
 
 ## Prototype Development
 For the development of the Mississippi Vendor Challenge, the Unisys team leveraged the Agile development process to facilitate collaboration amongst the team and to incorporate end user feedback on a frequent basis. We created our prototype to work on multiple devices (e.g. desktops, tablets, smart phones) using a responsive design. Our [architecture](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Application-Architecture)  is based on HTML5, JavaScript (Angular.js) with a Java API (Dropwizard), Apache Tomcat 8.0 and mySQL database. We leveraged modern open source technologies everywhere; please see below for additional detail.
