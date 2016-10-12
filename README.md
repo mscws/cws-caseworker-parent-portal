@@ -168,19 +168,12 @@ Implemented the following monitoring:
 ### Deployment Documentation
 We deployed our prototype on a public Amazon Web Services (AWS) Cloud. AWS is a FedRAMP-certified Infrastructure as a Service (IaaS)  hosting provider. It provides us the ability to easily manage the configuration of the prototype and monitor the deployment in real-time. Additionally, it will automatically alert us of any issues. Please see the [Deployment Documentation](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Deployment-Documentation) for additonal details.
 
-### Automated Unit Test
-The Unisys team leverage tools to create automated unit and functional testing. The Unit Testing code coverage was nearly 100% and the evidence can be found in our codebase. Please refer to the following GitHub libraries to review this: 
-#### Automated Unit Testing
-* Front end
-	* Junit 4 (License : Eclipse Public License 1.0)
-* Back end
-	* Junit 4 (License : Eclipse Public License 1.0)
+### Automated Unit Testing
+The Unisys team leverage tools to create automated unit and functional testing. The Unit Testing code coverage was nearly 100% and the evidence can be found in our codebase. Please refer to the GitHub Repositories Page [here]https://github.com/mscws/cws-caseworker-parent-portal/wiki/GitHub-Repositories for further details. For front-end and back-end automated unit testing, we use JUnit 4 (License : Eclipse Public License 1.0).
 
-#### Automated Functional Testing
-* Front end 
-	* Selenium v2.53 (License : The Apache Software License, Version 2.0)
-* Back end
-	* JUnit 4 (License : Eclipse Public License 1.0)
+In addition automated unit testing, we also automated functional testing. Our functional testing coverage is documented in the [Suggested Testing Workflow](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Suggested-Testing-Workflow). We leverage Selenium v2.53 (License : The Apache Software License, Version 2.0) for front-end testing and JUnit 4 (License : Eclipse Public License 1.0) for back-end testing.
+
+Finally, the team conducted guerilla testing to identify any defects not found by automated testing.
 	
 ## Miscellaneous
 ### Prototype / Underlying Platform Licensing 
