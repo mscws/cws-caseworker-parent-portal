@@ -37,8 +37,9 @@ Unisys assigned Rob Plummer as the one leader with authority, responsibility, an
 
 #### Product Development Team 
 Multi-disciplinary and collaborative team includes nine (9) labor categories:
-
-1. Product Owner – Rob Plummer: Responsible for ensuring the success of the Mississippi Vendor Challenge Project
+**Role** |**Name** | **Responsibilities** | **Hours Worked** | **Rate**
+:------------- |:------------- |:------------- |:------------- |:-------------
+1. Product Owner | Rob Plummer | Responsible for ensuring the success of the Mississippi Vendor Challenge Project | |
 2. Technical Architect / Back End Web Developer – Kirtish Kulkarni: Responsible for defining the application architecture and coding the back end functionality.
 3. Front End Web Developer – Ankit Kumar: Responsible for coding the front end look which demonstrates the look and feel of the application.
 4. Interaction Designer/User Researcher/Usability Tester – Mike Stubbs: Responsible for conducting research, writing/ reviewing user stories, and prioritizing user story development based on expressed user needs.
