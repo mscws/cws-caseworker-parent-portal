@@ -164,3 +164,5 @@ The prototype and underlying platforms are open licensed and free of charge.
 ### Report Bugs & Issues
 If you find a bug/issue with the prototype or the documentation, please contact "Miquel (Mike) Stubbs" via email at (miquel.stubbs@unisys.com) or mobile at (614) 596-7140.
 
+### Restoring a Git Bundle
+[Restoring a Git Bundle](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Restoring-a-Git-Bundle)
