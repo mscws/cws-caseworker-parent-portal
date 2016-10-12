@@ -26,7 +26,7 @@ The purpose of the Mississippi Child Care Provider Search project is to provide 
 8. [Application Architecture](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Application-Architecture)
 9. [Continuous Integration] (https://github.com/mscws/cws-caseworker-parent-portal/wiki/Continuous-Integration)
 10. [Suggested Testing Workflow](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Suggested-Testing-Workflow)
-11. [Definition of Done]()
+11. [Definition of Done](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Definition-of-%22Done%22)
 12. [Deployment Documentation](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Deployment-Documentation)
 13. [Notes and Assumptions](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Notes-and-Assumptions)
 
