@@ -25,7 +25,7 @@ Our architecture is based on HTML5, JavaScript (Angular.js) with a Java API (Dro
  
 We followed applicable plays from the U.S. Digital Services Playbook. [Details here](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Adherence-to-U.S.-Digital-Services-Playbook).
 
-# Unisys Prototype Team
+# Unisys Prototype Team Structure
 ## Team Leader 
 Unisys assigned Rob Plummer as the one leader with authority, responsibility, and accountability for prototype quality.
 
