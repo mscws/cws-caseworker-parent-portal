@@ -44,7 +44,7 @@ Multi-disciplinary and collaborative team includes nine (9) labor categories:
 | Technical Architect / Back End Web Developer | Kirtish Kulkarni | Responsible for defining the application architecture and coding the back end functionality | a | a
 | Front End Web Developer | Ankit Kumar | Responsible for coding the front end look which demonstrates the look and feel of the application | a | a
 | Interaction Designer/User Researcher/Usability Tester | Mike Stubbs | Responsible for conducting research, writing/ reviewing user stories, and prioritizing user story development based on expressed user needs | a | a
-| DevOps Team | <ul> Gopal Krishna Dash <\li> <li> Kangkan Goswami <\li> <\ul> | Responsible for developing and executing the build and deployment strategy | a | a
+| DevOps Team | <ul> <li> Gopal Krishna Dash </li> <li> Kangkan Goswami </li> </ul> | Responsible for developing and executing the build and deployment strategy | a | a
 | Tech Writer | Martha Koffman | Responsible for developing the documentation structure and authoring the User Guide | a | a
 | Visual Designer | Arun Purohit | Responsible for creating the Design Style Guide, coaching the team on our Human Centered Design approach, and developing the low and high fidelity prototypes for the applicatiion | a | a
 | Delivery Manager | Altony Rice | Responsible for the overall Agile process, managing the user story backlog, facilitating communication among the team members, and developing technical documentation | a | a
