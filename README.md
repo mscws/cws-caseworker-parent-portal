@@ -41,7 +41,7 @@ Multi-disciplinary and collaborative team includes nine (9) labor categories:
 **Role** |**Name** | **Responsibilities** | **Hours Worked** | **Rate**
 :------------- |:------------- |:------------- |:------------- |:-------------
 
-Product Owner | Rob Plummer | Responsible for ensuring the success of the Mississippi Vendor Challenge Project | a | a
+|Product Owner | Rob Plummer | Responsible for ensuring the success of the Mississippi Vendor Challenge Project | a | a
 
 
 Technical Architect / Back End Web Developer – Kirtish Kulkarni: Responsible for defining the application architecture and coding the back end functionality
