@@ -16,18 +16,16 @@ The purpose of the Mississippi Child Care Provider Search project is to provide 
 * Developed the fully interactive prototype of the web/mobile application.  
 
 ### Artifacts Used to Create the Prototype
-#### Adherence to U.S. Digital Services Playbook
- 
-We followed applicable plays from the U.S. Digital Services Playbook. [Details here](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Adherence-to-U.S.-Digital-Services-Playbook).
+#### Research Findings
 
-### Understanding of User Needs
+##### Understanding of User Needs
 We employed our Human-Centered Design (HCD), 'Interfaces' to elicit user requirements to form the Product Backlog. The section below summarizes our HCD process for the prototype. [Details here](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Human-Centered-Design-Process)
 
-### Human-Centered Design
+##### Human-Centered Design
 
 [Our HCD process](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Human-Centered-Design-Process) leveraged the following techniques:
 
-### Inspiration
+##### Inspiration
 
 * Developed **Design Challenge**: "*As a caseworker or parent, I would like to search for child care providers in my vicinity so that I can choose the best provider for a child*"
 * Conducted group and one on one interviews with real case workers (Case Worker Web Conference) and several Mississippi residents.
@@ -35,7 +33,7 @@ We employed our Human-Centered Design (HCD), 'Interfaces' to elicit user require
 * Developed personas
 * Brainstormed, starting with the "Diverge" step to get all ideas (no concern for viability/feasibility), then executed the "Converged" step to reduce ideas list to only viable/feasible.
 
-### Ideation
+##### Ideation
 * Synthesized insights from users (wants):
 	* Simple / Intuitive
 	* Trustworthy
@@ -53,7 +51,7 @@ We employed our Human-Centered Design (HCD), 'Interfaces' to elicit user require
 	* [Provider Details Page](https://github.com/mscws/cws-caseworker-parent-portal/wiki/User-Story:-Provider-Details-Page)
 * Updated user stories elaborations, including acceptance criteria
 
-### Implementation
+##### Implementation
 * Developed [Balsamiq low-fi interactive prototypes](https://github.com/mscws/cws-caseworker-parent-portal/tree/master/Low%20Fidelity%20mockups) - feedback from internal / user testing
 * Conducted user tests and gathered feedback
 * Developed [JustInMind high-fi interactive and responsive web mockup prototype](https://github.com/mscws/cws-caseworker-parent-portal/tree/master/hi-fi%20mockups) - To get early feedback on styling, placement of interaction elements and readability. 
@@ -81,6 +79,9 @@ Multi-disciplinary and collaborative team includes nine (9) labor categories:
 7. Visual Designer - Arun Purohit
 8. Delivery Manager – Altony Rice
 
+#### Adherence to U.S. Digital Services Playbook
+ 
+We followed applicable plays from the U.S. Digital Services Playbook. [Details here](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Adherence-to-U.S.-Digital-Services-Playbook).
 ## Architecture
 
 Our architecture is based on HTML5, JavaScript (Angular.js) with a Java API (Dropwizard), Apache Tomcat 8.0 and mySQL database.
