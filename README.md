@@ -1,5 +1,5 @@
 Prototype URL: [http://52.24.122.11:8080/mscws-portal-api/resources/index.html#/](http://52.24.122.11:8080/mscws-portal-api/resources/index.html#/)
-
+##### [Inspiration](#Inspiration)
 [User Guide](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Caseworker-Parent-Portal-Prototype-User-Guide)
 
 # Unisys - Mississippi Child Care Provider Search Prototype
@@ -17,7 +17,7 @@ The purpose of the Mississippi Child Care Provider Search project is to provide 
 
 ### Artifacts Used to Create the Prototype
 #### Research Findings
-##### [Inspiration](#Inspiration)
+
 
 ##### Understanding of User Needs
 We employed our Human-Centered Design (HCD), 'Interfaces' to elicit user requirements to form the Product Backlog. The section below summarizes our HCD process for the prototype. [Details here](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Human-Centered-Design-Process)
