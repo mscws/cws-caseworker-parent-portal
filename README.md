@@ -43,17 +43,17 @@ The Unisys multi-disciplinary and collaborative team includes eight (8) labor ca
 | Interaction Designer / User Researcher / Usability Tester | Mike Stubbs | Responsible for conducting research, writing/ reviewing user stories, and prioritizing user story development based on expressed user needs | 64 | $152.50
 | DevOps Team | <ul> <li> Gopal Krishna Dash </li> <li> Kangkan Goswami </li> </ul> | Responsible for developing and executing the build and deployment strategy | 120 | $168.95
 | Writer / Content Designer / Content Strategist | Martha Koffman | Responsible for developing the documentation structure and authoring the User Guide | 40 | $152.50
-| Visual Designer | Arun Purohit | Responsible for creating the Design Style Guide, coaching the team on our Human Centered Design approach, and developing the low and high fidelity prototypes for the applicatiion | 60 | $133.75
+| Visual Designer | Arun Purohit | Responsible for creating the Design Style Guide, coaching the team on our Human Centered Design approach, and developing the low and high fidelity prototypes for the application | 60 | $133.75
 | Agile Coach / Delivery Manager | Altony Rice | Responsible for the overall Agile process, managing the user story backlog, facilitating communication among the team members, and developing technical documentation | 90 | $328.45
 
 ##User Guide
-We developed a user guide as a companion to the Mississippi Vendor Challenge prototype. It serves as the foundation for what could be a more robut on-line help and training module. Please review it [here](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Caseworker-Parent-Portal-Prototype-User-Guide).
+We developed a user guide as a companion to the Mississippi Vendor Challenge prototype. It serves as the foundation for what could be a more robust on-line help and training module. Please review it [here](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Caseworker-Parent-Portal-Prototype-User-Guide).
 
 ## Report Bugs & Issues
 If you find a bug/issue with the prototype or the documentation, please contact "Miquel (Mike) Stubbs" via email at (miquel.stubbs@unisys.com) or mobile at (614) 596-7140.
 
 # Research and Discovery
-The Unisys Team worked with prospective parents in Mississippi to understand how a web search portal could help them find child care providers for their children more effectively and efficiently. We identified the prospective end useres by soliciting volunteers through several charitable organizations that serve parents likely to be eligible for subsidized child care.  Additionally, we participated in the Q&A session organized by the procurement committee to better understand the needs of caseworkers who use the search portal to find child care for children in the custody of the State.  Our research findings are documented [here](https://github.com/mscws/cws-caseworker-parent-portal/blob/master/Assets/Survey_Data.pdf). 
+The Unisys Team worked with prospective parents in Mississippi to understand how a web search portal could help them find child care providers for their children more effectively and efficiently. We identified the prospective end users by soliciting volunteers through several charitable organizations that serve parents likely to be eligible for subsidized child care.  Additionally, we participated in the Q&A session organized by the procurement committee to better understand the needs of caseworkers who use the search portal to find child care for children in the custody of the State.  Our research findings are documented [here](https://github.com/mscws/cws-caseworker-parent-portal/blob/master/Assets/Survey_Data.pdf). 
 
 ### Understanding of User Needs
 We employed our Human-Centered Design (HCD), 'Interfaces' to elicit user requirements to form the Product Backlog. The section below summarizes our HCD process for the prototype. [Our HCD process](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Human-Centered-Design-Process) leveraged the following techniques:
@@ -109,7 +109,7 @@ During our development effort, we took the following [notes and assumptions](htt
 We architected the Mississippi Vendor Challenge using the technologies shown in the table below. We selected these tools for three reasons:
 
 1. Our team was familiar with these frameworks, libraries and components from work on previous engagements
-2. We prioritized the selection of open source tools over commericial products
+2. We prioritized the selection of open source tools over commercial products
 3. They provided the functions we needed in order to complete the challenge; For example, we leverage bootstrap for front-end development to complete a fully responsive design
 
 <a Name="Frameworks">
@@ -135,11 +135,11 @@ We architected the Mississippi Vendor Challenge using the technologies shown in 
 We deployed our prototype on a public Amazon Web Services (AWS) Cloud. AWS is a FedRAMP-certified Infrastructure as a Service (IaaS)  hosting provider. It provides us the ability to easily manage the configuration of the prototype and monitor the deployment in real-time. Additionally, it will automatically alert us of any issues. Please see the [Deployment Documentation](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Deployment-Documentation) for additonal details.
 
 ## Automated Unit Testing
-The Unisys team leveraged tools to create automated unit and functional testing. The Unit Testing code coverage was nearly 100% and the evidence can be found in our codebase. Please refer to the GitHub Repositories Page [here](https://github.com/mscws/cws-caseworker-parent-portal/wiki/GitHub-Repositories) for further details. For front-end and back-end automated unit testing, we use JUnit 4 (License : Eclipse Public License 1.0).
+The Unisys team leveraged tools to create automated unit and functional testing. The Unit Testing code coverage was nearly 100% and the evidence can be found in our codebase. Please refer to the GitHub Repositories Page [here](https://github.com/mscws/cws-caseworker-parent-portal/wiki/GitHub-Repositories) for further details. For front-end and back-end automated unit testing, we use JUnit 4 (License: Eclipse Public License 1.0).
 
 We used SonarQube Version 6.0 - LGPL v3 to perform a static code analysis and identify code quality and security issues. This tool was incorporated into our continuous integration build process.
 
-In addition automated unit testing, we also automated functional testing. Our functional testing coverage is documented in the [Suggested Testing Workflow](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Suggested-Testing-Workflow). We leveraged Selenium v2.53 (License : The Apache Software License, Version 2.0) for front-end testing and JUnit 4 (License : Eclipse Public License 1.0) for back-end testing.
+In addition automated unit testing, we also automated functional testing. Our functional testing coverage is documented in the [Suggested Testing Workflow](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Suggested-Testing-Workflow). We leveraged Selenium v2.53 (License: The Apache Software License, Version 2.0) for front-end testing and JUnit 4 (License : Eclipse Public License 1.0) for back-end testing.
 
 Finally, the team conducted guerilla testing to identify defects not found by automated testing.
 
