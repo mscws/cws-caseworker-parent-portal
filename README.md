@@ -46,6 +46,9 @@ The Unisys multi-disciplinary and collaborative team includes eight (8) labor ca
 | Visual Designer | Arun Purohit | Responsible for creating the Design Style Guide, coaching the team on our Human Centered Design approach, and developing the low and high fidelity prototypes for the applicatiion | 60 | $133.75
 | Agile Coach / Delivery Manager | Altony Rice | Responsible for the overall Agile process, managing the user story backlog, facilitating communication among the team members, and developing technical documentation | 90 | $328.45
 
+##User Guide
+We developed a user guide as a companion to the Mississippi Vendor Challenge prototype. It serves as the foundation for what could be a more robut on-line help and training module. Please review it [here](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Caseworker-Parent-Portal-Prototype-User-Guide).
+
 ## Report Bugs & Issues
 If you find a bug/issue with the prototype or the documentation, please contact "Miquel (Mike) Stubbs" via email at (miquel.stubbs@unisys.com) or mobile at (614) 596-7140.
 
