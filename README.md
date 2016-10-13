@@ -11,6 +11,8 @@ The purpose of the Mississippi Child Care Provider Search project is to provide 
 * Identified user stories to form the initial product backlog. 
 * Developed the fully interactive prototype of the web/mobile application.  
 
+## Restoring a Git Bundle
+The following document provides instructions how to [restore a Git bundle](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Restoring-a-Git-Bundle)
 
 ## Artifacts Used to Create the Prototype
 During the implementation of the Mississippi Vendor Challenge, the Unisys team created many artifacts. These include research findings, user stories, frameworks or libraries, and functional descriptions for all components of the prototype; they are provided below.
@@ -44,6 +46,9 @@ The Unisys multi-disciplinary and collaborative team includes eight (8) labor ca
 | Writer / Content Designer / Content Strategist | Martha Koffman | Responsible for developing the documentation structure and authoring the User Guide | 40 | $152.50
 | Visual Designer | Arun Purohit | Responsible for creating the Design Style Guide, coaching the team on our Human Centered Design approach, and developing the low and high fidelity prototypes for the applicatiion | 60 | $133.75
 | Agile Coach / Delivery Manager | Altony Rice | Responsible for the overall Agile process, managing the user story backlog, facilitating communication among the team members, and developing technical documentation | 90 | $328.45
+
+## Report Bugs & Issues
+If you find a bug/issue with the prototype or the documentation, please contact "Miquel (Mike) Stubbs" via email at (miquel.stubbs@unisys.com) or mobile at (614) 596-7140.
 
 # Research and Discovery
 The Unisys Team worked with prospective parents in Mississippi to understand how a web search portal could help them find child care providers for their children more effectively and efficiently. We identified the prospective end useres by soliciting volunteers through several charitable organizations that serve parents likely to be eligible for subsidized child care.  Additionally, we participated in the Q&A session organized by the procurement committee to better understand the needs of caseworkers who use the search portal to find child care for children in the custody of the State.  Our research findings are documented [here](https://github.com/mscws/cws-caseworker-parent-portal/blob/master/Assets/Survey_Data.pdf). 
@@ -95,6 +100,8 @@ As a result of the research and discovery phase of the project, the Unisys Team 
 
 # Prototype Development
 During the development of the Mississippi Vendor Challenge, the Unisys team leveraged the Agile development process to facilitate collaboration among the team and to incorporate end user feedback on a frequent basis. We created our prototype to work on multiple devices (e.g. desktops, tablets, smart phones) using a responsive design. Our [architecture](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Application-Architecture)  is based on HTML5, JavaScript (Angular.js) with a Java API (Dropwizard), Apache Tomcat 8.0 and mySQL database. We leveraged modern open source technologies everywhere; please see below for additional detail.
+
+During our development effort, we took the following [notes and assumptions](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Notes-and-Assumptions) into consideration.
 
 ## Modern Open Source Technologies
 We architected the Mississippi Vendor Challenge using the technologies shown in the table below. We selected these tools for three reasons:
@@ -166,11 +173,8 @@ Please refer to the [Deployment Documentation](https://github.com/mscws/cws-case
 ### Prototype / Underlying Platform Licensing 
 The prototype and underlying platforms are open licensed and free of charge.
 
-### Notes and Assumptions
-[Notes and Assumptions](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Notes-and-Assumptions) 
 
-### Report Bugs & Issues
-If you find a bug/issue with the prototype or the documentation, please contact "Miquel (Mike) Stubbs" via email at (miquel.stubbs@unisys.com) or mobile at (614) 596-7140.
 
-### Restoring a Git Bundle
-[Restoring a Git Bundle](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Restoring-a-Git-Bundle)
+
+
+
