@@ -172,8 +172,6 @@ We used the following monitoring tools to provide enterprise-class Open Source I
 ## Prototype Installation Guide
 Please refer to the [Installation Guide for Mississippi Vendor Challenge Prototype](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Deployment-Documentation) for instructions on how to install and run the prototype on another target.
 
-# Miscellaneous
-### Prototype / Underlying Platform Licensing 
 
 
 
