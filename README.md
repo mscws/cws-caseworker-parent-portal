@@ -122,22 +122,6 @@ We architected the Mississippi Vendor Challenge using the technologies shown in 
 | Back end | Hibernate ORM | v4.2.4.FINAL | GNU Lesser General Public License
 | Database | mySQL | Version 5.5.52 | GNU General Public License ,version 2
 
-### Configuration Management 
-The GitHub Repository is organized as shown in the page below.
-
-* [MSCWS](https://github.com/mscws/cws-caseworker-parent-portal)
-
-The following repository was utilized to support CI pipelines and are available below:
-
-Source Code repository: [GitHub Repositories](https://github.com/mscws/cws-caseworker-parent-portal/wiki/GitHub-Repositories)
-Binary repository: Nexus
-
-### Continuous Monitoring 
-Implemented the following monitoring:
-
-* Nagios
-* Vanda Appliance
-
 ## Deployment Documentation
 We deployed our prototype on a public Amazon Web Services (AWS) Cloud. AWS is a FedRAMP-certified Infrastructure as a Service (IaaS)  hosting provider. It provides us the ability to easily manage the configuration of the prototype and monitor the deployment in real-time. Additionally, it will automatically alert us of any issues. Please see the [Deployment Documentation](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Deployment-Documentation) for additonal details.
 
@@ -151,7 +135,6 @@ Finally, the team conducted guerilla testing to identify any defects not found b
 ## Continuous Integration & Deployment
 The Unisys team implemented Jenkins inside VMWare for automated build, unit testing, code quality check, functional testing and deployment to both our internal QA environments and the AWS production environment. The builds are executed as code is checked into GitHub. We leverage the following tools as part of our continuous integration process:
 
-* Configuration Management - GitHub
 * Continuous Integration Automation - Jenkins 
 * Build
 	* Front end – Maven 3.1.1 (License : Apache License Version 2.0)
@@ -161,6 +144,21 @@ The Unisys team implemented Jenkins inside VMWare for automated build, unit test
   - Developer/QA – VMWare 
 
 Please refer to the following [Continuous Integration] (https://github.com/mscws/cws-caseworker-parent-portal/wiki/Continuous-Integration) document for additional details of our process.
+
+### Configuration Management 
+We use GitHub for configuration management. The GitHub Repository is organized as shown in the page below.
+
+* [MSCWS](https://github.com/mscws/cws-caseworker-parent-portal)
+
+The following repository was utilized to support CI pipelines and are available below:
+
+Source Code repository: [GitHub Repositories](https://github.com/mscws/cws-caseworker-parent-portal/wiki/GitHub-Repositories)
+Binary repository: Nexus
+
+### Continuous Monitoring 
+We used the following monitoring tools to provide enterprise-class Open Source IT monitoring, network monitoring, server and applications monitoring:
+
+* Nagios
 
 ## Prototype Installation Guide
 Please refer to the [Deployment Documentation](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Deployment-Documentation) for instructions on how to install and run the prototype on another target.
