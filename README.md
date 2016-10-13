@@ -1,9 +1,13 @@
-Prototype URL: [http://52.24.122.11:8080/mscws-portal-api/resources/index.html#/](http://52.24.122.11:8080/mscws-portal-api/resources/index.html#/)
+Prototype URL: 
 
 # Documentation
 ## Brief Description of the Project
 
-The purpose of the Mississippi Child Care Provider Search project is to provide an online search tool for case workers and parents to easily locate child care providers throughout the state. In the development of this prototype, we used the U.S. Digital Services Playbook to guide us; [details can be found here](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Adherence-to-U.S.-Digital-Services-Playbook). In addition to our participation in the Case Worker Web Conference, the project team utilized the Unisys 'Interfaces' design framework for this prototype. At a high level, our design approach incorporated the following steps:
+The purpose of the Mississippi Child Care Provider Search project is to provide an online search tool for case workers and parents to easily locate child care providers throughout the state. The prototype and underlying platforms are open licensed and free of charge. Our prototype can be found [here](http://52.24.122.11:8080/mscws-portal-api/resources/index.html#/).
+
+In the development of this prototype, we used the U.S. Digital Services Playbook to guide us; [details can be found here](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Adherence-to-U.S.-Digital-Services-Playbook). Our team developed the prototype in an agile and iterative process that included three major activities Research and Discovery, Design, and Development.
+
+In addition to our participation in the Case Worker Web Conference, the project team utilized the Unisys 'Interfaces' design framework for this prototype. At a high level, our design approach incorporated the following steps:
 
 * Conducted qualitative research via focus groups, individual interviews and observations comprised of Mississippi residents in an effort to understand needs gather a wide-ranging span of ideas. 
 * Conducted quantitative research using surveys and telephone interviews to quantify attitudes and opinions in effort to formulate features to be considered in the design of the search page.
@@ -173,7 +177,7 @@ Please refer to the [Installation Guide for Mississippi Vendor Challenge Prototy
 
 # Miscellaneous
 ### Prototype / Underlying Platform Licensing 
-The prototype and underlying platforms are open licensed and free of charge.
+
 
 
 
