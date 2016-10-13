@@ -101,7 +101,7 @@ As a result of the research and discovery phase of the project, the Unisys Team 
 * Iterated on pages, incorporating user testing feedback during iteration, finally reaching minimal viable product (MVP) 
 
 # Prototype Development
-During the development of the Mississippi Vendor Challenge, the Unisys team leveraged the Agile development process to facilitate collaboration among the team and to incorporate end user feedback on a frequent basis. We created our prototype to work on multiple devices (e.g. desktops, tablets, smart phones) using a responsive design. Our [architecture](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Application-Architecture)  is based on HTML5, JavaScript (Angular.js) with a Java API (Dropwizard), Apache Tomcat 8.0 and mySQL database. We leveraged modern open source technologies everywhere; please see below for additional detail.
+During the development of the Mississippi Vendor Challenge, the Unisys team leveraged the Agile development process to facilitate collaboration among the team and to incorporate end user feedback on a frequent basis. We created our prototype to work on multiple devices (e.g. desktops, tablets, smart phones) using a responsive design. Our [architecture](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Application-Architecture)  is based on HTML5, JavaScript (Angular.js) with a Java API (Spring 4 MVC REST Service), Apache Tomcat 8.0 and mySQL database. We leveraged modern open source technologies everywhere; please see below for additional detail.
 
 During our development effort, we took the following [notes and assumptions](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Notes-and-Assumptions) into consideration.
 
