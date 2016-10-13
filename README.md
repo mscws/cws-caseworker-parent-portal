@@ -135,6 +135,8 @@ We deployed our prototype on a public Amazon Web Services (AWS) Cloud. AWS is a 
 ## Automated Unit Testing
 The Unisys team leveraged tools to create automated unit and functional testing. The Unit Testing code coverage was nearly 100% and the evidence can be found in our codebase. Please refer to the GitHub Repositories Page [here](https://github.com/mscws/cws-caseworker-parent-portal/wiki/GitHub-Repositories) for further details. For front-end and back-end automated unit testing, we use JUnit 4 (License : Eclipse Public License 1.0).
 
+We used SonarQube Version 6.0 - LGPL v3 to perform a static code analysis and identify code quality and security issues. This tool was incorporated into our continuous integration build process.
+
 In addition automated unit testing, we also automated functional testing. Our functional testing coverage is documented in the [Suggested Testing Workflow](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Suggested-Testing-Workflow). We leveraged Selenium v2.53 (License : The Apache Software License, Version 2.0) for front-end testing and JUnit 4 (License : Eclipse Public License 1.0) for back-end testing.
 
 Finally, the team conducted guerilla testing to identify defects not found by automated testing.
@@ -164,10 +166,10 @@ Binary repository: Nexus 2.14.0-01 - Eclipse Public License
 ### Continuous Monitoring 
 We used the following monitoring tools to provide enterprise-class Open Source IT monitoring, network monitoring, server and applications monitoring:
 
-* Nagios
+* Nagios® Core™ - Version 3.5.1 - GNU General Public License
 
 ## Prototype Installation Guide
-Please refer to the [Deployment Documentation](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Deployment-Documentation) for instructions on how to install and run the prototype on another target.
+Please refer to the [Installation Guide for Mississippi Vendor Challenge Prototype](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Deployment-Documentation) for instructions on how to install and run the prototype on another target.
 
 # Miscellaneous
 ### Prototype / Underlying Platform Licensing 
