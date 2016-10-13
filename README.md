@@ -140,7 +140,7 @@ In addition automated unit testing, we also automated functional testing. Our fu
 Finally, the team conducted guerilla testing to identify defects not found by automated testing.
 
 ## Continuous Integration & Deployment
-The Unisys team implemented Jenkins (Creative Commons Attribution-ShareAlike 4.0 license) inside VMWare for automated build, unit testing, code quality check, functional testing and deployment to both our internal QA environments and the AWS production environment. The builds are executed as code is checked into GitHub. We leveraged the following tools as part of our continuous integration process:
+The Unisys team implemented Jenkins v.2.7.4 (MIT license) inside VMWare for automated build, unit testing, code quality check, functional testing and deployment to both our internal QA environments and the AWS production environment. The builds are executed as code is checked into GitHub. We leveraged the following tools as part of our continuous integration process:
  
 * Build
 	* Front end – Maven 3.1.1 (License : Apache License Version 2.0)
