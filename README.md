@@ -159,7 +159,7 @@ We use GitHub for configuration management. The GitHub Repository is organized a
 The following repository was utilized to support CI pipelines and are available below:
 
 Source Code repository: [GitHub Repositories](https://github.com/mscws/cws-caseworker-parent-portal/wiki/GitHub-Repositories)
-Binary repository: Nexus
+Binary repository: Nexus 2.14.0-01 - Eclipse Public License 
 
 ### Continuous Monitoring 
 We used the following monitoring tools to provide enterprise-class Open Source IT monitoring, network monitoring, server and applications monitoring:
