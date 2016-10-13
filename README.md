@@ -3,17 +3,14 @@ Prototype URL:
 # Documentation
 ## Brief Description of the Project
 
-The purpose of the Mississippi Child Care Provider Search project is to provide an online search tool for case workers and parents to easily locate child care providers throughout the state. The prototype and underlying platforms are open licensed and free of charge. Our prototype can be found [here](http://52.24.122.11:8080/mscws-portal-api/resources/index.html#/).
 
-In the development of this prototype, we used the U.S. Digital Services Playbook to guide us; [details can be found here](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Adherence-to-U.S.-Digital-Services-Playbook). Our team developed the prototype in an agile and iterative process that included three major activities Research and Discovery, Design, and Development.
 
-In addition to our participation in the Case Worker Web Conference, the project team utilized the Unisys 'Interfaces' design framework for this prototype. At a high level, our design approach incorporated the following steps:
+The Mississippi Child Care Provider Search prototype will provide an online search tool for parents and case workers to locate child
+care providers.  While developing this prototype, we used the U.S. Digital Services Playbook to guide us; we documented how [here](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Adherence-to-U.S.-Digital-Services-Playbook).
 
-* Conducted qualitative research via focus groups, individual interviews and observations comprised of Mississippi residents in an effort to understand needs gather a wide-ranging span of ideas. 
-* Conducted quantitative research using surveys and telephone interviews to quantify attitudes and opinions in effort to formulate features to be considered in the design of the search page.
-* Created an initial user interface documented as wireframes.  
-* Identified user stories to form the initial product backlog. 
-* Developed the fully interactive prototype of the web/mobile application.  
+We developed the prototype using an agile process.  First, we completed Research and Discovery. We participated in the Case Worker Web Conference, and worked with Mississippi parents using our Human Centered Design framework to determine what was most important to them. Next, we conducted the Design. We developed our Design Style Guide and initial wireframes. These were used as the basis for early versions of the prototype. We vetted these products with our research participants and incorporated their feedback in five two day sprints. Finally, we published our MVP that is available [here] (https://github.com/mscws/cws-caseworker-parent-portal/wiki/Adherence-to-U.S.-Digital-Services-Playbook). 
+
+The prototype and all underlying platforms are open licensed and free of charg
 
 ## Restoring a Git Bundle
 The following document provides instructions how to [restore a Git bundle](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Restoring-a-Git-Bundle)
