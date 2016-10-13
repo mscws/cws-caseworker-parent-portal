@@ -171,7 +171,7 @@ We used the following monitoring tools to provide enterprise-class Open Source I
 * Nagios® Core™ - Version 3.5.1 - GNU General Public License
 
 ## Prototype Installation Guide
-Please refer to the [Installation Guide for Mississippi Vendor Challenge Prototype](https://github.com/mscws/cws-caseworker-parent-portal/blob/master/cws-parent-portal.wiki/wiki.imgs/Installation%20Guide%20for%20Mississippi%20Vendor%20Challenge%20Prototype.docx) for instructions on how to install and run the prototype on another target.
+Please refer to the [Installation Guide for Mississippi Vendor Challenge Prototype]https://github.com/mscws/cws-caseworker-parent-portal/wiki/Protoype-Installation-Steps) for instructions on how to install and run the prototype on another target.
 
 
 
