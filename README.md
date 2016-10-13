@@ -1,5 +1,3 @@
-Prototype URL: 
-
 # Documentation
 ## Brief Description of the Project
 
