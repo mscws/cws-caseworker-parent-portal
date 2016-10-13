@@ -13,7 +13,7 @@ We developed the prototype using an agile process.  First, we completed Researc
 The prototype and all underlying platforms are open licensed and free of charge.
 
 ## Restoring a Git Bundle
-The following document provides instructions how to [restore a Git bundle](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Restoring-a-Git-Bundle)
+The following document provides instructions how to [restore a Git bundle](https://github.com/mscws/cws-caseworker-parent-portal/wiki/Restoring-a-Git-Bundle).
 
 ## Artifacts Used to Create the Prototype
 During the implementation of the Mississippi Vendor Challenge, the Unisys team created many artifacts. These include research findings, user stories, frameworks or libraries, and functional descriptions for all components of the prototype; they are provided below.
